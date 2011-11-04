@@ -1,0 +1,46 @@
+<!doctype html><html><head><meta http-equiv="content-type" content="text/html; charset=UTF-8"><title>448 Test results</title><link href="assets/css/style.css" rel="stylesheet" type="text/css" /></head>
+<body>
+<a href="index.html">&lArr; Index</a>
+<h1>Results for <a href="https://github.com/joomla/joomla-platform/pull/448">pull request #448</a></h1>
+<h2>Unit Tests</h2>
+<p class="img24 img-warn">Unit testing complete. There were 4 failures and  0 errors from 1737 tests and 10664 assertions.</p>
+<h3>Failures</h3><ol><li><pre class="debug">JFormFieldTest::testGetLabel
+Line:151 The property should be computed from the XML.
+Failed asserting that two strings are equal.
+--- Expected
++++ Actual
+@@ @@
+-&lt;label id=&quot;title_id-lbl&quot; for=&quot;title_id&quot; class=&quot;hasTip required&quot; title=&quot;Title::The title.&quot;&gt;Title&lt;span class=&quot;star&quot;&gt;&amp;#160;*&lt;/span&gt;&lt;/label&gt;
++&lt;label id=&quot;title-id-lbl&quot; for=&quot;title-id&quot; class=&quot;hasTip required&quot; title=&quot;Title::The title.&quot;&gt;Title&lt;span class=&quot;star&quot;&gt;&amp;#160;*&lt;/span&gt;&lt;/label&gt;
+
+</pre></li><li><pre class="debug">JFormFieldTest::testSetup
+Line:256 The property should be set from the XML (non-alpha transposed to underscore).
+Failed asserting that two strings are equal.
+--- Expected
++++ Actual
+@@ @@
+-title_id
++title-id
+
+</pre></li><li><pre class="debug">JFormTest::testGetInput
+Line:967 The method should return a simple input text field.
+Failed asserting that two strings are equal.
+--- Expected
++++ Actual
+@@ @@
+-&lt;input type=&quot;text&quot; name=&quot;title&quot; id=&quot;title_id&quot; value=&quot;The Title&quot; class=&quot;inputbox required&quot;/&gt;
++&lt;input type=&quot;text&quot; name=&quot;title&quot; id=&quot;title-id&quot; value=&quot;The Title&quot; class=&quot;inputbox required&quot;/&gt;
+
+</pre></li><li><pre class="debug">JFormTest::testGetLabel
+Line:1051 The method should return a simple label field.
+Failed asserting that two strings are equal.
+--- Expected
++++ Actual
+@@ @@
+-&lt;label id=&quot;title_id-lbl&quot; for=&quot;title_id&quot; class=&quot;hasTip required&quot; title=&quot;Title::The title.&quot;&gt;Title&lt;span class=&quot;star&quot;&gt;&amp;#160;*&lt;/span&gt;&lt;/label&gt;
++&lt;label id=&quot;title-id-lbl&quot; for=&quot;title-id&quot; class=&quot;hasTip required&quot; title=&quot;Title::The title.&quot;&gt;Title&lt;span class=&quot;star&quot;&gt;&amp;#160;*&lt;/span&gt;&lt;/label&gt;
+
+</pre></li></ol><h2>Checkstyle</h2>
+<p class="img24 img-success">Checkstyle analysis reported 453 warnings and 0 errors.
+</p>
+<div class="footer">Generated on 04-Nov-2011 14:00:40 -05:00 ECT America/Guayaquil</div></body></html>
