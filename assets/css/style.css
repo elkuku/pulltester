@@ -4,9 +4,16 @@ body {
 	background-color: #e5ffff;
 }
 
+h1 {
+	background-color: #fff;
+	padding: 0.3em;
+	border-radius: 15px;
+}
+
 a {
 	color: blue;
 }
+
 .img24 {
 	padding-left: 28px;
 	min-height: 26px;
@@ -16,9 +23,57 @@ a {
 .img-success {
 	background-image: url(../images/success.png);
 }
+
 .img-warn {
 	background-image: url(../images/warn.png);
 }
+
 .img-fail {
 	background-image: url(../images/fail.png);
+}
+
+pre.debug {
+	background-color: #000;
+	color: #fff;
+	padding: 0.5em;
+	border-radius: 10px;
+}
+
+tt {
+	background-color: #000;
+	color: #fff;
+	padding: 0.2em;
+	border-radius: 5px;
+}
+
+em {
+	background-color: #fff;
+}
+
+table {
+	padding: 0;
+	margin: 0;
+	border: 1px solid gray;
+	width: 100%;
+}
+
+tr:hover {
+	background-color: #ffc;
+}
+
+th {
+	background-color: #fff;
+	border-bottom: 2px solid gray;
+}
+
+td {
+	border-bottom: 1px solid gray;
+}
+
+div.footer {
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	font-family: monospace;
+	font-size: 0.8em;
+	background-color: #fff;
 }
