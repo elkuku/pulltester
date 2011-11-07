@@ -7,11 +7,24 @@
 <a href="index.html">&lArr; Index</a>
 <h1>Results for <a href="https://github.com/joomla/joomla-platform/pull/466">pull request #466</a></h1>
 <h2>Unit Tests</h2>
-<p class="img24 img-success">Unit testing complete. There were 0 failures and  0 errors from 1782 tests and 10808 assertions.</p>
-<h2>Checkstyle</h2>
-<p class="img24 img-warn">Checkstyle analysis reported 441 warnings and 1 errors.
+<h3 class="img24 img-fail">Test log missing. Tests failed to execute.</h3>
+<pre class="debug">
+Parse error: syntax error, unexpected T_SL in tests/suite/joomla/application/component/JControllerTest.php on line 70
+
+Call Stack:
+    0.0001     327932   1. {main}() .../bin/phpunit:0
+    0.0180     638856   2. PHPUnit_TextUI_Command::main() .../bin/phpunit:49
+    0.0180     639192   3. PHPUnit_TextUI_Command->run() .../lib/php/PHPUnit/TextUI/Command.php:129
+    0.0180     639192   4. PHPUnit_TextUI_Command->handleArguments() .../lib/php/PHPUnit/TextUI/Command.php:138
+    0.1248    2352752   5. PHPUnit_Util_Configuration->getTestSuiteConfiguration() .../lib/php/PHPUnit/TextUI/Command.php:666
+    0.1248    2353296   6. PHPUnit_Util_Configuration->getTestSuite() .../lib/php/PHPUnit/Util/Configuration.php:701
+    0.1298    3194396   7. PHPUnit_Framework_TestSuite->addTestFiles() .../lib/php/PHPUnit/Util/Configuration.php:756
+    0.1870    6216532   8. PHPUnit_Framework_TestSuite->addTestFile() .../lib/php/PHPUnit/Framework/TestSuite.php:430
+    0.1871    6216924   9. PHPUnit_Util_Fileloader::checkAndLoad() .../lib/php/PHPUnit/Framework/TestSuite.php:369
+    0.1871    6217088  10. PHPUnit_Util_Fileloader::load() .../lib/php/PHPUnit/Util/Fileloader.php:86
+
+</pre><h2>Checkstyle</h2>
+<p class="img24 img-success">Checkstyle analysis reported 441 warnings and 0 errors.
 </p>
-<h3>Checkstyle error details</h3>
-<ul class="phpcs"><li><tt>libraries/joomla/html/parameter.php:68</tt><br /><em>Concat operator must be surrounded by spaces</em></li>
-</ul>
-<div class="footer">Generated on 05-Nov-2011 23:39:13 -05:00 ECT America/Guayaquil</div></body></html>
+<div class="footer">Generated on 06-Nov-2011 13:14:42 -05:00 ECT America/Guayaquil</div></body></html>
+
