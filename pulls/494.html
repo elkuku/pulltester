@@ -9,26 +9,9 @@
 <a href="../index.html">&lArr; Index &lArr;</a>
 <h1>Results for <a href="https://github.com/joomla/joomla-platform/pull/494">pull request #494</a></h1>
 <h2>Unit Tests</h2>
-<h3 class="img24 img-fail">Unit Tests log missing. Tests failed to execute.</h3>
-<pre class="debug">
-Parse error: syntax error, unexpected T_SL in .../libraries/joomla/registry/registry.php on line 193
-
-Call Stack:
-    0.0001     327932   1. {main}() .../bin/phpunit:0
-    0.0177     638856   2. PHPUnit_TextUI_Command::main() .../bin/phpunit:49
-    0.0178     639192   3. PHPUnit_TextUI_Command->run() .../lib/php/PHPUnit/TextUI/Command.php:129
-    0.0178     639192   4. PHPUnit_TextUI_Command->handleArguments() .../lib/php/PHPUnit/TextUI/Command.php:138
-    0.0281    2282700   5. PHPUnit_Util_Configuration->getTestSuiteConfiguration() .../lib/php/PHPUnit/TextUI/Command.php:666
-    0.0281    2283244   6. PHPUnit_Util_Configuration->getTestSuite() .../lib/php/PHPUnit/Util/Configuration.php:701
-    0.0330    3123384   7. PHPUnit_Framework_TestSuite->addTestFiles() .../lib/php/PHPUnit/Util/Configuration.php:756
-    0.0331    3123612   8. PHPUnit_Framework_TestSuite->addTestFile() .../lib/php/PHPUnit/Framework/TestSuite.php:430
-    0.0337    3226192   9. PHPUnit_Util_Fileloader::checkAndLoad() .../lib/php/PHPUnit/Framework/TestSuite.php:369
-    0.0337    3226340  10. PHPUnit_Util_Fileloader::load() .../lib/php/PHPUnit/Util/Fileloader.php:86
-    0.0347    3422552  11. include_once('.../tests/suite/joomla/registry/JRegistryTest.php') .../lib/php/PHPUnit/Util/Fileloader.php:102
-
-</pre>
+<p class="img24 img-success">Unit testing complete. There were 0 failures and  0 errors.</p>
 <h2>Checkstyle</h2>
-<p class="img24 img-warn">Checkstyle analysis reported 346 warnings and 3551 errors.</p>
+<p class="img24 img-warn">Checkstyle analysis reported 442 warnings and 4200 errors.</p>
 <h3>Checkstyle error details</h3>
 <ul class="phpcs">
 <li><tt>libraries/joomla/access/access.php:100</tt><br />
@@ -103,8 +86,114 @@ Call Stack:
 <em>Expected "if (...)\n"; found "if (...) "</em></li>
 <li><tt>libraries/joomla/access/rules.php:183</tt><br />
 <em>Expected "if (...)\n"; found "if (...) "</em></li>
-<li><tt>libraries/joomla/application/application.php:1</tt><br />
-<em>An error occurred during processing; checking has been aborted. The error message was: $stackPtr is not a class member var</em></li>
+<li><tt>libraries/joomla/application/application.php:110</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/application.php:115</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/application.php:120</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/application.php:125</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/application.php:130</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/application.php:135</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/application.php:140</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/application.php:164</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/application.php:171</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/application.php:206</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/application.php:213</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/application.php:215</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/application.php:350</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/application.php:361</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/application.php:365</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/application.php:379</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/application.php:384</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/application.php:391</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/application.php:399</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/application.php:433</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/application.php:437</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/application.php:457</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/application.php:461</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/application.php:502</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/application.php:504</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/application.php:528</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/application.php:550</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/application.php:575</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/application.php:645</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/application.php:652</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/application.php:657</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/application.php:662</tt><br />
+<em>Expected "switch (...)\n...{\n"; found "switch (...) ...{\n"</em></li>
+<li><tt>libraries/joomla/application/application.php:690</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/application.php:692</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/application.php:717</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/application.php:722</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/application.php:759</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/application.php:771</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/application.php:812</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/application.php:820</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/application.php:840</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/application.php:862</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/application.php:869</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/application.php:888</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/application.php:895</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/application.php:964</tt><br />
+<em>Expected "switch (...)\n...{\n"; found "switch (...) ...{\n"</em></li>
+<li><tt>libraries/joomla/application/application.php:966</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/application.php:972</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/application.php:986</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/application.php:995</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/application.php:1028</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/application/application.php:1029</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/application.php:1046</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/application/application.php:1051</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
 <li><tt>libraries/joomla/application/categories.php:128</tt><br />
 <em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
 <li><tt>libraries/joomla/application/categories.php:137</tt><br />
@@ -295,8 +384,116 @@ Call Stack:
 <em>Expected "if (...)\n"; found "if (...) "</em></li>
 <li><tt>libraries/joomla/application/cli/daemon.php:693</tt><br />
 <em>Expected "if (...)\n"; found "if (...) "</em></li>
-<li><tt>libraries/joomla/application/component/controller.php:1</tt><br />
-<em>An error occurred during processing; checking has been aborted. The error message was: $stackPtr is not a class member var</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:183</tt><br />
+<em>Expected "switch (...)\n...{\n"; found "switch (...) ...{\n"</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:185</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:186</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:201</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:225</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:238</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:246</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:271</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:273</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:282</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:326</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:334</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:335</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:344</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:352</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:360</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:361</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:371</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:380</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:389</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:414</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:476</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:478</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:505</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:511</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:585</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:589</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:592</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:629</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:639</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:643</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:648</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:685</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:699</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:721</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:725</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:729</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:737</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:738</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:760</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:762</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:811</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:815</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:819</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:823</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:824</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:854</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:859</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:879</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:915</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:956</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:960</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:1044</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:1050</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/component/controller.php:1051</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
 <li><tt>libraries/joomla/application/component/controlleradmin.php:71</tt><br />
 <em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
 <li><tt>libraries/joomla/application/component/controlleradmin.php:76</tt><br />
@@ -821,8 +1018,38 @@ Call Stack:
 <em>Expected "if (...)\n"; found "if (...) "</em></li>
 <li><tt>libraries/joomla/application/input/files.php:68</tt><br />
 <em>Expected "if (...)\n"; found "if (...) "</em></li>
-<li><tt>libraries/joomla/application/menu.php:1</tt><br />
-<em>An error occurred during processing; checking has been aborted. The error message was: $stackPtr is not a class member var</em></li>
+<li><tt>libraries/joomla/application/menu.php:65</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/menu.php:88</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/menu.php:94</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/menu.php:126</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/menu.php:145</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/menu.php:164</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/menu.php:186</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/menu.php:204</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/menu.php:231</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/menu.php:238</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/menu.php:239</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/menu.php:245</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/menu.php:252</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/menu.php:253</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/menu.php:275</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/menu.php:310</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
 <li><tt>libraries/joomla/application/module/helper.php:42</tt><br />
 <em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
 <li><tt>libraries/joomla/application/module/helper.php:44</tt><br />
@@ -883,10 +1110,38 @@ Call Stack:
 <em>Expected "if (...)\n"; found "if (...) "</em></li>
 <li><tt>libraries/joomla/application/module/helper.php:442</tt><br />
 <em>Expected "if (...)\n"; found "if (...) "</em></li>
-<li><tt>libraries/joomla/application/pathway.php:1</tt><br />
-<em>An error occurred during processing; checking has been aborted. The error message was: $stackPtr is not a class member var</em></li>
-<li><tt>libraries/joomla/application/router.php:1</tt><br />
-<em>An error occurred during processing; checking has been aborted. The error message was: $stackPtr is not a class member var</em></li>
+<li><tt>libraries/joomla/application/pathway.php:72</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/pathway.php:162</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/application/pathway.php:185</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/application/router.php:66</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/router.php:87</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/router.php:93</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/router.php:128</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/router.php:133</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/router.php:158</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/router.php:163</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/router.php:209</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/router.php:226</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/application/router.php:246</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/application/router.php:396</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/application/router.php:398</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/application/router.php:408</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
 <li><tt>libraries/joomla/application/web.php:121</tt><br />
 <em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
 <li><tt>libraries/joomla/application/web.php:130</tt><br />
@@ -1485,8 +1740,308 @@ Call Stack:
 <em>Expected "if (...)\n"; found "if (...) "</em></li>
 <li><tt>libraries/joomla/cache/storage/xcache.php:149</tt><br />
 <em>Expected "if (...)\n"; found "if (...) "</em></li>
-<li><tt>libraries/joomla/client/ftp.php:1</tt><br />
-<em>An error occurred during processing; checking has been aborted. The error message was: $stackPtr is not a class member var</em></li>
+<li><tt>libraries/joomla/client/ftp.php:24</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:27</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:30</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:33</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:38</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:39</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:46</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:154</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:159</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:169</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else\n"</em></li>
+<li><tt>libraries/joomla/client/ftp.php:186</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else\n"</em></li>
+<li><tt>libraries/joomla/client/ftp.php:225</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:228</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:249</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:252</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:276</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:281</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:283</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:294</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:303</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:337</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:338</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:346</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:352</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:357</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:376</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:399</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:400</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:411</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:434</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:435</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:442</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:450</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:477</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:478</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:486</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:507</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:508</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:516</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:538</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:539</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:547</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:553</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:575</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:580</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:585</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:586</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:587</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:596</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:597</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:618</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:619</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:620</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:629</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:630</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:651</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:652</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:660</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:680</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:681</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:689</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:710</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:712</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:718</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:728</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:733</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:742</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:767</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:769</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:775</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:794</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:799</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:816</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:820</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:845</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:847</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:852</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:863</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:869</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:874</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:891</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:914</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:922</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:924</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:929</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:939</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:941</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:952</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:959</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:972</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:984</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1009</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1011</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1019</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1032</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1038</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1047</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1059</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1086</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1088</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1093</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1095</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1102</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1114</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1119</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1124</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1127</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1142</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1149</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1178</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1180</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1185</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1194</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1200</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1205</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1219</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1228</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1233</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1238</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1240</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1258</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1264</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1272</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1276</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1290</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1294</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1297</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1306</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1320</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1324</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1327</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1336</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1351</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1355</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1358</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1381</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1387</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1419</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1429</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1430</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1438</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1465</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1483</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1493</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1499</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1509</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1531</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1535</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1563</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1564</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/client/ftp.php:1570</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
 <li><tt>libraries/joomla/client/helper.php:39</tt><br />
 <em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
 <li><tt>libraries/joomla/client/helper.php:44</tt><br />
@@ -2725,8 +3280,56 @@ Call Stack:
 <em>Expected "if (...)\n"; found "if (...) "</em></li>
 <li><tt>libraries/joomla/database/tablenested.php:1588</tt><br />
 <em>Expected "if (...)\n"; found "if (...) "</em></li>
-<li><tt>libraries/joomla/document/document.php:1</tt><br />
-<em>An error occurred during processing; checking has been aborted. The error message was: $stackPtr is not a class member var</em></li>
+<li><tt>libraries/joomla/document/document.php:217</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/document/document.php:221</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/document/document.php:225</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/document/document.php:229</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/document/document.php:233</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/document/document.php:237</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/document/document.php:241</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/document/document.php:261</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/document/document.php:268</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/document/document.php:276</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/document/document.php:278</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/document/document.php:289</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/document/document.php:369</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/document/document.php:376</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/document/document.php:403</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/document/document.php:410</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/document/document.php:414</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/document/document.php:459</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/document/document.php:502</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/document/document.php:787</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/document/document.php:817</tt><br />
+<em>Expected "switch (...)\n...{\n"; found "switch (...) ...{\n"</em></li>
+<li><tt>libraries/joomla/document/document.php:887</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/document/document.php:890</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/document/document.php:898</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/document/document.php:933</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
 <li><tt>libraries/joomla/document/error/error.php:60</tt><br />
 <em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
 <li><tt>libraries/joomla/document/error/error.php:82</tt><br />
@@ -2915,8 +3518,100 @@ Call Stack:
 <em>Expected "if (...)\n"; found "if (...) "</em></li>
 <li><tt>libraries/joomla/document/opensearch/opensearch.php:153</tt><br />
 <em>Expected "if (...)\n"; found "if (...) "</em></li>
-<li><tt>libraries/joomla/environment/browser.php:1</tt><br />
-<em>An error occurred during processing; checking has been aborted. The error message was: $stackPtr is not a class member var</em></li>
+<li><tt>libraries/joomla/environment/browser.php:229</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/environment/browser.php:249</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/environment/browser.php:274</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/environment/browser.php:275</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/environment/browser.php:285</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/environment/browser.php:286</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/environment/browser.php:299</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/environment/browser.php:313</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/environment/browser.php:319</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/environment/browser.php:324</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/environment/browser.php:328</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/environment/browser.php:331</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/environment/browser.php:347</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/environment/browser.php:355</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/environment/browser.php:381</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/environment/browser.php:391</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/environment/browser.php:399</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/environment/browser.php:403</tt><br />
+<em>Expected "switch (...)\n...{\n"; found "switch (...) ...{\n"</em></li>
+<li><tt>libraries/joomla/environment/browser.php:431</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/environment/browser.php:439</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/environment/browser.php:448</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/environment/browser.php:457</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/environment/browser.php:471</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/environment/browser.php:474</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/environment/browser.php:501</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/environment/browser.php:505</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/environment/browser.php:512</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/environment/browser.php:516</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/environment/browser.php:527</tt><br />
+<em>Expected "switch (...)\n...{\n"; found "switch (...) ...{\n"</em></li>
+<li><tt>libraries/joomla/environment/browser.php:541</tt><br />
+<em>Expected "switch (...)\n...{\n"; found "switch (...) ...{\n"</em></li>
+<li><tt>libraries/joomla/environment/browser.php:543</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/environment/browser.php:550</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/environment/browser.php:551</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/environment/browser.php:554</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/environment/browser.php:557</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/environment/browser.php:601</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/environment/browser.php:679</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/environment/browser.php:785</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/environment/browser.php:786</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/environment/browser.php:909</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/environment/browser.php:912</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/environment/browser.php:916</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/environment/browser.php:918</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/environment/browser.php:924</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/environment/browser.php:928</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/environment/browser.php:933</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/environment/browser.php:965</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
 <li><tt>libraries/joomla/environment/request.php:115</tt><br />
 <em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
 <li><tt>libraries/joomla/environment/request.php:122</tt><br />
@@ -3133,8 +3828,16 @@ Call Stack:
 <em>Expected "if (...)\n"; found "if (...) "</em></li>
 <li><tt>libraries/joomla/error/log.php:13</tt><br />
 <em>Expected "if (...)\n"; found "if (...) "</em></li>
-<li><tt>libraries/joomla/error/profiler.php:1</tt><br />
-<em>An error occurred during processing; checking has been aborted. The error message was: $stackPtr is not a class member var</em></li>
+<li><tt>libraries/joomla/error/profiler.php:91</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/error/profiler.php:114</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/error/profiler.php:161</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/error/profiler.php:169</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/error/profiler.php:172</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
 <li><tt>libraries/joomla/event/dispatcher.php:46</tt><br />
 <em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
 <li><tt>libraries/joomla/event/dispatcher.php:66</tt><br />
@@ -4465,8 +5168,38 @@ Call Stack:
 <em>Expected "if (...)\n"; found "if (...) "</em></li>
 <li><tt>libraries/joomla/form/rules/username.php:63</tt><br />
 <em>Expected "if (...)\n"; found "if (...) "</em></li>
-<li><tt>libraries/joomla/html/editor.php:1</tt><br />
-<em>An error occurred during processing; checking has been aborted. The error message was: $stackPtr is not a class member var</em></li>
+<li><tt>libraries/joomla/html/editor.php:99</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/html/editor.php:110</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/html/editor.php:146</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/html/editor.php:172</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/html/editor.php:193</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/html/editor.php:205</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/html/editor.php:234</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/html/editor.php:265</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/html/editor.php:288</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/html/editor.php:297</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/html/editor.php:304</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/html/editor.php:309</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/html/editor.php:329</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/html/editor.php:339</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/html/editor.php:341</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/html/editor.php:361</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
 <li><tt>libraries/joomla/html/grid.php:94</tt><br />
 <em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
 <li><tt>libraries/joomla/html/grid.php:155</tt><br />
@@ -6203,8 +6936,284 @@ Call Stack:
 <em>Expected "if (...)\n...{...}\n...elseif (...)\n"; found "if (...) ...{...}\n...elseif (...) "</em></li>
 <li><tt>libraries/joomla/installer/helper.php:252</tt><br />
 <em>Expected "if (...)\n...{...}\n...elseif (...)\n"; found "if (...) ...{...}\n...elseif (...) "</em></li>
-<li><tt>libraries/joomla/installer/installer.php:1</tt><br />
-<em>An error occurred during processing; checking has been aborted. The error message was: $stackPtr is not a class member var</em></li>
+<li><tt>libraries/joomla/installer/installer.php:133</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:165</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:226</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:245</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:313</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:319</tt><br />
+<em>Expected "switch (...)\n...{\n"; found "switch (...) ...{\n"</em></li>
+<li><tt>libraries/joomla/installer/installer.php:350</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:354</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:365</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:376</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:396</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:404</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:412</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:414</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:435</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:457</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:460</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:466</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:473</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:474</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:479</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:480</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:482</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:506</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:545</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:549</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:570</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:577</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:583</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:585</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:603</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:627</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:628</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:634</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:665</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:668</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:673</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:679</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:680</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:685</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:686</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:689</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:725</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:733</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:734</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:757</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:765</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:775</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:796</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:806</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:820</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:824</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:828</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:837</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:847</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:857</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:860</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:885</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:889</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:893</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:895</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:904</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:910</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:920</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:949</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:953</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:956</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:964</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:970</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:974</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:985</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:989</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:993</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1003</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1012</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1015</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1035</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1066</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1081</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1100</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1108</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1111</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1127</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1147</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1150</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1177</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1204</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1221</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1224</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1235</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1249</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1252</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1279</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1306</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1326</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1329</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1354</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1366</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1377</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1381</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1410</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1418</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1427</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1439</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1452</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1453</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1461</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1474</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1501</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1511</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1518</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1528</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1539</tt><br />
+<em>Expected "switch (...)\n...{\n"; found "switch (...) ...{\n"</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1541</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1555</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1560</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1571</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1591</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1592</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1601</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1611</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1618</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1624</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1648</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1672</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1679</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1681</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1687</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1729</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1739</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1811</tt><br />
+<em>Expected "switch (...)\n...{\n"; found "switch (...) ...{\n"</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1831</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1835</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1845</tt><br />
+<em>Expected "switch (...)\n...{\n"; found "switch (...) ...{\n"</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1847</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1849</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1859</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1861</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/installer/installer.php:1884</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
 <li><tt>libraries/joomla/installer/librarymanifest.php:107</tt><br />
 <em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
 <li><tt>libraries/joomla/installer/librarymanifest.php:126</tt><br />
@@ -6499,8 +7508,40 @@ Call Stack:
 <em>Expected "if (...)\n"; found "if (...) "</em></li>
 <li><tt>libraries/joomla/mail/helper.php:164</tt><br />
 <em>Expected "if (...)\n"; found "if (...) "</em></li>
-<li><tt>libraries/joomla/mail/mail.php:1</tt><br />
-<em>An error occurred during processing; checking has been aborted. The error message was: $stackPtr is not a class member var</em></li>
+<li><tt>libraries/joomla/mail/mail.php:54</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/mail/mail.php:71</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/mail/mail.php:77</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/mail/mail.php:97</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/mail/mail.php:162</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/mail/mail.php:190</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/mail/mail.php:191</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/mail/mail.php:220</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/mail/mail.php:221</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/mail/mail.php:252</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/mail/mail.php:253</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/mail/mail.php:281</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/mail/mail.php:311</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/mail/mail.php:345</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/mail/mail.php:349</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/mail/mail.php:389</tt><br />
+<em>Expected "if (...)\n...{...}\n...elseif (...)\n"; found "if (...) ...{...}\n...elseif (...) "</em></li>
+<li><tt>libraries/joomla/mail/mail.php:399</tt><br />
+<em>Expected "if (...)\n...{...}\n...elseif (...)\n"; found "if (...) ...{...}\n...elseif (...) "</em></li>
 <li><tt>libraries/joomla/media/filters/brightness.php:37</tt><br />
 <em>Expected "if (...)\n"; found "if (...) "</em></li>
 <li><tt>libraries/joomla/media/filters/brightness.php:43</tt><br />
@@ -6689,8 +7730,10 @@ Call Stack:
 <em>Expected "if (...)\n"; found "if (...) "</em></li>
 <li><tt>libraries/joomla/plugin/plugin.php:93</tt><br />
 <em>Expected "if (...)\n"; found "if (...) "</em></li>
-<li><tt>libraries/joomla/registry/format.php:1</tt><br />
-<em>An error occurred during processing; checking has been aborted. The error message was: $stackPtr is not a class member var</em></li>
+<li><tt>libraries/joomla/registry/format.php:48</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/registry/format.php:50</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
 <li><tt>libraries/joomla/registry/format/ini.php:46</tt><br />
 <em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
 <li><tt>libraries/joomla/registry/format/ini.php:79</tt><br />
@@ -6735,12 +7778,128 @@ Call Stack:
 <em>Expected "switch (...)\n...{\n"; found "switch (...) ...{\n"</em></li>
 <li><tt>libraries/joomla/registry/format/xml.php:150</tt><br />
 <em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/registry/registry.php:1</tt><br />
-<em>An error occurred during processing; checking has been aborted. The error message was: $stackPtr is not a class member var</em></li>
-<li><tt>libraries/joomla/session/session.php:1</tt><br />
-<em>An error occurred during processing; checking has been aborted. The error message was: $stackPtr is not a class member var</em></li>
-<li><tt>libraries/joomla/session/storage.php:1</tt><br />
-<em>An error occurred during processing; checking has been aborted. The error message was: $stackPtr is not a class member var</em></li>
+<li><tt>libraries/joomla/registry/registry.php:51</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/registry/registry.php:112</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/registry/registry.php:119</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/registry/registry.php:126</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/registry/registry.php:150</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/registry/registry.php:162</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/registry/registry.php:171</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/registry/registry.php:193</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/registry/registry.php:286</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/registry/registry.php:290</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/registry/registry.php:314</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/registry/registry.php:321</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/registry/registry.php:389</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/registry/registry.php:398</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/registry/registry.php:423</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/registry/registry.php:555</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/registry/registry.php:580</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/session/session.php:98</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/session/session.php:153</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/session/session.php:203</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/session/session.php:228</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/session/session.php:229</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/session/session.php:265</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/session/session.php:281</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/session/session.php:307</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/session/session.php:311</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/session/session.php:329</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/session/session.php:350</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/session/session.php:356</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/session/session.php:377</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/session/session.php:384</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/session/session.php:409</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/session/session.php:432</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/session/session.php:438</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/session/session.php:458</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/session/session.php:463</tt><br />
+<em>Expected "if (...)\n...{...}\n...elseif (...)\n"; found "if (...) ...{...}\n...elseif (...) "</em></li>
+<li><tt>libraries/joomla/session/session.php:464</tt><br />
+<em>Expected "if (...)\n...{...}\n...elseif (...)\n"; found "if (...) ...{...}\n...elseif (...) "</em></li>
+<li><tt>libraries/joomla/session/session.php:493</tt><br />
+<em>Expected "if (...)\n...{...}\n...elseif (...)\n"; found "if (...) ...{...}\n...elseif (...) "</em></li>
+<li><tt>libraries/joomla/session/session.php:500</tt><br />
+<em>Expected "if (...)\n...{...}\n...elseif (...)\n"; found "if (...) ...{...}\n...elseif (...) "</em></li>
+<li><tt>libraries/joomla/session/session.php:525</tt><br />
+<em>Expected "if (...)\n...{...}\n...elseif (...)\n"; found "if (...) ...{...}\n...elseif (...) "</em></li>
+<li><tt>libraries/joomla/session/session.php:555</tt><br />
+<em>Expected "if (...)\n...{...}\n...elseif (...)\n"; found "if (...) ...{...}\n...elseif (...) "</em></li>
+<li><tt>libraries/joomla/session/session.php:565</tt><br />
+<em>Expected "if (...)\n...{...}\n...elseif (...)\n"; found "if (...) ...{...}\n...elseif (...) "</em></li>
+<li><tt>libraries/joomla/session/session.php:640</tt><br />
+<em>Expected "if (...)\n...{...}\n...elseif (...)\n"; found "if (...) ...{...}\n...elseif (...) "</em></li>
+<li><tt>libraries/joomla/session/session.php:646</tt><br />
+<em>Expected "if (...)\n...{...}\n...elseif (...)\n"; found "if (...) ...{...}\n...elseif (...) "</em></li>
+<li><tt>libraries/joomla/session/session.php:650</tt><br />
+<em>Expected "if (...)\n...{...}\n...elseif (...)\n"; found "if (...) ...{...}\n...elseif (...) "</em></li>
+<li><tt>libraries/joomla/session/session.php:704</tt><br />
+<em>Expected "if (...)\n...{...}\n...elseif (...)\n"; found "if (...) ...{...}\n...elseif (...) "</em></li>
+<li><tt>libraries/joomla/session/session.php:730</tt><br />
+<em>Expected "if (...)\n...{...}\n...elseif (...)\n"; found "if (...) ...{...}\n...elseif (...) "</em></li>
+<li><tt>libraries/joomla/session/session.php:735</tt><br />
+<em>Expected "if (...)\n...{...}\n...elseif (...)\n"; found "if (...) ...{...}\n...elseif (...) "</em></li>
+<li><tt>libraries/joomla/session/session.php:740</tt><br />
+<em>Expected "if (...)\n...{...}\n...elseif (...)\n"; found "if (...) ...{...}\n...elseif (...) "</em></li>
+<li><tt>libraries/joomla/session/session.php:745</tt><br />
+<em>Expected "if (...)\n...{...}\n...elseif (...)\n"; found "if (...) ...{...}\n...elseif (...) "</em></li>
+<li><tt>libraries/joomla/session/session.php:749</tt><br />
+<em>Expected "if (...)\n...{...}\n...elseif (...)\n"; found "if (...) ...{...}\n...elseif (...) "</em></li>
+<li><tt>libraries/joomla/session/session.php:778</tt><br />
+<em>Expected "if (...)\n...{...}\n...elseif (...)\n"; found "if (...) ...{...}\n...elseif (...) "</em></li>
+<li><tt>libraries/joomla/session/session.php:788</tt><br />
+<em>Expected "if (...)\n...{...}\n...elseif (...)\n"; found "if (...) ...{...}\n...elseif (...) "</em></li>
+<li><tt>libraries/joomla/session/session.php:793</tt><br />
+<em>Expected "if (...)\n...{...}\n...elseif (...)\n"; found "if (...) ...{...}\n...elseif (...) "</em></li>
+<li><tt>libraries/joomla/session/session.php:800</tt><br />
+<em>Expected "if (...)\n...{...}\n...elseif (...)\n"; found "if (...) ...{...}\n...elseif (...) "</em></li>
+<li><tt>libraries/joomla/session/session.php:805</tt><br />
+<em>Expected "if (...)\n...{...}\n...elseif (...)\n"; found "if (...) ...{...}\n...elseif (...) "</em></li>
+<li><tt>libraries/joomla/session/session.php:808</tt><br />
+<em>Expected "if (...)\n...{...}\n...elseif (...)\n"; found "if (...) ...{...}\n...elseif (...) "</em></li>
+<li><tt>libraries/joomla/session/session.php:818</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/session/session.php:821</tt><br />
+<em>Expected "if (...)\n...{...}\n...elseif (...)\n"; found "if (...) ...{...}\n...elseif (...) "</em></li>
+<li><tt>libraries/joomla/session/storage.php:58</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/session/storage.php:61</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
 <li><tt>libraries/joomla/session/storage/apc.php:31</tt><br />
 <em>Expected "if (...)\n"; found "if (...) "</em></li>
 <li><tt>libraries/joomla/session/storage/database.php:68</tt><br />
@@ -6909,10 +8068,46 @@ Call Stack:
 <em>Expected "if (...)\n"; found "if (...) "</em></li>
 <li><tt>libraries/joomla/updater/update.php:287</tt><br />
 <em>Expected "if (...)\n"; found "if (...) "</em></li>
-<li><tt>libraries/joomla/updater/updater.php:1</tt><br />
-<em>An error occurred during processing; checking has been aborted. The error message was: $stackPtr is not a class member var</em></li>
-<li><tt>libraries/joomla/user/authentication.php:1</tt><br />
-<em>An error occurred during processing; checking has been aborted. The error message was: $stackPtr is not a class member var</em></li>
+<li><tt>libraries/joomla/updater/updater.php:56</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/updater/updater.php:76</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/updater/updater.php:84</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/updater/updater.php:99</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/updater/updater.php:104</tt><br />
+<em>Expected "if (...)\n...{...}\n...elseif (...)\n"; found "if (...) ...{...}\n...elseif (...) "</em></li>
+<li><tt>libraries/joomla/updater/updater.php:105</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/updater/updater.php:109</tt><br />
+<em>Expected "if (...)\n...{...}\n...elseif (...)\n"; found "if (...) ...{...}\n...elseif (...) "</em></li>
+<li><tt>libraries/joomla/updater/updater.php:132</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/updater/updater.php:134</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/updater/updater.php:138</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/updater/updater.php:151</tt><br />
+<em>Expected "if (...)\n...{...}\n...elseif (...)\n"; found "if (...) ...{...}\n...elseif (...) "</em></li>
+<li><tt>libraries/joomla/updater/updater.php:200</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/user/authentication.php:103</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/user/authentication.php:118</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/user/authentication.php:159</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/user/authentication.php:172</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/user/authentication.php:173</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/user/authentication.php:180</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/user/authentication.php:184</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/user/authentication.php:188</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
 <li><tt>libraries/joomla/user/helper.php:40</tt><br />
 <em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
 <li><tt>libraries/joomla/user/helper.php:51</tt><br />
@@ -6967,8 +8162,94 @@ Call Stack:
 <em>Expected "if (...)\n"; found "if (...) "</em></li>
 <li><tt>libraries/joomla/user/helper.php:501</tt><br />
 <em>Expected "if (...)\n"; found "if (...) "</em></li>
-<li><tt>libraries/joomla/user/user.php:1</tt><br />
-<em>An error occurred during processing; checking has been aborted. The error message was: $stackPtr is not a class member var</em></li>
+<li><tt>libraries/joomla/user/user.php:213</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/user/user.php:238</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/user/user.php:240</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/user/user.php:250</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/user/user.php:338</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/user/user.php:346</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/user/user.php:357</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/user/user.php:406</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/user/user.php:422</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/user/user.php:426</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/user/user.php:441</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/user/user.php:445</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/user/user.php:488</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/user/user.php:493</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/user/user.php:497</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/user/user.php:501</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/user/user.php:544</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/user/user.php:550</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/user/user.php:573</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/user/user.php:575</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/user/user.php:582</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/user/user.php:599</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/user/user.php:606</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/user/user.php:613</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/user/user.php:614</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/user/user.php:633</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/user/user.php:638</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/user/user.php:649</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/user/user.php:679</tt><br />
+<em>Expected "try\n...{\n...}\n"; found "try ...{\n...}\n"</em></li>
+<li><tt>libraries/joomla/user/user.php:681</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/user/user.php:696</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/user/user.php:714</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/user/user.php:715</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/user/user.php:719</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/user/user.php:726</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/user/user.php:730</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/user/user.php:734</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/user/user.php:747</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/user/user.php:753</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/user/user.php:758</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/user/user.php:762</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/user/user.php:771</tt><br />
+<em>Expected "catch (...)\n...{\n"; found "catch (...) ...{\n"</em></li>
+<li><tt>libraries/joomla/user/user.php:799</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/user/user.php:824</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
 <li><tt>libraries/joomla/utilities/arrayhelper.php:65</tt><br />
 <em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
 <li><tt>libraries/joomla/utilities/arrayhelper.php:72</tt><br />
@@ -7135,6 +8416,6 @@ Call Stack:
 <em>Expected "if (...)\n...{...}\n...elseif (...)\n"; found "if (...) ...{...}\n...elseif (...) "</em></li>
 </ul>
 <a href="../index.html">&lArr; Index &lArr;</a>
-<div class="footer">Generated on 09-Nov-2011 16:38 -05:00 ECT America/Guayaquil</div>
+<div class="footer">Generated on 09-Nov-2011 21:36 -05:00 ECT America/Guayaquil</div>
 </body>
 </html>
