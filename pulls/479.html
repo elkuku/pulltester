@@ -16,19 +16,19 @@ Parse error: syntax error, unexpected T_PUBLIC in .../libraries/joomla/database/
 Call Stack:
     0.0001     327932   1. {main}() .../bin/phpunit:0
     0.0176     638856   2. PHPUnit_TextUI_Command::main() .../bin/phpunit:49
-    0.0176     639192   3. PHPUnit_TextUI_Command->run() .../lib/php/PHPUnit/TextUI/Command.php:129
-    0.0176     639192   4. PHPUnit_TextUI_Command->handleArguments() .../lib/php/PHPUnit/TextUI/Command.php:138
-    0.0280    2282708   5. PHPUnit_Util_Configuration->getTestSuiteConfiguration() .../lib/php/PHPUnit/TextUI/Command.php:666
-    0.0280    2283252   6. PHPUnit_Util_Configuration->getTestSuite() .../lib/php/PHPUnit/Util/Configuration.php:701
-    0.0330    3123352   7. PHPUnit_Framework_TestSuite->addTestFiles() .../lib/php/PHPUnit/Util/Configuration.php:756
-    0.7215   34338060   8. PHPUnit_Framework_TestSuite->addTestFile() .../lib/php/PHPUnit/Framework/TestSuite.php:430
-    0.7217   34338200   9. PHPUnit_Util_Fileloader::checkAndLoad() .../lib/php/PHPUnit/Framework/TestSuite.php:369
-    0.7217   34338360  10. PHPUnit_Util_Fileloader::load() .../lib/php/PHPUnit/Util/Fileloader.php:86
-    0.7221   34418988  11. include_once('.../tests/suite/joomla/database/JDatabaseQueryElementTest.php') .../lib/php/PHPUnit/Util/Fileloader.php:102
+    0.0177     639192   3. PHPUnit_TextUI_Command->run() .../lib/php/PHPUnit/TextUI/Command.php:129
+    0.0177     639192   4. PHPUnit_TextUI_Command->handleArguments() .../lib/php/PHPUnit/TextUI/Command.php:138
+    0.0279    2282708   5. PHPUnit_Util_Configuration->getTestSuiteConfiguration() .../lib/php/PHPUnit/TextUI/Command.php:666
+    0.0279    2283252   6. PHPUnit_Util_Configuration->getTestSuite() .../lib/php/PHPUnit/Util/Configuration.php:701
+    0.0328    3123352   7. PHPUnit_Framework_TestSuite->addTestFiles() .../lib/php/PHPUnit/Util/Configuration.php:756
+    0.7253   34414308   8. PHPUnit_Framework_TestSuite->addTestFile() .../lib/php/PHPUnit/Framework/TestSuite.php:430
+    0.7255   34414556   9. PHPUnit_Util_Fileloader::checkAndLoad() .../lib/php/PHPUnit/Framework/TestSuite.php:369
+    0.7255   34414716  10. PHPUnit_Util_Fileloader::load() .../lib/php/PHPUnit/Util/Fileloader.php:86
+    0.7258   34495360  11. include_once('.../tests/suite/joomla/database/JDatabaseQueryElementTest.php') .../lib/php/PHPUnit/Util/Fileloader.php:102
 
 </pre>
 <h2>Checkstyle</h2>
-<p class="img24 img-warn">Checkstyle analysis reported 458 warnings and 781 errors.</p>
+<p class="img24 img-warn">Checkstyle analysis reported 241 warnings and 465 errors.</p>
 <h3>Checkstyle error details</h3>
 <ul class="phpcs">
 <li><tt>libraries/joomla/application/categories.php:220</tt><br />
@@ -107,121 +107,121 @@ Call Stack:
 <em>@return tag is empty in function comment</em></li>
 <li><tt>libraries/joomla/database/database.php:1760</tt><br />
 <em>There must be exactly one blank line before the tags in function comment</em></li>
-<li><tt>libraries/joomla/database/database/mysql.php:800</tt><br />
+<li><tt>libraries/joomla/database/database/mysql.php:799</tt><br />
 <em>Doc comment for "$dbName" missing</em></li>
+<li><tt>libraries/joomla/database/database/mysql.php:801</tt><br />
+<em>Missing @return tag in function comment</em></li>
 <li><tt>libraries/joomla/database/database/mysql.php:802</tt><br />
-<em>Missing @return tag in function comment</em></li>
+<em>Opening brace should be on a new line</em></li>
 <li><tt>libraries/joomla/database/database/mysql.php:803</tt><br />
-<em>Opening brace should be on a new line</em></li>
-<li><tt>libraries/joomla/database/database/mysql.php:804</tt><br />
 <em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/mysql.php:807</tt><br />
+<li><tt>libraries/joomla/database/database/mysql.php:806</tt><br />
 <em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/database/database/mysql.php:816</tt><br />
+<li><tt>libraries/joomla/database/database/mysql.php:815</tt><br />
 <em>You must use "/**" style comments for a function comment</em></li>
-<li><tt>libraries/joomla/database/database/mysql.php:816</tt><br />
+<li><tt>libraries/joomla/database/database/mysql.php:815</tt><br />
 <em>Arguments with default values must be at the end of the argument list</em></li>
-<li><tt>libraries/joomla/database/database/mysql.php:816</tt><br />
+<li><tt>libraries/joomla/database/database/mysql.php:815</tt><br />
 <em>Opening brace should be on a new line</em></li>
-<li><tt>libraries/joomla/database/database/mysql.php:817</tt><br />
+<li><tt>libraries/joomla/database/database/mysql.php:816</tt><br />
+<em>Concat operator must be surrounded by spaces</em></li>
+<li><tt>libraries/joomla/database/database/mysql.php:816</tt><br />
+<em>Concat operator must be surrounded by spaces</em></li>
+<li><tt>libraries/joomla/database/database/mysql.php:816</tt><br />
 <em>Concat operator must be surrounded by spaces</em></li>
 <li><tt>libraries/joomla/database/database/mysql.php:817</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/mysql.php:817</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/mysql.php:818</tt><br />
 <em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/database/database/mysql.php:820</tt><br />
+<li><tt>libraries/joomla/database/database/mysql.php:819</tt><br />
 <em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/database/database/mysql.php:822</tt><br />
+<li><tt>libraries/joomla/database/database/mysql.php:821</tt><br />
 <em>Expected "if (...)\n"; found "if (...) "</em></li>
-<li><tt>libraries/joomla/database/database/mysql.php:829</tt><br />
+<li><tt>libraries/joomla/database/database/mysql.php:828</tt><br />
 <em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/database/database/mysql.php:832</tt><br />
+<li><tt>libraries/joomla/database/database/mysql.php:831</tt><br />
 <em>Last parameter comment requires a blank newline after it</em></li>
-<li><tt>libraries/joomla/database/database/mysql.php:832</tt><br />
+<li><tt>libraries/joomla/database/database/mysql.php:831</tt><br />
 <em>Expected 3 spaces before variable type</em></li>
-<li><tt>libraries/joomla/database/database/mysql.php:832</tt><br />
+<li><tt>libraries/joomla/database/database/mysql.php:831</tt><br />
 <em>Missing comment for param "$table" at position 1</em></li>
-<li><tt>libraries/joomla/database/database/mysql.php:832</tt><br />
+<li><tt>libraries/joomla/database/database/mysql.php:831</tt><br />
 <em>There must be exactly one blank line before the tags in function comment</em></li>
-<li><tt>libraries/joomla/database/database/mysql.php:833</tt><br />
+<li><tt>libraries/joomla/database/database/mysql.php:832</tt><br />
 <em>@return tag is empty in function comment</em></li>
+<li><tt>libraries/joomla/database/database/mysql.php:834</tt><br />
+<em>Opening brace should be on a new line</em></li>
 <li><tt>libraries/joomla/database/database/mysql.php:835</tt><br />
-<em>Opening brace should be on a new line</em></li>
+<em>Whitespace found at end of line</em></li>
 <li><tt>libraries/joomla/database/database/mysql.php:836</tt><br />
-<em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/database/database/mysql.php:837</tt><br />
 <em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/mysql.php:837</tt><br />
+<li><tt>libraries/joomla/database/database/mysql.php:836</tt><br />
 <em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/mysql.php:841</tt><br />
+<li><tt>libraries/joomla/database/database/mysql.php:840</tt><br />
 <em>Expected "if (...)\n"; found "if (...) "</em></li>
-<li><tt>libraries/joomla/database/database/mysql.php:845</tt><br />
+<li><tt>libraries/joomla/database/database/mysql.php:844</tt><br />
 <em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/database/database/mysql.php:850</tt><br />
+<li><tt>libraries/joomla/database/database/mysql.php:849</tt><br />
 <em>@return tag is empty in function comment</em></li>
-<li><tt>libraries/joomla/database/database/mysql.php:850</tt><br />
+<li><tt>libraries/joomla/database/database/mysql.php:849</tt><br />
 <em>There must be exactly one blank line before the tags in function comment</em></li>
-<li><tt>libraries/joomla/database/database/mysql.php:852</tt><br />
+<li><tt>libraries/joomla/database/database/mysql.php:851</tt><br />
 <em>Opening brace should be on a new line</em></li>
-<li><tt>libraries/joomla/database/database/mysql.php:857</tt><br />
+<li><tt>libraries/joomla/database/database/mysql.php:856</tt><br />
 <em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/database/database/mysqli.php:828</tt><br />
+<em>Whitespace found at end of line</em></li>
 <li><tt>libraries/joomla/database/database/mysqli.php:829</tt><br />
-<em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/database/database/mysqli.php:830</tt><br />
 <em>Doc comment for "$dbName" missing</em></li>
-<li><tt>libraries/joomla/database/database/mysqli.php:832</tt><br />
+<li><tt>libraries/joomla/database/database/mysqli.php:831</tt><br />
 <em>Missing @return tag in function comment</em></li>
+<li><tt>libraries/joomla/database/database/mysqli.php:832</tt><br />
+<em>Opening brace should be on a new line</em></li>
 <li><tt>libraries/joomla/database/database/mysqli.php:833</tt><br />
-<em>Opening brace should be on a new line</em></li>
-<li><tt>libraries/joomla/database/database/mysqli.php:834</tt><br />
 <em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/mysqli.php:837</tt><br />
+<li><tt>libraries/joomla/database/database/mysqli.php:836</tt><br />
 <em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/database/database/mysqli.php:846</tt><br />
+<li><tt>libraries/joomla/database/database/mysqli.php:845</tt><br />
 <em>You must use "/**" style comments for a function comment</em></li>
-<li><tt>libraries/joomla/database/database/mysqli.php:846</tt><br />
+<li><tt>libraries/joomla/database/database/mysqli.php:845</tt><br />
 <em>Arguments with default values must be at the end of the argument list</em></li>
+<li><tt>libraries/joomla/database/database/mysqli.php:845</tt><br />
+<em>Opening brace should be on a new line</em></li>
 <li><tt>libraries/joomla/database/database/mysqli.php:846</tt><br />
-<em>Opening brace should be on a new line</em></li>
-<li><tt>libraries/joomla/database/database/mysqli.php:847</tt><br />
 <em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/mysqli.php:847</tt><br />
+<li><tt>libraries/joomla/database/database/mysqli.php:846</tt><br />
 <em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/mysqli.php:847</tt><br />
+<li><tt>libraries/joomla/database/database/mysqli.php:846</tt><br />
 <em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/mysqli.php:850</tt><br />
+<li><tt>libraries/joomla/database/database/mysqli.php:849</tt><br />
 <em>Expected "if (...)\n"; found "if (...) "</em></li>
-<li><tt>libraries/joomla/database/database/mysqli.php:857</tt><br />
+<li><tt>libraries/joomla/database/database/mysqli.php:856</tt><br />
 <em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/database/database/mysqli.php:860</tt><br />
+<li><tt>libraries/joomla/database/database/mysqli.php:859</tt><br />
 <em>Last parameter comment requires a blank newline after it</em></li>
-<li><tt>libraries/joomla/database/database/mysqli.php:860</tt><br />
+<li><tt>libraries/joomla/database/database/mysqli.php:859</tt><br />
 <em>Expected 3 spaces before variable type</em></li>
-<li><tt>libraries/joomla/database/database/mysqli.php:860</tt><br />
+<li><tt>libraries/joomla/database/database/mysqli.php:859</tt><br />
 <em>Missing comment for param "$table" at position 1</em></li>
+<li><tt>libraries/joomla/database/database/mysqli.php:859</tt><br />
+<em>There must be exactly one blank line before the tags in function comment</em></li>
 <li><tt>libraries/joomla/database/database/mysqli.php:860</tt><br />
-<em>There must be exactly one blank line before the tags in function comment</em></li>
-<li><tt>libraries/joomla/database/database/mysqli.php:861</tt><br />
 <em>@return tag is empty in function comment</em></li>
+<li><tt>libraries/joomla/database/database/mysqli.php:862</tt><br />
+<em>Opening brace should be on a new line</em></li>
 <li><tt>libraries/joomla/database/database/mysqli.php:863</tt><br />
-<em>Opening brace should be on a new line</em></li>
-<li><tt>libraries/joomla/database/database/mysqli.php:864</tt><br />
 <em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/database/database/mysqli.php:865</tt><br />
+<li><tt>libraries/joomla/database/database/mysqli.php:864</tt><br />
 <em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/mysqli.php:865</tt><br />
+<li><tt>libraries/joomla/database/database/mysqli.php:864</tt><br />
 <em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/mysqli.php:869</tt><br />
+<li><tt>libraries/joomla/database/database/mysqli.php:868</tt><br />
 <em>Expected "if (...)\n"; found "if (...) "</em></li>
-<li><tt>libraries/joomla/database/database/mysqli.php:878</tt><br />
+<li><tt>libraries/joomla/database/database/mysqli.php:877</tt><br />
 <em>@return tag is empty in function comment</em></li>
-<li><tt>libraries/joomla/database/database/mysqli.php:878</tt><br />
+<li><tt>libraries/joomla/database/database/mysqli.php:877</tt><br />
 <em>There must be exactly one blank line before the tags in function comment</em></li>
-<li><tt>libraries/joomla/database/database/mysqli.php:880</tt><br />
+<li><tt>libraries/joomla/database/database/mysqli.php:879</tt><br />
 <em>Opening brace should be on a new line</em></li>
-<li><tt>libraries/joomla/database/database/mysqli.php:885</tt><br />
+<li><tt>libraries/joomla/database/database/mysqli.php:884</tt><br />
 <em>Expected "if (...)\n"; found "if (...) "</em></li>
 <li><tt>libraries/joomla/database/database/sqlazure.php:15</tt><br />
 <em>Concat operator must be surrounded by spaces</em></li>
@@ -857,638 +857,6 @@ Call Stack:
 <em>Opening brace should be on a new line</em></li>
 <li><tt>libraries/joomla/database/database/sqlazure.php:1282</tt><br />
 <em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:15</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:72</tt><br />
-<em>Constructor and destructor comments must not have a @return tag</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:95</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:99</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:110</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:114</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:131</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:139</tt><br />
-<em>Constructor and destructor comments must not have a @return tag</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:145</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:155</tt><br />
-<em>Return comment requires a blank newline after it</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:163</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:164</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:165</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:172</tt><br />
-<em>There must be exactly one blank line before the tags in function comment</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:176</tt><br />
-<em>Return comment requires a blank newline after it</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:181</tt><br />
-<em>Expected "foreach (...)\n...{\n"; found "foreach(...)\n...{\n"</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:183</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:183</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:183</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:183</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:183</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:209</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:217</tt><br />
-<em>Doc comment for "$className" missing</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:221</tt><br />
-<em>Return comment requires a blank newline after it</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:226</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:230</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:230</tt><br />
-<em>Space after opening parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:230</tt><br />
-<em>Space before closing parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:233</tt><br />
-<em>Space after opening parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:233</tt><br />
-<em>Space before closing parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:258</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:262</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:262</tt><br />
-<em>Space after opening parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:262</tt><br />
-<em>Space before closing parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:266</tt><br />
-<em>Space after opening parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:266</tt><br />
-<em>Space before closing parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:269</tt><br />
-<em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:270</tt><br />
-<em>Doc comment for "$numinarray" missing</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:274</tt><br />
-<em>Missing @return tag in function comment</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:277</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:281</tt><br />
-<em>Expected "while (...)\n...{\n"; found "while (...) ...{\n"</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:281</tt><br />
-<em>Space after opening parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:281</tt><br />
-<em>Space before closing parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:284</tt><br />
-<em>Space after opening parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:284</tt><br />
-<em>Space before closing parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:299</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:303</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:303</tt><br />
-<em>Space after opening parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:303</tt><br />
-<em>Space before closing parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:312</tt><br />
-<em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:313</tt><br />
-<em>Doc comment for "$className" missing</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:324</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:328</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:328</tt><br />
-<em>Space after opening parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:328</tt><br />
-<em>Space before closing parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:352</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:353</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:354</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:354</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:367</tt><br />
-<em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:367</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:368</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:376</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:380</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:380</tt><br />
-<em>Space after opening parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:380</tt><br />
-<em>Space before closing parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:383</tt><br />
-<em>Space after opening parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:383</tt><br />
-<em>Space before closing parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:386</tt><br />
-<em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:391</tt><br />
-<em>Last parameter comment requires a blank newline after it</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:391</tt><br />
-<em>Parameters must appear immediately after the comment</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:391</tt><br />
-<em>Expected 3 spaces before variable type</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:391</tt><br />
-<em>Doc comment for var The does not match actual variable name $key at position 1</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:391</tt><br />
-<em>Expected 2 spaces after the longest type</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:391</tt><br />
-<em>Expected 2 spaces after the longest variable name</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:391</tt><br />
-<em>Doc comment for "$column" missing</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:396</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:400</tt><br />
-<em>Expected "while (...)\n...{\n"; found "while (...) ...{\n"</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:400</tt><br />
-<em>Space after opening parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:400</tt><br />
-<em>Space before closing parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:402</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...} ...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:408</tt><br />
-<em>Space after opening parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:408</tt><br />
-<em>Space before closing parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:411</tt><br />
-<em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:419</tt><br />
-<em>Last parameter comment requires a blank newline after it</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:419</tt><br />
-<em>Parameters must appear immediately after the comment</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:419</tt><br />
-<em>Expected 3 spaces before variable type</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:419</tt><br />
-<em>Doc comment for var The does not match actual variable name $key at position 1</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:419</tt><br />
-<em>Expected 2 spaces after the longest type</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:419</tt><br />
-<em>Expected 2 spaces after the longest variable name</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:419</tt><br />
-<em>Doc comment for "$className" missing</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:424</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:428</tt><br />
-<em>Expected "while (...)\n...{\n"; found "while (...) ...{\n"</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:428</tt><br />
-<em>Space after opening parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:428</tt><br />
-<em>Space before closing parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:429</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...} ...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:435</tt><br />
-<em>Space after opening parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:435</tt><br />
-<em>Space before closing parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:438</tt><br />
-<em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:447</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:451</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:451</tt><br />
-<em>Space after opening parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:451</tt><br />
-<em>Space before closing parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:454</tt><br />
-<em>Space after opening parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:454</tt><br />
-<em>Space before closing parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:457</tt><br />
-<em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:457</tt><br />
-<em>Functions and classes must not contain multiple empty lines in a row; found 2 empty lines</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:458</tt><br />
-<em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:463</tt><br />
-<em>Last parameter comment requires a blank newline after it</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:463</tt><br />
-<em>Parameters must appear immediately after the comment</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:463</tt><br />
-<em>Expected 3 spaces before variable type</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:463</tt><br />
-<em>Doc comment for var The does not match actual variable name $key at position 1</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:463</tt><br />
-<em>Expected 2 spaces after the longest type</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:463</tt><br />
-<em>Expected 2 spaces after the longest variable name</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:470</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:474</tt><br />
-<em>Expected "while (...)\n...{\n"; found "while (...) ...{\n"</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:474</tt><br />
-<em>Space after opening parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:474</tt><br />
-<em>Space before closing parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:475</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...} ...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:481</tt><br />
-<em>Space after opening parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:481</tt><br />
-<em>Space before closing parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:484</tt><br />
-<em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:489</tt><br />
-<em>Parameters must appear immediately after the comment</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:489</tt><br />
-<em>Expected 3 spaces before variable type</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:489</tt><br />
-<em>Doc comment for var The does not match actual variable name $table at position 1</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:489</tt><br />
-<em>Expected 2 spaces after the longest type</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:489</tt><br />
-<em>Expected 2 spaces after the longest variable name</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:490</tt><br />
-<em>Expected 3 spaces before variable type</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:490</tt><br />
-<em>The comments for parameters The (1) and An (2) do not align</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:490</tt><br />
-<em>Doc comment for var An does not match actual variable name &$object at position 2</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:491</tt><br />
-<em>Expected 3 spaces before variable type</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:491</tt><br />
-<em>The comments for parameters An (2) and The (3) do not align</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:491</tt><br />
-<em>Doc comment for var The does not match actual variable name $keyName at position 3</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:492</tt><br />
-<em>Missing @return tag in function comment</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:493</tt><br />
-<em>TRUE, FALSE and NULL must be lowercase; expected "null" but found "NULL"</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:495</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:495</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:497</tt><br />
-<em>Expected "foreach (...)\n...{\n"; found "foreach (...) ...{\n"</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:497</tt><br />
-<em>Space after opening parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:497</tt><br />
-<em>Space before closing parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:498</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:501</tt><br />
-<em>Expected "if (...)\n"; found "if(...)\n"</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:503</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:506</tt><br />
-<em>Expected "if (...)\n"; found "if(...)\n"</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:508</tt><br />
-<em>Space after opening parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:508</tt><br />
-<em>Space before closing parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:509</tt><br />
-<em>Space after opening parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:509</tt><br />
-<em>Space before closing parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:509</tt><br />
-<em>Space after opening parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:509</tt><br />
-<em>Space before closing parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:511</tt><br />
-<em>Space after opening parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:511</tt><br />
-<em>Space after opening parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:511</tt><br />
-<em>Space found before comma in function call</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:511</tt><br />
-<em>Space after opening parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:511</tt><br />
-<em>Space before closing parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:511</tt><br />
-<em>Space after opening parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:511</tt><br />
-<em>Space before closing parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:511</tt><br />
-<em>Space before closing parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:511</tt><br />
-<em>Space before closing parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:512</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:516</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:521</tt><br />
-<em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:526</tt><br />
-<em>Parameters must appear immediately after the comment</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:526</tt><br />
-<em>Expected 3 spaces before variable type</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:526</tt><br />
-<em>Doc comment for var $updateNulls does not match actual variable name $table at position 1</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:526</tt><br />
-<em>Missing comment for param "$updateNulls" at position 1</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:526</tt><br />
-<em>Doc comment for "$object" missing</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:526</tt><br />
-<em>Doc comment for "$keyName" missing</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:526</tt><br />
-<em>Doc comment for "$updateNulls" missing</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:527</tt><br />
-<em>Missing @return tag in function comment</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:530</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:530</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:532</tt><br />
-<em>Space after opening parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:532</tt><br />
-<em>Space before closing parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:534</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if(...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:537</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if(...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:538</tt><br />
-<em>Space after opening parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:538</tt><br />
-<em>Space before closing parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:541</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...} ...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:543</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...} ...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:549</tt><br />
-<em>Space after opening parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:549</tt><br />
-<em>Space before closing parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:549</tt><br />
-<em>Space after opening parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:549</tt><br />
-<em>Space before closing parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:551</tt><br />
-<em>Space after opening parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:551</tt><br />
-<em>Space before closing parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:555</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:559</tt><br />
-<em>Space after opening parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:559</tt><br />
-<em>Space after opening parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:559</tt><br />
-<em>Space found before comma in function call</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:559</tt><br />
-<em>Space after opening parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:559</tt><br />
-<em>Space before closing parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:559</tt><br />
-<em>Space before closing parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:559</tt><br />
-<em>Space before closing parenthesis of function call prohibited</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:562</tt><br />
-<em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:563</tt><br />
-<em>You must use "/**" style comments for a function comment</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:592</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:606</tt><br />
-<em>Parameters must appear immediately after the comment</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:606</tt><br />
-<em>Expected 3 spaces before variable type</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:606</tt><br />
-<em>Doc comment for var A does not match actual variable name $tables at position 1</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:606</tt><br />
-<em>Expected 2 spaces after the longest variable name</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:607</tt><br />
-<em>Last parameter comment requires a blank newline after it</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:607</tt><br />
-<em>Expected 3 spaces before variable type</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:607</tt><br />
-<em>The variable names for parameters A (1) and Only (2) do not align</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:607</tt><br />
-<em>The comments for parameters A (1) and Only (2) do not align</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:607</tt><br />
-<em>Doc comment for var Only does not match actual variable name $typeonly at position 2</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:607</tt><br />
-<em>Expected 2 spaces after the longest type</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:615</tt><br />
-<em>Expected "foreach (...)\n...{\n"; found "foreach (...) ...{\n"</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:623</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...} ...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:624</tt><br />
-<em>Expected "foreach (...)\n...{\n"; found "foreach (...) ...{\n"</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:625</tt><br />
-<em>No space found after comma in function call</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:628</tt><br />
-<em>Expected "foreach (...)\n...{\n"; found "foreach (...) ...{\n"</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:636</tt><br />
-<em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:648</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:684</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...} ...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:686</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:719</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:724</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:727</tt><br />
-<em>No space found after comma in function call</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:841</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:845</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:847</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:848</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:848</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:848</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:860</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:865</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:880</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:891</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:896</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:896</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:900</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:902</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:903</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:903</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:903</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:928</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:932</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:932</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:936</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1083</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1090</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1090</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1093</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1097</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1097</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1105</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1105</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1124</tt><br />
-<em>Doc comment for "$abortOnError" missing</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1124</tt><br />
-<em>Doc comment for "$transactionSafe" missing</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1142</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1143</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1143</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1152</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1154</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1158</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1164</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1186</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1187</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1187</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1188</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1191</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1203</tt><br />
-<em>Doc comment for var $offset does not match actual variable name $limit at position 2</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1204</tt><br />
-<em>Doc comment for var $limit does not match actual variable name $offset at position 3</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1213</tt><br />
-<em>Expected "if (...)\n"; found "if (...) "</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1218</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1218</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1220</tt><br />
-<em>No space found after comma in function call</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1220</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1220</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1221</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1221</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1221</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1221</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1221</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1225</tt><br />
-<em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1226</tt><br />
-<em>Doc comment for "$dbName" missing</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1228</tt><br />
-<em>Missing @return tag in function comment</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1229</tt><br />
-<em>Opening brace should be on a new line</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1230</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1230</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1231</tt><br />
-<em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1234</tt><br />
-<em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1242</tt><br />
-<em>You must use "/**" style comments for a function comment</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1242</tt><br />
-<em>Arguments with default values must be at the end of the argument list</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1242</tt><br />
-<em>Opening brace should be on a new line</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1243</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1244</tt><br />
-<em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1244</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1245</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1245</tt><br />
-<em>Expected "if (...)\n"; found "if(...)"</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1246</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1247</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1248</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1248</tt><br />
-<em>Expected "if (...)\n"; found "if(...)\n"</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1249</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1250</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1250</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1250</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1250</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1250</tt><br />
-<em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1251</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1252</tt><br />
-<em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1252</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1254</tt><br />
-<em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1257</tt><br />
-<em>Last parameter comment requires a blank newline after it</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1257</tt><br />
-<em>Expected 3 spaces before variable type</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1257</tt><br />
-<em>Missing comment for param "$table" at position 1</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1257</tt><br />
-<em>There must be exactly one blank line before the tags in function comment</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1258</tt><br />
-<em>@return tag is empty in function comment</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1260</tt><br />
-<em>Opening brace should be on a new line</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1261</tt><br />
-<em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1266</tt><br />
-<em>@return tag is empty in function comment</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1266</tt><br />
-<em>There must be exactly one blank line before the tags in function comment</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1268</tt><br />
-<em>Opening brace should be on a new line</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1271</tt><br />
-<em>Whitespace found at end of line</em></li>
 <li><tt>libraries/joomla/database/database/sqlsrvquery.php:62</tt><br />
 <em>Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</em></li>
 <li><tt>libraries/joomla/database/database/sqlsrvquery.php:67</tt><br />
@@ -1565,36 +933,36 @@ Call Stack:
 <em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else\n"</em></li>
 <li><tt>libraries/joomla/database/table/user.php:202</tt><br />
 <em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else\n"</em></li>
-<li><tt>libraries/joomla/database/table/usergroup.php:208</tt><br />
+<li><tt>libraries/joomla/database/table/usergroup.php:206</tt><br />
 <em>Whitespace found at end of line</em></li>
+<li><tt>libraries/joomla/database/table/usergroup.php:208</tt><br />
+<em>Expected "foreach (...)\n...{\n"; found "foreach(...)\n...{\n"</em></li>
 <li><tt>libraries/joomla/database/table/usergroup.php:210</tt><br />
 <em>Expected "foreach (...)\n...{\n"; found "foreach(...)\n...{\n"</em></li>
 <li><tt>libraries/joomla/database/table/usergroup.php:212</tt><br />
-<em>Expected "foreach (...)\n...{\n"; found "foreach(...)\n...{\n"</em></li>
-<li><tt>libraries/joomla/database/table/usergroup.php:214</tt><br />
 <em>Expected "if (...)\n"; found "if(...)\n"</em></li>
-<li><tt>libraries/joomla/database/table/usergroup.php:214</tt><br />
+<li><tt>libraries/joomla/database/table/usergroup.php:212</tt><br />
 <em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/table/usergroup.php:214</tt><br />
+<li><tt>libraries/joomla/database/table/usergroup.php:212</tt><br />
 <em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/table/usergroup.php:214</tt><br />
+<li><tt>libraries/joomla/database/table/usergroup.php:212</tt><br />
 <em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/table/usergroup.php:218</tt><br />
+<li><tt>libraries/joomla/database/table/usergroup.php:216</tt><br />
 <em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/database/table/usergroup.php:219</tt><br />
+<li><tt>libraries/joomla/database/table/usergroup.php:217</tt><br />
 <em>Expected "if (...)\n"; found "if(...)\n"</em></li>
-<li><tt>libraries/joomla/database/table/usergroup.php:222</tt><br />
+<li><tt>libraries/joomla/database/table/usergroup.php:220</tt><br />
 <em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/table/usergroup.php:222</tt><br />
+<li><tt>libraries/joomla/database/table/usergroup.php:220</tt><br />
 <em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/table/usergroup.php:222</tt><br />
+<li><tt>libraries/joomla/database/table/usergroup.php:220</tt><br />
 <em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/table/usergroup.php:225</tt><br />
+<li><tt>libraries/joomla/database/table/usergroup.php:223</tt><br />
 <em>Concat operator must be surrounded by spaces</em></li>
-<li><tt>libraries/joomla/database/table/usergroup.php:225</tt><br />
+<li><tt>libraries/joomla/database/table/usergroup.php:223</tt><br />
 <em>Concat operator must be surrounded by spaces</em></li>
 </ul>
 <a href="../index.html">&lArr; Index &lArr;</a>
-<div class="footer">Generated on 09-Nov-2011 21:37 -05:00 ECT America/Guayaquil</div>
+<div class="footer">Generated on 11-Nov-2011 12:38 -05:00 ECT America/Guayaquil</div>
 </body>
 </html>
