@@ -8,8 +8,345 @@
 <body>
 <a href="../index.html">&lArr; Index &lArr;</a>
 <h1>Results for <a href="https://github.com/joomla/joomla-platform/pull/479">pull request #479</a></h1>
-<p class="img24 img-fail">This pull request could not be tested since the changes could not be cleanly merged.</p>
+<h2>Unit Tests</h2>
+<h3 class="img24 img-fail">Unit Tests log missing. Tests failed to execute.</h3>
+<pre class="debug">
+Parse error: syntax error, unexpected T_PUBLIC in .../libraries/joomla/database/databasequery.php on line 398
+
+Call Stack:
+    0.0001     327928   1. {main}() .../bin/phpunit:0
+    0.0181     638852   2. PHPUnit_TextUI_Command::main() .../bin/phpunit:49
+    0.0181     639188   3. PHPUnit_TextUI_Command->run() .../lib/php/PHPUnit/TextUI/Command.php:129
+    0.0181     639188   4. PHPUnit_TextUI_Command->handleArguments() .../lib/php/PHPUnit/TextUI/Command.php:138
+    0.0288    2296356   5. PHPUnit_Util_Configuration->getTestSuiteConfiguration() .../lib/php/PHPUnit/TextUI/Command.php:666
+    0.0288    2296900   6. PHPUnit_Util_Configuration->getTestSuite() .../lib/php/PHPUnit/Util/Configuration.php:701
+    0.0338    3136936   7. PHPUnit_Framework_TestSuite->addTestFiles() .../lib/php/PHPUnit/Util/Configuration.php:756
+    0.8969   40244692   8. PHPUnit_Framework_TestSuite->addTestFile() .../lib/php/PHPUnit/Framework/TestSuite.php:430
+    0.8971   40244892   9. PHPUnit_Util_Fileloader::checkAndLoad() .../lib/php/PHPUnit/Framework/TestSuite.php:369
+    0.8972   40245052  10. PHPUnit_Util_Fileloader::load() .../lib/php/PHPUnit/Util/Fileloader.php:86
+    0.8975   40325612  11. include_once('.../tests/suite/joomla/database/JDatabaseQueryElementTest.php') .../lib/php/PHPUnit/Util/Fileloader.php:102
+
+</pre>
+<h2>Checkstyle</h2>
+<p class="img24 img-warn">Checkstyle analysis reported 237 warnings and 157 errors.</p>
+<h3>Checkstyle error details</h3>
+<ul class="phpcs">
+<li><tt>libraries/joomla/application/categories.php:220</tt><br />
+<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
+<li><tt>libraries/joomla/application/categories.php:221</tt><br />
+<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
+<li><tt>libraries/joomla/application/categories.php:222</tt><br />
+<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
+<li><tt>libraries/joomla/application/categories.php:223</tt><br />
+<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
+<li><tt>libraries/joomla/application/categories.php:224</tt><br />
+<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
+<li><tt>libraries/joomla/application/categories.php:225</tt><br />
+<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
+<li><tt>libraries/joomla/application/categories.php:226</tt><br />
+<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
+<li><tt>libraries/joomla/application/categories.php:226</tt><br />
+<em>Concat operator must be surrounded by spaces</em></li>
+<li><tt>libraries/joomla/application/categories.php:226</tt><br />
+<em>Whitespace found at end of line</em></li>
+<li><tt>libraries/joomla/application/categories.php:227</tt><br />
+<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
+<li><tt>libraries/joomla/application/categories.php:227</tt><br />
+<em>Whitespace found at end of line</em></li>
+<li><tt>libraries/joomla/application/categories.php:228</tt><br />
+<em>Whitespace found at end of line</em></li>
+<li><tt>libraries/joomla/application/categories.php:228</tt><br />
+<em>Functions and classes must not contain multiple empty lines in a row; found 2 empty lines</em></li>
+<li><tt>libraries/joomla/application/categories.php:229</tt><br />
+<em>Whitespace found at end of line</em></li>
+<li><tt>libraries/joomla/application/categories.php:229</tt><br />
+<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
+<li><tt>libraries/joomla/application/categories.php:278</tt><br />
+<em>Opening parenthesis of a multi-line function call must be the last content on the line</em></li>
+<li><tt>libraries/joomla/application/categories.php:281</tt><br />
+<em>Closing parenthesis of a multi-line function call must be on a line by itself</em></li>
+<li><tt>libraries/joomla/database/database.php:1725</tt><br />
+<em>Whitespace found at end of line</em></li>
+<li><tt>libraries/joomla/database/database.php:1729</tt><br />
+<em>Expected 2 spaces after the longest variable name</em></li>
+<li><tt>libraries/joomla/database/database.php:1730</tt><br />
+<em>The comments for parameters $table (1) and $ifExists (2) do not align</em></li>
+<li><tt>libraries/joomla/database/database.php:1732</tt><br />
+<em>Return comment requires a blank newline after it</em></li>
+<li><tt>libraries/joomla/database/database.php:1736</tt><br />
+<em>Whitespace found at end of line</em></li>
+<li><tt>libraries/joomla/database/database.php:1739</tt><br />
+<em>Expected 3 spaces before variable type</em></li>
+<li><tt>libraries/joomla/database/database.php:1739</tt><br />
+<em>Missing comment for param "$dbName" at position 1</em></li>
+<li><tt>libraries/joomla/database/database.php:1739</tt><br />
+<em>There must be exactly one blank line before the tags in function comment</em></li>
+<li><tt>libraries/joomla/database/database.php:1740</tt><br />
+<em>Missing @return tag in function comment</em></li>
+<li><tt>libraries/joomla/database/database.php:1742</tt><br />
+<em>Whitespace found at end of line</em></li>
+<li><tt>libraries/joomla/database/database.php:1750</tt><br />
+<em>You must use "/**" style comments for a function comment</em></li>
+<li><tt>libraries/joomla/database/database.php:1750</tt><br />
+<em>Arguments with default values must be at the end of the argument list</em></li>
+<li><tt>libraries/joomla/database/database.php:1750</tt><br />
+<em>Space found before semicolon; expected ");" but found ") ;"</em></li>
+<li><tt>libraries/joomla/database/database.php:1751</tt><br />
+<em>Whitespace found at end of line</em></li>
+<li><tt>libraries/joomla/database/database.php:1754</tt><br />
+<em>Last parameter comment requires a blank newline after it</em></li>
+<li><tt>libraries/joomla/database/database.php:1754</tt><br />
+<em>Expected 3 spaces before variable type</em></li>
+<li><tt>libraries/joomla/database/database.php:1754</tt><br />
+<em>Missing comment for param "$table" at position 1</em></li>
+<li><tt>libraries/joomla/database/database.php:1754</tt><br />
+<em>There must be exactly one blank line before the tags in function comment</em></li>
+<li><tt>libraries/joomla/database/database.php:1755</tt><br />
+<em>@return tag is empty in function comment</em></li>
+<li><tt>libraries/joomla/database/database.php:1760</tt><br />
+<em>@return tag is empty in function comment</em></li>
+<li><tt>libraries/joomla/database/database.php:1760</tt><br />
+<em>There must be exactly one blank line before the tags in function comment</em></li>
+<li><tt>libraries/joomla/database/database/mysql.php:799</tt><br />
+<em>Doc comment for "$dbName" missing</em></li>
+<li><tt>libraries/joomla/database/database/mysql.php:801</tt><br />
+<em>Missing @return tag in function comment</em></li>
+<li><tt>libraries/joomla/database/database/mysql.php:802</tt><br />
+<em>Opening brace should be on a new line</em></li>
+<li><tt>libraries/joomla/database/database/mysql.php:803</tt><br />
+<em>Concat operator must be surrounded by spaces</em></li>
+<li><tt>libraries/joomla/database/database/mysql.php:806</tt><br />
+<em>Whitespace found at end of line</em></li>
+<li><tt>libraries/joomla/database/database/mysql.php:815</tt><br />
+<em>You must use "/**" style comments for a function comment</em></li>
+<li><tt>libraries/joomla/database/database/mysql.php:815</tt><br />
+<em>Arguments with default values must be at the end of the argument list</em></li>
+<li><tt>libraries/joomla/database/database/mysql.php:815</tt><br />
+<em>Opening brace should be on a new line</em></li>
+<li><tt>libraries/joomla/database/database/mysql.php:816</tt><br />
+<em>Concat operator must be surrounded by spaces</em></li>
+<li><tt>libraries/joomla/database/database/mysql.php:816</tt><br />
+<em>Concat operator must be surrounded by spaces</em></li>
+<li><tt>libraries/joomla/database/database/mysql.php:816</tt><br />
+<em>Concat operator must be surrounded by spaces</em></li>
+<li><tt>libraries/joomla/database/database/mysql.php:817</tt><br />
+<em>Whitespace found at end of line</em></li>
+<li><tt>libraries/joomla/database/database/mysql.php:819</tt><br />
+<em>Whitespace found at end of line</em></li>
+<li><tt>libraries/joomla/database/database/mysql.php:821</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/database/database/mysql.php:828</tt><br />
+<em>Whitespace found at end of line</em></li>
+<li><tt>libraries/joomla/database/database/mysql.php:831</tt><br />
+<em>Last parameter comment requires a blank newline after it</em></li>
+<li><tt>libraries/joomla/database/database/mysql.php:831</tt><br />
+<em>Expected 3 spaces before variable type</em></li>
+<li><tt>libraries/joomla/database/database/mysql.php:831</tt><br />
+<em>Missing comment for param "$table" at position 1</em></li>
+<li><tt>libraries/joomla/database/database/mysql.php:831</tt><br />
+<em>There must be exactly one blank line before the tags in function comment</em></li>
+<li><tt>libraries/joomla/database/database/mysql.php:832</tt><br />
+<em>@return tag is empty in function comment</em></li>
+<li><tt>libraries/joomla/database/database/mysql.php:834</tt><br />
+<em>Opening brace should be on a new line</em></li>
+<li><tt>libraries/joomla/database/database/mysql.php:835</tt><br />
+<em>Whitespace found at end of line</em></li>
+<li><tt>libraries/joomla/database/database/mysql.php:836</tt><br />
+<em>Concat operator must be surrounded by spaces</em></li>
+<li><tt>libraries/joomla/database/database/mysql.php:836</tt><br />
+<em>Concat operator must be surrounded by spaces</em></li>
+<li><tt>libraries/joomla/database/database/mysql.php:840</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/database/database/mysql.php:844</tt><br />
+<em>Whitespace found at end of line</em></li>
+<li><tt>libraries/joomla/database/database/mysql.php:849</tt><br />
+<em>@return tag is empty in function comment</em></li>
+<li><tt>libraries/joomla/database/database/mysql.php:849</tt><br />
+<em>There must be exactly one blank line before the tags in function comment</em></li>
+<li><tt>libraries/joomla/database/database/mysql.php:851</tt><br />
+<em>Opening brace should be on a new line</em></li>
+<li><tt>libraries/joomla/database/database/mysql.php:856</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/database/database/mysqli.php:828</tt><br />
+<em>Whitespace found at end of line</em></li>
+<li><tt>libraries/joomla/database/database/mysqli.php:829</tt><br />
+<em>Doc comment for "$dbName" missing</em></li>
+<li><tt>libraries/joomla/database/database/mysqli.php:831</tt><br />
+<em>Missing @return tag in function comment</em></li>
+<li><tt>libraries/joomla/database/database/mysqli.php:832</tt><br />
+<em>Opening brace should be on a new line</em></li>
+<li><tt>libraries/joomla/database/database/mysqli.php:833</tt><br />
+<em>Concat operator must be surrounded by spaces</em></li>
+<li><tt>libraries/joomla/database/database/mysqli.php:836</tt><br />
+<em>Whitespace found at end of line</em></li>
+<li><tt>libraries/joomla/database/database/mysqli.php:845</tt><br />
+<em>You must use "/**" style comments for a function comment</em></li>
+<li><tt>libraries/joomla/database/database/mysqli.php:845</tt><br />
+<em>Arguments with default values must be at the end of the argument list</em></li>
+<li><tt>libraries/joomla/database/database/mysqli.php:845</tt><br />
+<em>Opening brace should be on a new line</em></li>
+<li><tt>libraries/joomla/database/database/mysqli.php:846</tt><br />
+<em>Concat operator must be surrounded by spaces</em></li>
+<li><tt>libraries/joomla/database/database/mysqli.php:846</tt><br />
+<em>Concat operator must be surrounded by spaces</em></li>
+<li><tt>libraries/joomla/database/database/mysqli.php:846</tt><br />
+<em>Concat operator must be surrounded by spaces</em></li>
+<li><tt>libraries/joomla/database/database/mysqli.php:849</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/database/database/mysqli.php:856</tt><br />
+<em>Whitespace found at end of line</em></li>
+<li><tt>libraries/joomla/database/database/mysqli.php:859</tt><br />
+<em>Last parameter comment requires a blank newline after it</em></li>
+<li><tt>libraries/joomla/database/database/mysqli.php:859</tt><br />
+<em>Expected 3 spaces before variable type</em></li>
+<li><tt>libraries/joomla/database/database/mysqli.php:859</tt><br />
+<em>Missing comment for param "$table" at position 1</em></li>
+<li><tt>libraries/joomla/database/database/mysqli.php:859</tt><br />
+<em>There must be exactly one blank line before the tags in function comment</em></li>
+<li><tt>libraries/joomla/database/database/mysqli.php:860</tt><br />
+<em>@return tag is empty in function comment</em></li>
+<li><tt>libraries/joomla/database/database/mysqli.php:862</tt><br />
+<em>Opening brace should be on a new line</em></li>
+<li><tt>libraries/joomla/database/database/mysqli.php:863</tt><br />
+<em>Whitespace found at end of line</em></li>
+<li><tt>libraries/joomla/database/database/mysqli.php:864</tt><br />
+<em>Concat operator must be surrounded by spaces</em></li>
+<li><tt>libraries/joomla/database/database/mysqli.php:864</tt><br />
+<em>Concat operator must be surrounded by spaces</em></li>
+<li><tt>libraries/joomla/database/database/mysqli.php:868</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/database/database/mysqli.php:877</tt><br />
+<em>@return tag is empty in function comment</em></li>
+<li><tt>libraries/joomla/database/database/mysqli.php:877</tt><br />
+<em>There must be exactly one blank line before the tags in function comment</em></li>
+<li><tt>libraries/joomla/database/database/mysqli.php:879</tt><br />
+<em>Opening brace should be on a new line</em></li>
+<li><tt>libraries/joomla/database/database/mysqli.php:884</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/database/database/sqlazure.php:15</tt><br />
+<em>Concat operator must be surrounded by spaces</em></li>
+<li><tt>libraries/joomla/database/database/sqlazure.php:16</tt><br />
+<em>Concat operator must be surrounded by spaces</em></li>
+<li><tt>libraries/joomla/database/database/sqlazure.php:34</tt><br />
+<em>Functions and classes must not contain multiple empty lines in a row; found 2 empty lines</em></li>
+<li><tt>libraries/joomla/database/database/sqlazure.php:48</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/database/database/sqlazure.php:50</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/database/database/sqlazure.php:59</tt><br />
+<em>Functions and classes must not contain multiple empty lines in a row; found 5 empty lines</em></li>
+<li><tt>libraries/joomla/database/database/sqlazure.php:60</tt><br />
+<em>Whitespace found at end of line</em></li>
+<li><tt>libraries/joomla/database/database/sqlazure.php:62</tt><br />
+<em>Whitespace found at end of line</em></li>
+<li><tt>libraries/joomla/database/database/sqlazure.php:63</tt><br />
+<em>Whitespace found at end of line</em></li>
+<li><tt>libraries/joomla/database/database/sqlsrvquery.php:62</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/database/database/sqlsrvquery.php:67</tt><br />
+<em>Usage of ELSE IF is not allowed; use ELSEIF instead</em></li>
+<li><tt>libraries/joomla/database/database/sqlsrvquery.php:67</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else\n"</em></li>
+<li><tt>libraries/joomla/database/database/sqlsrvquery.php:68</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else\n"</em></li>
+<li><tt>libraries/joomla/database/database/sqlsrvquery.php:76</tt><br />
+<em>Functions and classes must not contain multiple empty lines in a row; found 2 empty lines</em></li>
+<li><tt>libraries/joomla/database/database/sqlsrvquery.php:77</tt><br />
+<em>Whitespace found at end of line</em></li>
+<li><tt>libraries/joomla/database/database/sqlsrvquery.php:78</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if(...) ...{...}\n...else\n"</em></li>
+<li><tt>libraries/joomla/database/database/sqlsrvquery.php:79</tt><br />
+<em>Concat operator must be surrounded by spaces</em></li>
+<li><tt>libraries/joomla/database/database/sqlsrvquery.php:79</tt><br />
+<em>Concat operator must be surrounded by spaces</em></li>
+<li><tt>libraries/joomla/database/database/sqlsrvquery.php:79</tt><br />
+<em>Concat operator must be surrounded by spaces</em></li>
+<li><tt>libraries/joomla/database/database/sqlsrvquery.php:79</tt><br />
+<em>Concat operator must be surrounded by spaces</em></li>
+<li><tt>libraries/joomla/database/database/sqlsrvquery.php:79</tt><br />
+<em>Concat operator must be surrounded by spaces</em></li>
+<li><tt>libraries/joomla/database/database/sqlsrvquery.php:79</tt><br />
+<em>Concat operator must be surrounded by spaces</em></li>
+<li><tt>libraries/joomla/database/database/sqlsrvquery.php:81</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else\n"</em></li>
+<li><tt>libraries/joomla/database/databasequery.php:1</tt><br />
+<em>An error occurred during processing; checking has been aborted. The error message was: $stackPtr is not a class member var</em></li>
+<li><tt>libraries/joomla/database/table.php:1490</tt><br />
+<em>Whitespace found at end of line</em></li>
+<li><tt>libraries/joomla/database/table/category.php:135</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/database/table/category.php:141</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/database/table/category.php:147</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/database/table/category.php:169</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/database/table/category.php:176</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/database/table/category.php:184</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/database/table/category.php:207</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...} ...else "</em></li>
+<li><tt>libraries/joomla/database/table/content.php:121</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/database/table/content.php:137</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/database/table/content.php:144</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/database/table/content.php:152</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/database/table/content.php:171</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/database/table/content.php:177</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/database/table/content.php:184</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/database/table/content.php:189</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/database/table/content.php:194</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/database/table/content.php:201</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/database/table/content.php:211</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/database/table/content.php:221</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/database/table/content.php:247</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...)\n...{...} ...else "</em></li>
+<li><tt>libraries/joomla/database/table/content.php:255</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else\n"</em></li>
+<li><tt>libraries/joomla/database/table/user.php:202</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else\n"</em></li>
+<li><tt>libraries/joomla/database/table/usergroup.php:206</tt><br />
+<em>Whitespace found at end of line</em></li>
+<li><tt>libraries/joomla/database/table/usergroup.php:208</tt><br />
+<em>Expected "foreach (...)\n...{\n"; found "foreach(...)\n...{\n"</em></li>
+<li><tt>libraries/joomla/database/table/usergroup.php:210</tt><br />
+<em>Expected "foreach (...)\n...{\n"; found "foreach(...)\n...{\n"</em></li>
+<li><tt>libraries/joomla/database/table/usergroup.php:212</tt><br />
+<em>Expected "if (...)\n"; found "if(...)\n"</em></li>
+<li><tt>libraries/joomla/database/table/usergroup.php:212</tt><br />
+<em>Concat operator must be surrounded by spaces</em></li>
+<li><tt>libraries/joomla/database/table/usergroup.php:212</tt><br />
+<em>Concat operator must be surrounded by spaces</em></li>
+<li><tt>libraries/joomla/database/table/usergroup.php:212</tt><br />
+<em>Concat operator must be surrounded by spaces</em></li>
+<li><tt>libraries/joomla/database/table/usergroup.php:216</tt><br />
+<em>Whitespace found at end of line</em></li>
+<li><tt>libraries/joomla/database/table/usergroup.php:217</tt><br />
+<em>Expected "if (...)\n"; found "if(...)\n"</em></li>
+<li><tt>libraries/joomla/database/table/usergroup.php:220</tt><br />
+<em>Concat operator must be surrounded by spaces</em></li>
+<li><tt>libraries/joomla/database/table/usergroup.php:220</tt><br />
+<em>Concat operator must be surrounded by spaces</em></li>
+<li><tt>libraries/joomla/database/table/usergroup.php:220</tt><br />
+<em>Concat operator must be surrounded by spaces</em></li>
+<li><tt>libraries/joomla/database/table/usergroup.php:223</tt><br />
+<em>Concat operator must be surrounded by spaces</em></li>
+<li><tt>libraries/joomla/database/table/usergroup.php:223</tt><br />
+<em>Concat operator must be surrounded by spaces</em></li>
+</ul>
 <a href="../index.html">&lArr; Index &lArr;</a>
-<div class="footer">Generated on 15-Nov-2011 01:31 -05:00 ECT America/Guayaquil</div>
+<div class="footer">Generated on 16-Nov-2011 12:37 -05:00 ECT America/Guayaquil</div>
 </body>
 </html>

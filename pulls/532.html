@@ -11,20 +11,20 @@
 <h2>Unit Tests</h2>
 <h3 class="img24 img-fail">Unit Tests log missing. Tests failed to execute.</h3>
 <pre class="debug">
-Parse error: syntax error, unexpected T_SL in .../libraries/joomla/media/image.php on line 10
+Fatal error: Cannot redeclare JAccess::$userGroups in .../libraries/joomla/access/access.php on line 86
 
 Call Stack:
     0.0001     327932   1. {main}() .../bin/phpunit:0
-    0.0177     638856   2. PHPUnit_TextUI_Command::main() .../bin/phpunit:49
-    0.0177     639192   3. PHPUnit_TextUI_Command->run() .../lib/php/PHPUnit/TextUI/Command.php:129
-    0.0177     639192   4. PHPUnit_TextUI_Command->handleArguments() .../lib/php/PHPUnit/TextUI/Command.php:138
-    0.0283    2282708   5. PHPUnit_Util_Configuration->getTestSuiteConfiguration() .../lib/php/PHPUnit/TextUI/Command.php:666
-    0.0283    2283252   6. PHPUnit_Util_Configuration->getTestSuite() .../lib/php/PHPUnit/Util/Configuration.php:701
-    0.0332    3123352   7. PHPUnit_Framework_TestSuite->addTestFiles() .../lib/php/PHPUnit/Util/Configuration.php:756
-    0.7405   34846872   8. PHPUnit_Framework_TestSuite->addTestFile() .../lib/php/PHPUnit/Framework/TestSuite.php:430
-    0.7407   34847172   9. PHPUnit_Util_Fileloader::checkAndLoad() .../lib/php/PHPUnit/Framework/TestSuite.php:369
-    0.7408   34847316  10. PHPUnit_Util_Fileloader::load() .../lib/php/PHPUnit/Util/Fileloader.php:86
-    0.7418   35067392  11. include_once('.../tests/suite/joomla/media/JImageTest.php') .../lib/php/PHPUnit/Util/Fileloader.php:102
+    0.0176     638856   2. PHPUnit_TextUI_Command::main() .../bin/phpunit:49
+    0.0176     639192   3. PHPUnit_TextUI_Command->run() .../lib/php/PHPUnit/TextUI/Command.php:129
+    0.0176     639192   4. PHPUnit_TextUI_Command->handleArguments() .../lib/php/PHPUnit/TextUI/Command.php:138
+    0.0279    2282708   5. PHPUnit_Util_Configuration->getTestSuiteConfiguration() .../lib/php/PHPUnit/TextUI/Command.php:666
+    0.0280    2283252   6. PHPUnit_Util_Configuration->getTestSuite() .../lib/php/PHPUnit/Util/Configuration.php:701
+    0.0328    3123352   7. PHPUnit_Framework_TestSuite->addTestFiles() .../lib/php/PHPUnit/Util/Configuration.php:756
+    0.8843   39088944   8. PHPUnit_Framework_TestSuite->addTestFile() .../lib/php/PHPUnit/Framework/TestSuite.php:430
+    0.8845   39089348   9. PHPUnit_Util_Fileloader::checkAndLoad() .../lib/php/PHPUnit/Framework/TestSuite.php:369
+    0.8846   39089492  10. PHPUnit_Util_Fileloader::load() .../lib/php/PHPUnit/Util/Fileloader.php:86
+    0.8852   39228984  11. include_once('.../tests/suite/joomla/access/JAccessTest.php') .../lib/php/PHPUnit/Util/Fileloader.php:102
 
 </pre>
 <h2>Checkstyle</h2>
@@ -969,6 +969,6 @@ Call Stack:
 <em>Whitespace found at end of line</em></li>
 </ul>
 <a href="../index.html">&lArr; Index &lArr;</a>
-<div class="footer">Generated on 15-Nov-2011 00:57 -05:00 ECT America/Guayaquil</div>
+<div class="footer">Generated on 15-Nov-2011 14:15 -05:00 ECT America/Guayaquil</div>
 </body>
 </html>
