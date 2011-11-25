@@ -1,26 +1,26 @@
 <!doctype html>
 <html>
 <head><meta http-equiv="content-type" content="text/html; charset=UTF-8">
-<title>496 Test results</title>
+<title>554 Test results</title>
 <link href="../assets/css/style.css" rel="stylesheet" type="text/css" />
 <link href="../favicon.ico" rel="icon" type="image/x-icon" />
 </head>
 <body>
 <a href="../index.html">&lArr; Index &lArr;</a>
-<h1>Results for <a href="https://github.com/joomla/joomla-platform/pull/496">pull request #496</a></h1>
+<h1>Results for <a href="https://github.com/joomla/joomla-platform/pull/554">pull request #554</a></h1>
 <h2>Unit Tests</h2>
 <p class="img24 img-warn">Unit testing complete. There were 14 failures and  0 errors.</p>
 <h3>Failures</h3>
 <ol>
 <li><pre class="debug">JHtmlTest::testScript
 Line:605 JHtml::script failed when we should get it from the templates directory
-Failed asserting that an array has the key &lt;string:/templates/mytemplate4986/js/test1/script1.js&gt;.
+Failed asserting that an array has the key &lt;string:/templates/mytemplate4829/js/test1/script1.js&gt;.
 
 .../tests/suite/joomla/html/JHtmlTest.php:606
 </pre></li>
 <li><pre class="debug">JHtmlTest::testStylesheet
 Line:992 JHtml::script failed when we should get it from the templates directory
-Failed asserting that an array has the key &lt;string:/templates/mytemplate3536/css/test1/style1.css&gt;.
+Failed asserting that an array has the key &lt;string:/templates/mytemplate3932/css/test1/style1.css&gt;.
 
 .../tests/suite/joomla/html/JHtmlTest.php:993
 </pre></li>
@@ -86,8 +86,21 @@ Failed asserting that &lt;integer:404&gt; matches expected &lt;integer:200&gt;.
 </pre></li>
 </ol>
 <h2>Checkstyle</h2>
-<p class="img24 img-success">Checkstyle analysis reported 235 warnings and  0 errors.</p>
+<p class="img24 img-warn">Checkstyle analysis reported 235 warnings and  5 errors.</p>
+<h3>Checkstyle error details</h3>
+<ul class="phpcs">
+<li><tt>libraries/joomla/access/rule.php:187</tt><br />
+<em>Opening class brace must be on a line by itself</em></li>
+<li><tt>libraries/joomla/access/rule.php:187</tt><br />
+<em>Closing brace must be on a line by itself</em></li>
+<li><tt>libraries/joomla/access/rules.php:230</tt><br />
+<em>Opening class brace must be on a line by itself</em></li>
+<li><tt>libraries/joomla/access/rules.php:230</tt><br />
+<em>Closing brace must be on a line by itself</em></li>
+<li><tt>libraries/joomla/application/cli.php:400</tt><br />
+<em>Please end your files with an empty line.</em></li>
+</ul>
 <a href="../index.html">&lArr; Index &lArr;</a>
-<div class="footer">Generated on 24-Nov-2011 02:20 -05:00 ECT America/Guayaquil</div>
+<div class="footer">Generated on 24-Nov-2011 21:27 -05:00 ECT America/Guayaquil</div>
 </body>
 </html>

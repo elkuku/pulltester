@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head><meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>552 Test results</title>
+<link href="../assets/css/style.css" rel="stylesheet" type="text/css" />
+<link href="../favicon.ico" rel="icon" type="image/x-icon" />
+</head>
+<body>
+<a href="../index.html">&lArr; Index &lArr;</a>
+<h1>Results for <a href="https://github.com/joomla/joomla-platform/pull/552">pull request #552</a></h1>
+<h2>Unit Tests</h2>
+<h3 class="img24 img-fail">Unit Tests log missing. Tests failed to execute.</h3>
+<pre class="debug">
+Parse error: syntax error, unexpected T_RETURN in .../libraries/joomla/application/helper.php on line 56
+
+Call Stack:
+    0.0001     327932   1. {main}() .../bin/phpunit:0
+    0.0182     638856   2. PHPUnit_TextUI_Command::main() .../bin/phpunit:49
+    0.0182     639192   3. PHPUnit_TextUI_Command->run() .../lib/php/PHPUnit/TextUI/Command.php:129
+    0.0182     639192   4. PHPUnit_TextUI_Command->handleArguments() .../lib/php/PHPUnit/TextUI/Command.php:138
+    0.0289    2296764   5. PHPUnit_Util_Configuration->getTestSuiteConfiguration() .../lib/php/PHPUnit/TextUI/Command.php:666
+    0.0289    2297308   6. PHPUnit_Util_Configuration->getTestSuite() .../lib/php/PHPUnit/Util/Configuration.php:701
+    0.0339    3137380   7. PHPUnit_Framework_TestSuite->addTestFiles() .../lib/php/PHPUnit/Util/Configuration.php:756
+    0.1391    9056060   8. PHPUnit_Framework_TestSuite->addTestFile() .../lib/php/PHPUnit/Framework/TestSuite.php:430
+    0.1392    9056364   9. PHPUnit_Util_Fileloader::checkAndLoad() .../lib/php/PHPUnit/Framework/TestSuite.php:369
+    0.1392    9056524  10. PHPUnit_Util_Fileloader::load() .../lib/php/PHPUnit/Util/Fileloader.php:86
+    0.1395    9113208  11. include_once('.../tests/suite/joomla/application/JApplicationHelperTest.php') .../lib/php/PHPUnit/Util/Fileloader.php:102
+
+</pre>
+<h2>Checkstyle</h2>
+<p class="img24 img-warn">Checkstyle analysis reported 235 warnings and  1 errors.</p>
+<h3>Checkstyle error details</h3>
+<ul class="phpcs">
+<li><tt>libraries/joomla/factory.php:860</tt><br />
+<em>Space found before comma in function call</em></li>
+</ul>
+<a href="../index.html">&lArr; Index &lArr;</a>
+<div class="footer">Generated on 24-Nov-2011 21:31 -05:00 ECT America/Guayaquil</div>
+</body>
+</html>
