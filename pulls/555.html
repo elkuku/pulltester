@@ -9,7 +9,7 @@
 <a href="../index.html">&lArr; Index &lArr;</a>
 <h1>Results for <a href="https://github.com/joomla/joomla-platform/pull/555">pull request #555</a></h1>
 <h2>Unit Tests</h2>
-<p class="img24 img-warn">Unit testing complete. There were 2 failures and  1 errors.</p>
+<p class="img24 img-warn">Unit testing complete. There were 1 failures and  2 errors.</p>
 <h3>Errors</h3>
 <ol>
 <li><pre class="debug">JHtmlFormTest::testToken
@@ -23,25 +23,24 @@ session_start(): Cannot send session cookie - headers already sent by (output st
 .../libraries/joomla/utilities/utility.php:119
 .../tests/suite/joomla/html/html/JHtmlFormTest.php:24
 </pre></li>
+<li><pre class="debug">JHtmlTest::testStylesheet
+mkdir(): File exists
+
+.../tests/suite/joomla/html/JHtmlTest.php:984
+</pre></li>
 </ol>
 <h3>Failures</h3>
 <ol>
 <li><pre class="debug">JHtmlTest::testScript
 Line:605 JHtml::script failed when we should get it from the templates directory
-Failed asserting that an array has the key &lt;string:/templates/mytemplate2755/js/test1/script1.js&gt;.
+Failed asserting that an array has the key &lt;string:/templates/mytemplate37/js/test1/script1.js&gt;.
 
 .../tests/suite/joomla/html/JHtmlTest.php:606
-</pre></li>
-<li><pre class="debug">JHtmlTest::testStylesheet
-Line:992 JHtml::script failed when we should get it from the templates directory
-Failed asserting that an array has the key &lt;string:/templates/mytemplate2432/css/test1/style1.css&gt;.
-
-.../tests/suite/joomla/html/JHtmlTest.php:993
 </pre></li>
 </ol>
 <h2>Checkstyle</h2>
 <p class="img24 img-success">Checkstyle analysis reported 235 warnings and  0 errors.</p>
 <a href="../index.html">&lArr; Index &lArr;</a>
-<div class="footer">Generated on 27-Nov-2011 16:26 -05:00 ECT America/Guayaquil</div>
+<div class="footer">Generated on 27-Nov-2011 23:12 -05:00 ECT America/Guayaquil</div>
 </body>
 </html>
