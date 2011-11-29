@@ -5,16 +5,20 @@ body {
 }
 
 h1 {
-	background-color: #fff;
 	padding: 0.3em;
 	border-radius: 15px;
 }
 
 p.title {
-	font-size: 1.3em;
+	font-size: 1.5em;
 	font-style: italic;
 	text-align:center;
+	padding-left: 100px;
+	padding-right: 0.5em;
 	padding-top: 1em;
+	padding-bottom: 1em;
+background-color: #ddd;
+	border-radius: 0 10px 10px 0;
 }
 div.avatar {
 	border: 1px solid grey;
@@ -25,6 +29,11 @@ div.avatar {
 }
 a {
 	color: blue;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
 }
 
 .img24 {
