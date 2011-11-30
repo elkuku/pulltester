@@ -12,10 +12,55 @@
 <p class="title">JArchive work</p>
 <div class="clr"></div>
 <h2>Unit Tests</h2>
+<h3 class="img24 img-fail">Unit Tests log corrupt.</h3>
+<pre class="debug">PHPUnit 3.5.15 by Sebastian Bergmann.
+
+...........................IIIIIII...........................   61 / 2790 (  2%)
+.............................................................  122 / 2790 (  4%)
+................IIIIIIIIIIIIIIII....IIIIIIIII....IIII....IIII  183 / 2790 (  6%)
+II....SIIIII.I...IIIII.I.IIIIIIIIIIIIIIIIIIIII.IIIIIIIIIIIIII  244 / 2790 (  8%)
+IIIIIIIIIIIIII...........................I..I..............I.  305 / 2790 ( 10%)
+....II.IIIIIIIIIIIIIIIIIIIII.IIIIIIIIIIIIIIIII.............II  366 / 2790 ( 13%)
+IIIIIIIII..III...............................................  427 / 2790 ( 15%)
+.............................................................  488 / 2790 ( 17%)
+...........IIIIIIIIIIIIIIIIIIIIIIII.......III...............I  549 / 2790 ( 19%)
+......IIIIII.IIIIII..I.........................S.............  610 / 2790 ( 21%)
+.......I..IIII.IIIIIIIIIIIII.................II....I.IIIIIIII  671 / 2790 ( 24%)
+I...IIIIII.......I.....FIFIIIIIIIIIIIIIIIIIIIIII.............  732 / 2790 ( 26%)
+.......I...IIIIIII...........................................  793 / 2790 ( 28%)
+.............................................................  854 / 2790 ( 30%)
+.............................................................  915 / 2790 ( 32%)
+...........................................IIII..............  976 / 2790 ( 34%)
+..I..............I.....................IIIIIIIIIIIIIIIIIIIIII 1037 / 2790 ( 37%)
+IIIIII
+Fatal error: Uncaught exception 'RuntimeException' with message 'Trying to @cover not existing method "JArchivZip::extract".' in .../lib/php/PHP/CodeCoverage/Util.php on line 589
+
+RuntimeException: Trying to @cover not existing method "JArchivZip::extract". in .../lib/php/PHP/CodeCoverage/Util.php on line 589
+
+Call Stack:
+    0.0001     327932   1. {main}() .../bin/phpunit:0
+    0.0175     638856   2. PHPUnit_TextUI_Command::main() .../bin/phpunit:49
+    0.0175     639192   3. PHPUnit_TextUI_Command->run() .../lib/php/PHPUnit/TextUI/Command.php:129
+    1.1113   49607632   4. PHPUnit_TextUI_TestRunner->doRun() .../lib/php/PHPUnit/TextUI/Command.php:188
+    1.1490   50072204   5. PHPUnit_Framework_TestSuite->run() .../lib/php/PHPUnit/TextUI/TestRunner.php:305
+   35.0170   68524276   6. PHPUnit_Framework_TestSuite->run() .../lib/php/PHPUnit/Framework/TestSuite.php:693
+   35.0244   68540420   7. PHPUnit_Framework_TestSuite->runTest() .../lib/php/PHPUnit/Framework/TestSuite.php:733
+   35.0244   68540420   8. PHPUnit_Framework_TestCase->run() .../lib/php/PHPUnit/Framework/TestSuite.php:757
+   35.0244   68540420   9. PHPUnit_Framework_TestResult->run() .../lib/php/PHPUnit/Framework/TestCase.php:576
+   35.0359   68564284  10. PHP_CodeCoverage->append() .../lib/php/PHPUnit/Framework/TestResult.php:705
+   35.0363   68566652  11. PHP_CodeCoverage->applyCoversAnnotationFilter() .../lib/php/PHP/CodeCoverage.php:267
+   35.0363   68566752  12. PHP_CodeCoverage_Util::getLinesToBeCovered() .../lib/php/PHP/CodeCoverage.php:527
+   35.0363   68569516  13. PHP_CodeCoverage_Util::resolveCoversToReflectionObjects() .../lib/php/PHP/CodeCoverage/Util.php:233
+
+</pre>
+<pre class="debug">Document is empty
+</pre>
+<pre class="debug">Start tag expected, '<' not found
+</pre>
 <h2>Checkstyle</h2>
 <p class="img24 img-success">There were 235 warnings and  0 errors. <a href="../logs/533checkstyle.xml">Checkstyle Log (XML)</a></p>
 <a href="../index.html">&lArr; Index &lArr;</a>
-<div class="footer">Generated on 29-Nov-2011 03:24 -05:00 ECT America/Guayaquil
+<div class="footer">Generated on 29-Nov-2011 17:53 -05:00 ECT America/Guayaquil
 <div class="myLinx"><em>BTW</em>: If you want to run this tests on your own machine - The source code is <a href="https://github.com/elkuku/pulltester/tree/testing1">available on GitHub</a> and is based on <a href="https://github.com/ianmacl/pulltester">Ian McLennan's PullTester</a> =;)</div>
 </div>
 </body>
