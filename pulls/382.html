@@ -12,28 +12,26 @@
 <p class="title">Joomla CMS [#26263] When a default value is defined, cannot save a field with an empty value </p>
 <div class="clr"></div>
 <h2>Unit Tests</h2>
-<p class="img24 img-warn">There were 1 failures and  1 errors. <a href="../logs/382junit.xml">Unit Test Log (XML)</a></p>
-<h3>Errors</h3>
-<ol>
-<li><pre class="debug">JHtmlTest::testStylesheet
-mkdir(): File exists
-
-.../tests/suite/joomla/html/JHtmlTest.php:984
-</pre></li>
-</ol>
+<p class="img24 img-warn">There were 2 failures and  0 errors. <a href="../logs/382junit.xml">Unit Test Log (XML)</a></p>
 <h3>Failures</h3>
 <ol>
 <li><pre class="debug">JHtmlTest::testScript
 Line:605 JHtml::script failed when we should get it from the templates directory
-Failed asserting that an array has the key &lt;string:/templates/mytemplate634/js/test1/script1.js&gt;.
+Failed asserting that an array has the key &lt;string:/templates/mytemplate2748/js/test1/script1.js&gt;.
 
 .../tests/suite/joomla/html/JHtmlTest.php:606
+</pre></li>
+<li><pre class="debug">JHtmlTest::testStylesheet
+Line:992 JHtml::script failed when we should get it from the templates directory
+Failed asserting that an array has the key &lt;string:/templates/mytemplate4899/css/test1/style1.css&gt;.
+
+.../tests/suite/joomla/html/JHtmlTest.php:993
 </pre></li>
 </ol>
 <h2>Checkstyle</h2>
 <p class="img24 img-success">There were 235 warnings and  0 errors. <a href="../logs/382checkstyle.xml">Checkstyle Log (XML)</a></p>
 <a href="../index.html">&lArr; Index &lArr;</a>
-<div class="footer">Generated on 29-Nov-2011 18:31 -05:00 ECT America/Guayaquil
+<div class="footer">Generated on 30-Nov-2011 21:20 -05:00 ECT America/Guayaquil
 <div class="myLinx"><em>BTW</em>: If you want to run this tests on your own machine - The source code is <a href="https://github.com/elkuku/pulltester/tree/testing1">available on GitHub</a> and is based on <a href="https://github.com/ianmacl/pulltester">Ian McLennan's PullTester</a> =;)</div>
 </div>
 </body>
