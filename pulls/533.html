@@ -12,55 +12,45 @@
 <p class="title">JArchive work</p>
 <div class="clr"></div>
 <h2>Unit Tests</h2>
-<h3 class="img24 img-fail">Unit Tests log corrupt.</h3>
-<pre class="debug">PHPUnit 3.5.15 by Sebastian Bergmann.
+<p class="img24 img-warn">There were 2 failures and  1 errors. <a href="../logs/533junit.xml">Unit Test Log (XML)</a></p>
+<h3>Errors</h3>
+<ol>
+<li><pre class="debug">JHtmlFormTest::testToken
+session_start(): Cannot send session cookie - headers already sent by (output started at .../lib/php/PHPUnit/Util/Printer.php:173)
 
-...........................IIIIIII...........................   61 / 2790 (  2%)
-.............................................................  122 / 2790 (  4%)
-................IIIIIIIIIIIIIIII....IIIIIIIII....IIII....IIII  183 / 2790 (  6%)
-II....SIIIII.I...IIIII.I.IIIIIIIIIIIIIIIIIIIII.IIIIIIIIIIIIII  244 / 2790 (  8%)
-IIIIIIIIIIIIII...........................I..I..............I.  305 / 2790 ( 10%)
-....II.IIIIIIIIIIIIIIIIIIIII.IIIIIIIIIIIIIIIII.............II  366 / 2790 ( 13%)
-IIIIIIIII..III...............................................  427 / 2790 ( 15%)
-.............................................................  488 / 2790 ( 17%)
-...........IIIIIIIIIIIIIIIIIIIIIIII.......III...............I  549 / 2790 ( 19%)
-......IIIIII.IIIIII..I.........................S.............  610 / 2790 ( 21%)
-.......I..IIII.IIIIIIIIIIIII.................II....I.IIIIIIII  671 / 2790 ( 24%)
-I...IIIIII.......I.....FIFIIIIIIIIIIIIIIIIIIIIII.............  732 / 2790 ( 26%)
-.......I...IIIIIII...........................................  793 / 2790 ( 28%)
-.............................................................  854 / 2790 ( 30%)
-.............................................................  915 / 2790 ( 32%)
-...........................................IIII..............  976 / 2790 ( 34%)
-..I..............I.....................IIIIIIIIIIIIIIIIIIIIII 1037 / 2790 ( 37%)
-IIIIII
-Fatal error: Uncaught exception 'RuntimeException' with message 'Trying to @cover not existing method "JArchivZip::extract".' in .../lib/php/PHP/CodeCoverage/Util.php on line 589
+.../libraries/joomla/session/session.php:492
+.../libraries/joomla/session/session.php:118
+.../libraries/joomla/session/session.php:155
+.../libraries/joomla/factory.php:661
+.../libraries/joomla/factory.php:152
+.../libraries/joomla/utilities/utility.php:119
+.../tests/suite/joomla/html/html/JHtmlFormTest.php:24
+</pre></li>
+</ol>
+<h3>Failures</h3>
+<ol>
+<li><pre class="debug">JHtmlTest::testScript
+Line:605 JHtml::script failed when we should get it from the templates directory
+Failed asserting that an array has the key &lt;string:/templates/mytemplate4367/js/test1/script1.js&gt;.
 
-RuntimeException: Trying to @cover not existing method "JArchivZip::extract". in .../lib/php/PHP/CodeCoverage/Util.php on line 589
+.../tests/suite/joomla/html/JHtmlTest.php:606
+</pre></li>
+<li><pre class="debug">JHtmlTest::testStylesheet
+Line:992 JHtml::script failed when we should get it from the templates directory
+Failed asserting that an array has the key &lt;string:/templates/mytemplate7180/css/test1/style1.css&gt;.
 
-Call Stack:
-    0.0002     327932   1. {main}() .../bin/phpunit:0
-    0.0184     638856   2. PHPUnit_TextUI_Command::main() .../bin/phpunit:49
-    0.0184     639192   3. PHPUnit_TextUI_Command->run() .../lib/php/PHPUnit/TextUI/Command.php:129
-    1.1138   49609068   4. PHPUnit_TextUI_TestRunner->doRun() .../lib/php/PHPUnit/TextUI/Command.php:188
-    1.1520   50073572   5. PHPUnit_Framework_TestSuite->run() .../lib/php/PHPUnit/TextUI/TestRunner.php:305
-   35.2668   68531036   6. PHPUnit_Framework_TestSuite->run() .../lib/php/PHPUnit/Framework/TestSuite.php:693
-   35.2745   68547212   7. PHPUnit_Framework_TestSuite->runTest() .../lib/php/PHPUnit/Framework/TestSuite.php:733
-   35.2745   68547212   8. PHPUnit_Framework_TestCase->run() .../lib/php/PHPUnit/Framework/TestSuite.php:757
-   35.2746   68547212   9. PHPUnit_Framework_TestResult->run() .../lib/php/PHPUnit/Framework/TestCase.php:576
-   35.2874   68572080  10. PHP_CodeCoverage->append() .../lib/php/PHPUnit/Framework/TestResult.php:705
-   35.2878   68574448  11. PHP_CodeCoverage->applyCoversAnnotationFilter() .../lib/php/PHP/CodeCoverage.php:267
-   35.2878   68574548  12. PHP_CodeCoverage_Util::getLinesToBeCovered() .../lib/php/PHP/CodeCoverage.php:527
-   35.2878   68577292  13. PHP_CodeCoverage_Util::resolveCoversToReflectionObjects() .../lib/php/PHP/CodeCoverage/Util.php:233
-
-</pre>
-<pre class="debug">Document is empty
-</pre>
-<pre class="debug">Start tag expected, '<' not found
-</pre>
+.../tests/suite/joomla/html/JHtmlTest.php:993
+</pre></li>
+</ol>
 <h2>Checkstyle</h2>
-<p class="img24 img-success">There were 235 warnings and  0 errors. <a href="../logs/533checkstyle.xml">Checkstyle Log (XML)</a></p>
+<p class="img24 img-warn">There were 242 warnings and  1 errors. <a href="../logs/533checkstyle.xml">Checkstyle Log (XML)</a></p>
+<h3>Errors</h3>
+<ul class="phpcs">
+<li><tt>libraries/joomla/application/component/helper.php:177</tt><br />
+<em>Whitespace found at end of line</em></li>
+</ul>
 <a href="../index.html">&lArr; Index &lArr;</a>
-<div class="footer">Generated on 30-Nov-2011 20:44 -05:00 ECT America/Guayaquil
+<div class="footer">Generated on 02-Dec-2011 18:10 -05:00 ECT America/Guayaquil
 <div class="myLinx"><em>BTW</em>: If you want to run this tests on your own machine - The source code is <a href="https://github.com/elkuku/pulltester/tree/testing1">available on GitHub</a> and is based on <a href="https://github.com/ianmacl/pulltester">Ian McLennan's PullTester</a> =;)</div>
 </div>
 </body>

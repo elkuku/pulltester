@@ -12,26 +12,45 @@
 <p class="title">Embrace the autoloader some more.</p>
 <div class="clr"></div>
 <h2>Unit Tests</h2>
-<p class="img24 img-warn">There were 2 failures and  0 errors. <a href="../logs/554junit.xml">Unit Test Log (XML)</a></p>
+<p class="img24 img-warn">There were 2 failures and  1 errors. <a href="../logs/554junit.xml">Unit Test Log (XML)</a></p>
+<h3>Errors</h3>
+<ol>
+<li><pre class="debug">JHtmlFormTest::testToken
+session_start(): Cannot send session cookie - headers already sent by (output started at .../lib/php/PHPUnit/Util/Printer.php:173)
+
+.../libraries/joomla/session/session.php:492
+.../libraries/joomla/session/session.php:118
+.../libraries/joomla/session/session.php:155
+.../libraries/joomla/factory.php:661
+.../libraries/joomla/factory.php:152
+.../libraries/joomla/utilities/utility.php:119
+.../tests/suite/joomla/html/html/JHtmlFormTest.php:24
+</pre></li>
+</ol>
 <h3>Failures</h3>
 <ol>
 <li><pre class="debug">JHtmlTest::testScript
 Line:605 JHtml::script failed when we should get it from the templates directory
-Failed asserting that an array has the key &lt;string:/templates/mytemplate6882/js/test1/script1.js&gt;.
+Failed asserting that an array has the key &lt;string:/templates/mytemplate4557/js/test1/script1.js&gt;.
 
 .../tests/suite/joomla/html/JHtmlTest.php:606
 </pre></li>
 <li><pre class="debug">JHtmlTest::testStylesheet
 Line:992 JHtml::script failed when we should get it from the templates directory
-Failed asserting that an array has the key &lt;string:/templates/mytemplate5557/css/test1/style1.css&gt;.
+Failed asserting that an array has the key &lt;string:/templates/mytemplate1056/css/test1/style1.css&gt;.
 
 .../tests/suite/joomla/html/JHtmlTest.php:993
 </pre></li>
 </ol>
 <h2>Checkstyle</h2>
-<p class="img24 img-success">There were 235 warnings and  0 errors. <a href="../logs/554checkstyle.xml">Checkstyle Log (XML)</a></p>
+<p class="img24 img-warn">There were 242 warnings and  1 errors. <a href="../logs/554checkstyle.xml">Checkstyle Log (XML)</a></p>
+<h3>Errors</h3>
+<ul class="phpcs">
+<li><tt>libraries/joomla/application/component/helper.php:175</tt><br />
+<em>Whitespace found at end of line</em></li>
+</ul>
 <a href="../index.html">&lArr; Index &lArr;</a>
-<div class="footer">Generated on 30-Nov-2011 20:39 -05:00 ECT America/Guayaquil
+<div class="footer">Generated on 02-Dec-2011 18:07 -05:00 ECT America/Guayaquil
 <div class="myLinx"><em>BTW</em>: If you want to run this tests on your own machine - The source code is <a href="https://github.com/elkuku/pulltester/tree/testing1">available on GitHub</a> and is based on <a href="https://github.com/ianmacl/pulltester">Ian McLennan's PullTester</a> =;)</div>
 </div>
 </body>

@@ -11,80 +11,9 @@
 <div class="avatar"><img src="https://secure.gravatar.com/avatar/2977a026482b96e673421f4e738cf838?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png" /><br />Hackwar</div>
 <p class="title">UT 8/10: Adding unittests for form, html, installer and language packages</p>
 <div class="clr"></div>
-<h2>Unit Tests</h2>
-<p class="img24 img-warn">There were 5 failures and  0 errors. <a href="../logs/521junit.xml">Unit Test Log (XML)</a></p>
-<h3>Failures</h3>
-<ol>
-<li><pre class="debug">JHtmlTest::testScript
-Line:605 JHtml::script failed when we should get it from the templates directory
-Failed asserting that an array has the key &lt;string:/templates/mytemplate4352/js/test1/script1.js&gt;.
-
-.../tests/suite/joomla/html/JHtmlTest.php:606
-</pre></li>
-<li><pre class="debug">JHtmlTest::testStylesheet
-Line:992 JHtml::script failed when we should get it from the templates directory
-Failed asserting that an array has the key &lt;string:/templates/mytemplate8768/css/test1/style1.css&gt;.
-
-.../tests/suite/joomla/html/JHtmlTest.php:993
-</pre></li>
-<li><pre class="debug">JFormHelperTest::testAddFieldPath
-Failed asserting that two arrays are equal.
---- Expected
-+++ Actual
-@@ @@
- Array
- (
--    [0] =&gt; .../libraries/joomla/form/fields
-+    [0] =&gt; .../tests/tmp/field1
-+    [1] =&gt; .../tests/tmp/field3
-+    [2] =&gt; .../tests/tmp/field2
-+    [3] =&gt; .../tests/suite/joomla/form
-+    [4] =&gt; .../tests/suite/joomla/form/_testfields
-+    [5] =&gt; .../libraries/joomla/form/fields
- )
-
-.../tests/suite/joomla/form/JFormHelperTest.php:69
-</pre></li>
-<li><pre class="debug">JFormHelperTest::testAddFormPath
-Failed asserting that two arrays are equal.
---- Expected
-+++ Actual
-@@ @@
- Array
- (
--    [0] =&gt; .../libraries/joomla/form/forms
-+    [0] =&gt; .../tests/tmp/form1
-+    [1] =&gt; .../tests/tmp/form3
-+    [2] =&gt; .../tests/tmp/form2
-+    [3] =&gt; .../tests/suite/joomla/form
-+    [4] =&gt; .../libraries/joomla/form/forms
- )
-
-.../tests/suite/joomla/form/JFormHelperTest.php:101
-</pre></li>
-<li><pre class="debug">JFormHelperTest::testAddRulePath
-Failed asserting that two arrays are equal.
---- Expected
-+++ Actual
-@@ @@
- Array
- (
--    [0] =&gt; .../libraries/joomla/form/rules
-+    [0] =&gt; .../tests/tmp/rule1
-+    [1] =&gt; .../tests/tmp/rule3
-+    [2] =&gt; .../tests/tmp/rule2
-+    [3] =&gt; .../tests/suite/joomla/form/_testrules
-+    [4] =&gt; .../tests/suite/joomla/form
-+    [5] =&gt; .../libraries/joomla/form/rules
- )
-
-.../tests/suite/joomla/form/JFormHelperTest.php:133
-</pre></li>
-</ol>
-<h2>Checkstyle</h2>
-<p class="img24 img-success">There were 235 warnings and  0 errors. <a href="../logs/521checkstyle.xml">Checkstyle Log (XML)</a></p>
+<p class="img24 img-fail">This pull request could not be tested since the changes could not be cleanly merged.</p>
 <a href="../index.html">&lArr; Index &lArr;</a>
-<div class="footer">Generated on 30-Nov-2011 20:52 -05:00 ECT America/Guayaquil
+<div class="footer">Generated on 02-Dec-2011 16:33 -05:00 ECT America/Guayaquil
 <div class="myLinx"><em>BTW</em>: If you want to run this tests on your own machine - The source code is <a href="https://github.com/elkuku/pulltester/tree/testing1">available on GitHub</a> and is based on <a href="https://github.com/ianmacl/pulltester">Ian McLennan's PullTester</a> =;)</div>
 </div>
 </body>

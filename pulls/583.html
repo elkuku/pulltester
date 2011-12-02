@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+<head><meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>583 Test results</title>
+<link href="../assets/css/style.css" rel="stylesheet" type="text/css" />
+<link href="../favicon.ico" rel="icon" type="image/x-icon" />
+</head>
+<body>
+<a href="../index.html">&lArr; Index &lArr;</a>
+<h1>Details for <a href="https://github.com/joomla/joomla-platform/pull/583">Pull Request #583</a></h1>
+<div class="avatar"><img src="https://secure.gravatar.com/avatar/cab39d7e547423f2a0c72823eeec95b2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png" /><br />realityking</div>
+<p class="title">Change the way core.js is loaded.</p>
+<div class="clr"></div>
+<h2>Unit Tests</h2>
+<h3 class="img24 img-fail">Unit Tests log corrupt.</h3>
+<pre class="debug">PHPUnit 3.5.15 by Sebastian Bergmann.
+
+...........................IIIIIII...........................   61 / 2787 (  2%)
+.............................................................  122 / 2787 (  4%)
+................IIIIIIIIIIIIIIII....IIIIIIIII....IIII....IIII  183 / 2787 (  6%)
+II....SIIIII.I...IIIII.I.IIIIIIIIIIIIIIIIIIIII.IIIIIIIIIIIIII  244 / 2787 (  8%)
+IIIIIIIIIIIIII...........................I..I..............I.  305 / 2787 ( 10%)
+....II.IIIIIIIIIIIIIIIIIIIII.IIIIIIIIIIIIIIIII.............II  366 / 2787 ( 13%)
+IIIIIIIII..III...............................................  427 / 2787 ( 15%)
+.............................................................  488 / 2787 ( 17%)
+...........IIIIIIIIIIIIIIIIIIIIIIII.......III...............I  549 / 2787 ( 19%)
+......IIIIII.IIIIII..I...................
+Fatal error: Maximum function nesting level of '100' reached, aborting! in .../libraries/joomla/html/html.php on line 222
+
+Call Stack:
+    0.0001     327932   1. {main}() .../bin/phpunit:0
+    0.0177     638856   2. PHPUnit_TextUI_Command::main() .../bin/phpunit:49
+    0.0178     639192   3. PHPUnit_TextUI_Command->run() .../lib/php/PHPUnit/TextUI/Command.php:129
+    1.1176   49569504   4. PHPUnit_TextUI_TestRunner->doRun() .../lib/php/PHPUnit/TextUI/Command.php:188
+    1.1554   50033948   5. PHPUnit_Framework_TestSuite->run() .../lib/php/PHPUnit/TextUI/TestRunner.php:305
+   19.3341   63191976   6. PHPUnit_Framework_TestSuite->run() .../lib/php/PHPUnit/Framework/TestSuite.php:693
+   19.3342   63192784   7. PHPUnit_Framework_TestSuite->run() .../lib/php/PHPUnit/Framework/TestSuite.php:693
+   19.3342   63193192   8. PHPUnit_Framework_TestSuite->runTest() .../lib/php/PHPUnit/Framework/TestSuite.php:733
+   19.3342   63193192   9. PHPUnit_Framework_TestCase->run() .../lib/php/PHPUnit/Framework/TestSuite.php:757
+   19.3343   63193192  10. PHPUnit_Framework_TestResult->run() .../lib/php/PHPUnit/Framework/TestCase.php:576
+   19.3347   63193864  11. PHPUnit_Framework_TestCase->runBare() .../lib/php/PHPUnit/Framework/TestResult.php:666
+   19.3375   63216584  12. PHPUnit_Framework_TestCase->runTest() .../lib/php/PHPUnit/Framework/TestCase.php:628
+   19.3377   63217396  13. ReflectionMethod->invokeArgs() .../lib/php/PHPUnit/Framework/TestCase.php:738
+   19.3377   63217412  14. JHtmlBehaviorTest->testFramework() .../tests/suite/joomla/html/html/JHtmlBehaviorTest.php:738
+   19.3437   63243756  15. JHtmlBehavior::framework() .../tests/suite/joomla/html/html/JHtmlBehaviorTest.php:121
+   19.3441   63244044  16. JHtml::_() .../libraries/joomla/html/html/behavior.php:60
+   19.3447   63245120  17. JHtml::call() .../libraries/joomla/html/html.php:135
+   19.3449   63246116  18. call_user_func_array() .../libraries/joomla/html/html.php:222
+   19.3449   63246532  19. JHtml::script() .../libraries/joomla/html/html.php:222
+   19.3450   63246560  20. JHtml::core() .../libraries/joomla/html/html.php:604
+   19.3458   63246644  21. JHtml::_() .../libraries/joomla/html/html.php:664
+   19.3464   63247440  22. JHtml::call() .../libraries/joomla/html/html.php:135
+   19.3465   63247940  23. call_user_func_array() .../libraries/joomla/html/html.php:222
+   19.3465   63248164  24. JHtmlBehavior::framework() .../libraries/joomla/html/html.php:222
+   19.3466   63248452  25. JHtml::_() .../libraries/joomla/html/html/behavior.php:60
+   19.3469   63249220  26. JHtml::call() .../libraries/joomla/html/html.php:103
+   19.3470   63250216  27. call_user_func_array() .../libraries/joomla/html/html.php:222
+   19.3470   63250632  28. JHtml::script() .../libraries/joomla/html/html.php:222
+   19.3471   63250660  29. JHtml::core() .../libraries/joomla/html/html.php:604
+   19.3479   63250744  30. JHtml::_() .../libraries/joomla/html/html.php:664
+   19.3481   63251208  31. JHtml::call() .../libraries/joomla/html/html.php:103
+   19.3482   63251700  32. call_user_func_array() .../libraries/joomla/html/html.php:222
+   19.3482   63251920  33. JHtmlBehavior::framework() .../libraries/joomla/html/html.php:222
+   19.3484   63252224  34. JHtml::_() .../libraries/joomla/html/html/behavior.php:60
+   19.3487   63253008  35. JHtml::call() .../libraries/joomla/html/html.php:103
+   19.3488   63254040  36. call_user_func_array() .../libraries/joomla/html/html.php:222
+   19.3488   63254456  37. JHtml::script() .../libraries/joomla/html/html.php:222
+   19.3490   63254484  38. JHtml::core() .../libraries/joomla/html/html.php:604
+   19.3498   63254568  39. JHtml::_() .../libraries/joomla/html/html.php:664
+   19.3501   63255032  40. JHtml::call() .../libraries/joomla/html/html.php:103
+   19.3502   63255532  41. call_user_func_array() .../libraries/joomla/html/html.php:222
+   19.3502   63255752  42. JHtmlBehavior::framework() .../libraries/joomla/html/html.php:222
+   19.3504   63256048  43. JHtml::_() .../libraries/joomla/html/html/behavior.php:60
+   19.3507   63256832  44. JHtml::call() .../libraries/joomla/html/html.php:103
+   19.3508   63257840  45. call_user_func_array() .../libraries/joomla/html/html.php:222
+   19.3508   63258260  46. JHtml::script() .../libraries/joomla/html/html.php:222
+   19.3509   63258300  47. JHtml::core() .../libraries/joomla/html/html.php:604
+   19.3517   63258396  48. JHtml::_() .../libraries/joomla/html/html.php:664
+   19.3520   63258860  49. JHtml::call() .../libraries/joomla/html/html.php:103
+   19.3521   63259360  50. call_user_func_array() .../libraries/joomla/html/html.php:222
+   19.3521   63259580  51. JHtmlBehavior::framework() .../libraries/joomla/html/html.php:222
+   19.3522   63259880  52. JHtml::_() .../libraries/joomla/html/html/behavior.php:60
+   19.3525   63260644  53. JHtml::call() .../libraries/joomla/html/html.php:103
+   19.3526   63261632  54. call_user_func_array() .../libraries/joomla/html/html.php:222
+   19.3526   63262044  55. JHtml::script() .../libraries/joomla/html/html.php:222
+   19.3527   63262072  56. JHtml::core() .../libraries/joomla/html/html.php:604
+   19.3535   63262144  57. JHtml::_() .../libraries/joomla/html/html.php:664
+   19.3537   63262608  58. JHtml::call() .../libraries/joomla/html/html.php:103
+   19.3539   63263100  59. call_user_func_array() .../libraries/joomla/html/html.php:222
+   19.3539   63263320  60. JHtmlBehavior::framework() .../libraries/joomla/html/html.php:222
+   19.3540   63263608  61. JHtml::_() .../libraries/joomla/html/html/behavior.php:60
+   19.3543   63264372  62. JHtml::call() .../libraries/joomla/html/html.php:103
+   19.3544   63265380  63. call_user_func_array() .../libraries/joomla/html/html.php:222
+   19.3544   63265800  64. JHtml::script() .../libraries/joomla/html/html.php:222
+   19.3545   63265836  65. JHtml::core() .../libraries/joomla/html/html.php:604
+   19.3553   63265924  66. JHtml::_() .../libraries/joomla/html/html.php:664
+   19.3556   63266388  67. JHtml::call() .../libraries/joomla/html/html.php:103
+   19.3558   63266880  68. call_user_func_array() .../libraries/joomla/html/html.php:222
+   19.3558   63267100  69. JHtmlBehavior::framework() .../libraries/joomla/html/html.php:222
+   19.3559   63267396  70. JHtml::_() .../libraries/joomla/html/html/behavior.php:60
+   19.3561   63268164  71. JHtml::call() .../libraries/joomla/html/html.php:103
+   19.3563   63269156  72. call_user_func_array() .../libraries/joomla/html/html.php:222
+   19.3563   63269572  73. JHtml::script() .../libraries/joomla/html/html.php:222
+   19.3564   63269600  74. JHtml::core() .../libraries/joomla/html/html.php:604
+   19.3571   63269680  75. JHtml::_() .../libraries/joomla/html/html.php:664
+   19.3574   63270144  76. JHtml::call() .../libraries/joomla/html/html.php:103
+   19.3575   63270640  77. call_user_func_array() .../libraries/joomla/html/html.php:222
+   19.3575   63270868  78. JHtmlBehavior::framework() .../libraries/joomla/html/html.php:222
+   19.3576   63271176  79. JHtml::_() .../libraries/joomla/html/html/behavior.php:60
+   19.3579   63271948  80. JHtml::call() .../libraries/joomla/html/html.php:103
+   19.3580   63272964  81. call_user_func_array() .../libraries/joomla/html/html.php:222
+   19.3580   63273388  82. JHtml::script() .../libraries/joomla/html/html.php:222
+   19.3581   63273428  83. JHtml::core() .../libraries/joomla/html/html.php:604
+   19.3589   63273512  84. JHtml::_() .../libraries/joomla/html/html.php:664
+   19.3591   63273976  85. JHtml::call() .../libraries/joomla/html/html.php:103
+   19.3593   63274480  86. call_user_func_array() .../libraries/joomla/html/html.php:222
+   19.3593   63274700  87. JHtmlBehavior::framework() .../libraries/joomla/html/html.php:222
+   19.3594   63274988  88. JHtml::_() .../libraries/joomla/html/html/behavior.php:60
+   19.3597   63275768  89. JHtml::call() .../libraries/joomla/html/html.php:103
+   19.3598   63276768  90. call_user_func_array() .../libraries/joomla/html/html.php:222
+   19.3598   63277180  91. JHtml::script() .../libraries/joomla/html/html.php:222
+   19.3599   63277212  92. JHtml::core() .../libraries/joomla/html/html.php:604
+   19.3606   63277296  93. JHtml::_() .../libraries/joomla/html/html.php:664
+   19.3609   63277760  94. JHtml::call() .../libraries/joomla/html/html.php:103
+   19.3610   63278256  95. call_user_func_array() .../libraries/joomla/html/html.php:222
+   19.3610   63278484  96. JHtmlBehavior::framework() .../libraries/joomla/html/html.php:222
+   19.3611   63278776  97. JHtml::_() .../libraries/joomla/html/html/behavior.php:60
+   19.3614   63279556  98. JHtml::call() .../libraries/joomla/html/html.php:103
+   19.3616   63280556  99. call_user_func_array() .../libraries/joomla/html/html.php:222
+
+</pre>
+<pre class="debug">Document is empty
+</pre>
+<pre class="debug">Start tag expected, '<' not found
+</pre>
+<h2>Checkstyle</h2>
+<p class="img24 img-warn">There were 242 warnings and  1 errors. <a href="../logs/583checkstyle.xml">Checkstyle Log (XML)</a></p>
+<h3>Errors</h3>
+<ul class="phpcs">
+<li><tt>libraries/joomla/application/component/helper.php:177</tt><br />
+<em>Whitespace found at end of line</em></li>
+</ul>
+<a href="../index.html">&lArr; Index &lArr;</a>
+<div class="footer">Generated on 02-Dec-2011 18:00 -05:00 ECT America/Guayaquil
+<div class="myLinx"><em>BTW</em>: If you want to run this tests on your own machine - The source code is <a href="https://github.com/elkuku/pulltester/tree/testing1">available on GitHub</a> and is based on <a href="https://github.com/ianmacl/pulltester">Ian McLennan's PullTester</a> =;)</div>
+</div>
+</body>
+</html>
