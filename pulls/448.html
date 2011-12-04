@@ -12,7 +12,7 @@
 <p class="title">Update /libraries/joomla/form/formfield.php</p>
 <div class="clr"></div>
 <h2>Unit Tests</h2>
-<p class="img24 img-warn">There were 6 failures and  1 errors. <a href="../logs/448junit.xml">Unit Test Log (XML)</a></p>
+<p class="img24 img-warn">There were 4 failures and  1 errors. <a href="../logs/448junit.xml">Unit Test Log (XML)</a></p>
 <h3>Errors</h3>
 <ol>
 <li><pre class="debug">JHtmlFormTest::testToken
@@ -29,26 +29,14 @@ session_start(): Cannot send session cookie - headers already sent by (output st
 </ol>
 <h3>Failures</h3>
 <ol>
-<li><pre class="debug">JHtmlTest::testScript
-Line:605 JHtml::script failed when we should get it from the templates directory
-Failed asserting that an array has the key &lt;string:/templates/mytemplate8289/js/test1/script1.js&gt;.
-
-.../tests/suite/joomla/html/JHtmlTest.php:606
-</pre></li>
-<li><pre class="debug">JHtmlTest::testStylesheet
-Line:992 JHtml::script failed when we should get it from the templates directory
-Failed asserting that an array has the key &lt;string:/templates/mytemplate4632/css/test1/style1.css&gt;.
-
-.../tests/suite/joomla/html/JHtmlTest.php:993
-</pre></li>
 <li><pre class="debug">JFormFieldTest::testGetLabel
 Line:178 The property should be computed from the XML.
 Failed asserting that two strings are equal.
 --- Expected
 +++ Actual
 @@ @@
--&lt;label id=&quot;title_id-lbl&quot; for=&quot;title_id&quot; class=&quot;hasTip required&quot; title=&quot;Title::The title.&quot;&gt;Title&lt;span class=&quot;star&quot;&gt;&amp;#160;*&lt;/span&gt;&lt;/label&gt;
-+&lt;label id=&quot;title-id-lbl&quot; for=&quot;title-id&quot; class=&quot;hasTip required&quot; title=&quot;Title::The title.&quot;&gt;Title&lt;span class=&quot;star&quot;&gt;&amp;#160;*&lt;/span&gt;&lt;/label&gt;
+-'&lt;label id=&quot;title_id-lbl&quot; for=&quot;title_id&quot; class=&quot;hasTip required&quot; title=&quot;Title::The title.&quot;&gt;Title&lt;span class=&quot;star&quot;&gt;&amp;#160;*&lt;/span&gt;&lt;/label&gt;'
++'&lt;label id=&quot;title-id-lbl&quot; for=&quot;title-id&quot; class=&quot;hasTip required&quot; title=&quot;Title::The title.&quot;&gt;Title&lt;span class=&quot;star&quot;&gt;&amp;#160;*&lt;/span&gt;&lt;/label&gt;'
 
 .../tests/suite/joomla/form/JFormFieldTest.php:179
 </pre></li>
@@ -58,8 +46,8 @@ Failed asserting that two strings are equal.
 --- Expected
 +++ Actual
 @@ @@
--title_id
-+title-id
+-'title_id'
++'title-id'
 
 .../tests/suite/joomla/form/JFormFieldTest.php:284
 </pre></li>
@@ -69,8 +57,8 @@ Failed asserting that two strings are equal.
 --- Expected
 +++ Actual
 @@ @@
--&lt;input type=&quot;text&quot; name=&quot;title&quot; id=&quot;title_id&quot; value=&quot;The Title&quot; class=&quot;inputbox required&quot;/&gt;
-+&lt;input type=&quot;text&quot; name=&quot;title&quot; id=&quot;title-id&quot; value=&quot;The Title&quot; class=&quot;inputbox required&quot;/&gt;
+-'&lt;input type=&quot;text&quot; name=&quot;title&quot; id=&quot;title_id&quot; value=&quot;The Title&quot; class=&quot;inputbox required&quot;/&gt;'
++'&lt;input type=&quot;text&quot; name=&quot;title&quot; id=&quot;title-id&quot; value=&quot;The Title&quot; class=&quot;inputbox required&quot;/&gt;'
 
 .../tests/suite/joomla/form/JFormTest.php:968
 </pre></li>
@@ -80,8 +68,8 @@ Failed asserting that two strings are equal.
 --- Expected
 +++ Actual
 @@ @@
--&lt;label id=&quot;title_id-lbl&quot; for=&quot;title_id&quot; class=&quot;hasTip required&quot; title=&quot;Title::The title.&quot;&gt;Title&lt;span class=&quot;star&quot;&gt;&amp;#160;*&lt;/span&gt;&lt;/label&gt;
-+&lt;label id=&quot;title-id-lbl&quot; for=&quot;title-id&quot; class=&quot;hasTip required&quot; title=&quot;Title::The title.&quot;&gt;Title&lt;span class=&quot;star&quot;&gt;&amp;#160;*&lt;/span&gt;&lt;/label&gt;
+-'&lt;label id=&quot;title_id-lbl&quot; for=&quot;title_id&quot; class=&quot;hasTip required&quot; title=&quot;Title::The title.&quot;&gt;Title&lt;span class=&quot;star&quot;&gt;&amp;#160;*&lt;/span&gt;&lt;/label&gt;'
++'&lt;label id=&quot;title-id-lbl&quot; for=&quot;title-id&quot; class=&quot;hasTip required&quot; title=&quot;Title::The title.&quot;&gt;Title&lt;span class=&quot;star&quot;&gt;&amp;#160;*&lt;/span&gt;&lt;/label&gt;'
 
 .../tests/suite/joomla/form/JFormTest.php:1052
 </pre></li>
@@ -89,7 +77,7 @@ Failed asserting that two strings are equal.
 <h2>Checkstyle</h2>
 <p class="img24 img-success">There were 254 warnings and  0 errors. <a href="../logs/448checkstyle.xml">Checkstyle Log (XML)</a></p>
 <a href="../index.html">&lArr; Index &lArr;</a>
-<div class="footer">Generated on 03-Dec-2011 18:59 -05:00 ECT America/Guayaquil
+<div class="footer">Generated on 04-Dec-2011 02:46 -05:00 ECT America/Guayaquil
 <div class="myLinx"><em>BTW</em>: If you want to run this tests on your own machine - The source code is <a href="https://github.com/elkuku/pulltester/tree/testing1">available on GitHub</a> and is based on <a href="https://github.com/ianmacl/pulltester">Ian McLennan's PullTester</a> =;)</div>
 </div>
 </body>
