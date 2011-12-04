@@ -7,6 +7,7 @@
  <file name=".../libraries/joomla/access/rules.php">
  </file>
  <file name=".../libraries/joomla/application/application.php">
+  <error line="1183" column="9" severity="warning" message="No scope modifier specified for function &quot;isWinOS&quot;" source="Joomla.Classes.MethodScope.Missing"/>
  </file>
  <file name=".../libraries/joomla/application/applicationexception.php">
  </file>
@@ -23,7 +24,6 @@
  <file name=".../libraries/joomla/application/component/controllerform.php">
  </file>
  <file name=".../libraries/joomla/application/component/helper.php">
-  <error line="186" column="1" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
  </file>
  <file name=".../libraries/joomla/application/component/model.php">
  </file>
@@ -139,6 +139,7 @@
  <file name=".../libraries/joomla/client/ldap.php">
  </file>
  <file name=".../libraries/joomla/database/database.php">
+  <error line="31" column="9" severity="warning" message="No scope modifier specified for function &quot;test&quot;" source="Joomla.Classes.MethodScope.Missing"/>
  </file>
  <file name=".../libraries/joomla/database/database/mysql.php">
  </file>
@@ -283,6 +284,7 @@
   <error line="191" column="12" severity="warning" message="Protected member variable &quot;_images&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
  </file>
  <file name=".../libraries/joomla/environment/request.php">
+  <error line="609" column="9" severity="warning" message="No scope modifier specified for function &quot;_cleanVar&quot;" source="Joomla.Classes.MethodScope.Missing"/>
  </file>
  <file name=".../libraries/joomla/environment/response.php">
  </file>
@@ -337,6 +339,7 @@
  <file name=".../libraries/joomla/filesystem/folder.php">
  </file>
  <file name=".../libraries/joomla/filesystem/helper.php">
+  <error line="202" column="9" severity="warning" message="No scope modifier specified for function &quot;getWriteModes&quot;" source="Joomla.Classes.MethodScope.Missing"/>
  </file>
  <file name=".../libraries/joomla/filesystem/path.php">
  </file>
@@ -497,6 +500,7 @@
  <file name=".../libraries/joomla/html/grid.php">
  </file>
  <file name=".../libraries/joomla/html/html.php">
+  <error line="38" column="9" severity="warning" message="Scope modifier not specified for member variable &quot;$formatOptions&quot;" source="Joomla.Classes.MemberVarScope.Missing"/>
  </file>
  <file name=".../libraries/joomla/html/html/access.php">
  </file>
@@ -517,6 +521,8 @@
  <file name=".../libraries/joomla/html/html/form.php">
  </file>
  <file name=".../libraries/joomla/html/html/grid.php">
+  <error line="33" column="9" severity="warning" message="No scope modifier specified for function &quot;boolean&quot;" source="Joomla.Classes.MethodScope.Missing"/>
+  <error line="347" column="9" severity="warning" message="No scope modifier specified for function &quot;behavior&quot;" source="Joomla.Classes.MethodScope.Missing"/>
  </file>
  <file name=".../libraries/joomla/html/html/image.php">
  </file>
@@ -723,12 +729,15 @@
  <file name=".../libraries/joomla/installer/packagemanifest.php">
  </file>
  <file name=".../libraries/joomla/language/help.php">
+  <error line="33" column="9" severity="warning" message="No scope modifier specified for function &quot;createURL&quot;" source="Joomla.Classes.MethodScope.Missing"/>
+  <error line="158" column="9" severity="warning" message="No scope modifier specified for function &quot;createSiteList&quot;" source="Joomla.Classes.MethodScope.Missing"/>
  </file>
  <file name=".../libraries/joomla/language/helper.php">
  </file>
  <file name=".../libraries/joomla/language/language.php">
  </file>
  <file name=".../libraries/joomla/language/latin_transliterate.php">
+  <error line="38" column="9" severity="warning" message="No scope modifier specified for function &quot;utf8_latin_to_ascii&quot;" source="Joomla.Classes.MethodScope.Missing"/>
  </file>
  <file name=".../libraries/joomla/log/log.php">
  </file>
@@ -784,6 +793,7 @@
  <file name=".../libraries/joomla/session/storage.php">
  </file>
  <file name=".../libraries/joomla/session/storage/apc.php">
+  <error line="128" column="9" severity="warning" message="No scope modifier specified for function &quot;test&quot;" source="Joomla.Classes.MethodScope.Missing"/>
  </file>
  <file name=".../libraries/joomla/session/storage/database.php">
   <error line="26" column="12" severity="warning" message="Protected member variable &quot;_data&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>

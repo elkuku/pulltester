@@ -12,45 +12,28 @@
 <p class="title">PostgreSQL driver for Joomla! platform.</p>
 <div class="clr"></div>
 <h2>Unit Tests</h2>
-<p class="img24 img-warn">There were 2 failures and  1 errors. <a href="../logs/532junit.xml">Unit Test Log (XML)</a></p>
-<h3>Errors</h3>
-<ol>
-<li><pre class="debug">JHtmlFormTest::testToken
-session_start(): Cannot send session cookie - headers already sent by (output started at .../lib/php/PHPUnit/Util/Printer.php:173)
+<h3 class="img24 img-fail">Unit Tests log missing. Tests failed to execute.</h3>
+<pre class="debug">
+Fatal error: Access level to JoomlaPostgreSQLTestCase::getMockDatabase() must be public (as in class JoomlaTestCase) in .../tests/includes/JoomlaPostgreSQLTestCase.php on line 39
 
-.../libraries/joomla/session/session.php:492
-.../libraries/joomla/session/session.php:118
-.../libraries/joomla/session/session.php:155
-.../libraries/joomla/factory.php:661
-.../libraries/joomla/factory.php:152
-.../libraries/joomla/utilities/utility.php:119
-.../tests/suite/joomla/html/html/JHtmlFormTest.php:24
-</pre></li>
-</ol>
-<h3>Failures</h3>
-<ol>
-<li><pre class="debug">JHtmlTest::testScript
-Line:605 JHtml::script failed when we should get it from the templates directory
-Failed asserting that an array has the key &lt;string:/templates/mytemplate5958/js/test1/script1.js&gt;.
+Call Stack:
+    0.0001     327928   1. {main}() .../bin/phpunit:0
+    0.0175     638852   2. PHPUnit_TextUI_Command::main() .../bin/phpunit:49
+    0.0176     639188   3. PHPUnit_TextUI_Command->run() .../lib/php/PHPUnit/TextUI/Command.php:129
+    0.0176     639188   4. PHPUnit_TextUI_Command->handleArguments() .../lib/php/PHPUnit/TextUI/Command.php:138
+    0.0281    2301548   5. PHPUnit_Util_Configuration->getTestSuiteConfiguration() .../lib/php/PHPUnit/TextUI/Command.php:666
+    0.0281    2302092   6. PHPUnit_Util_Configuration->getTestSuite() .../lib/php/PHPUnit/Util/Configuration.php:701
+    0.0329    3142200   7. PHPUnit_Framework_TestSuite->addTestFiles() .../lib/php/PHPUnit/Util/Configuration.php:756
+    0.9654   43140360   8. PHPUnit_Framework_TestSuite->addTestFile() .../lib/php/PHPUnit/Framework/TestSuite.php:430
+    0.9656   43140572   9. PHPUnit_Util_Fileloader::checkAndLoad() .../lib/php/PHPUnit/Framework/TestSuite.php:369
+    0.9657   43140736  10. PHPUnit_Util_Fileloader::load() .../lib/php/PHPUnit/Util/Fileloader.php:86
+    0.9667   43310936  11. include_once('.../tests/suite/joomla/database/JDatabasePostgreSQLQueryTest.php') .../lib/php/PHPUnit/Util/Fileloader.php:102
 
-.../tests/suite/joomla/html/JHtmlTest.php:606
-</pre></li>
-<li><pre class="debug">JHtmlTest::testStylesheet
-Line:992 JHtml::script failed when we should get it from the templates directory
-Failed asserting that an array has the key &lt;string:/templates/mytemplate9563/css/test1/style1.css&gt;.
-
-.../tests/suite/joomla/html/JHtmlTest.php:993
-</pre></li>
-</ol>
+</pre>
 <h2>Checkstyle</h2>
-<p class="img24 img-warn">There were 243 warnings and  1 errors. <a href="../logs/532checkstyle.xml">Checkstyle Log (XML)</a></p>
-<h3>Errors</h3>
-<ul class="phpcs">
-<li><tt>libraries/joomla/application/component/helper.php:177</tt><br />
-<em>Whitespace found at end of line</em></li>
-</ul>
+<p class="img24 img-success">There were 259 warnings and  0 errors. <a href="../logs/532checkstyle.xml">Checkstyle Log (XML)</a></p>
 <a href="../index.html">&lArr; Index &lArr;</a>
-<div class="footer">Generated on 02-Dec-2011 16:30 -05:00 ECT America/Guayaquil
+<div class="footer">Generated on 03-Dec-2011 18:34 -05:00 ECT America/Guayaquil
 <div class="myLinx"><em>BTW</em>: If you want to run this tests on your own machine - The source code is <a href="https://github.com/elkuku/pulltester/tree/testing1">available on GitHub</a> and is based on <a href="https://github.com/ianmacl/pulltester">Ian McLennan's PullTester</a> =;)</div>
 </div>
 </body>
