@@ -12,14 +12,15 @@ h1 {
 p.title {
 	font-size: 1.5em;
 	font-style: italic;
-	text-align:center;
+	text-align: center;
 	padding-left: 100px;
 	padding-right: 0.5em;
 	padding-top: 1em;
 	padding-bottom: 1em;
-background-color: #ddd;
+	background-color: #ddd;
 	border-radius: 0 10px 10px 0;
 }
+
 div.avatar {
 	border: 1px solid grey;
 	border-radius: 5px;
@@ -27,6 +28,7 @@ div.avatar {
 	text-align: center;
 	background-color: #fff;
 }
+
 a {
 	color: blue;
 	text-decoration: none;
@@ -110,4 +112,10 @@ div.footer {
 	font-family: monospace;
 	font-size: 0.8em;
 	background-color: #fff;
+}
+
+div.system-specs {
+	background-color: #999;
+	color: lime;
+	font-family: monospace;
 }
