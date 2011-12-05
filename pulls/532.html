@@ -12,28 +12,29 @@
 <p class="title">PostgreSQL driver for Joomla! platform.</p>
 <div class="clr"></div>
 <h2>Unit Tests</h2>
-<h3 class="img24 img-fail">Unit Tests log missing. Tests failed to execute.</h3>
-<pre class="debug">
-Fatal error: Access level to JoomlaPostgreSQLTestCase::getMockDatabase() must be public (as in class JoomlaTestCase) in .../tests/includes/JoomlaPostgreSQLTestCase.php on line 39
+<p class="img24 img-warn">There were 0 failures and  2 errors. <a href="../logs/532junit.xml">Unit Test Log (XML)</a></p>
+<h3>Errors</h3>
+<ol>
+<li><pre class="debug">JDatabasePostgreSQLTest::testReleaseTransactionSavepoint
+InvalidArgumentException: You must not expect the generic exception class.
 
-Call Stack:
-    0.0001     326084   1. {main}() .../bin/phpunit:0
-    0.0032     702112   2. PHPUnit_TextUI_Command::main() .../bin/phpunit:44
-    0.0032     702448   3. PHPUnit_TextUI_Command->run() .../lib/php/PHPUnit/TextUI/Command.php:125
-    0.0032     702448   4. PHPUnit_TextUI_Command->handleArguments() .../lib/php/PHPUnit/TextUI/Command.php:134
-    0.0144    2456376   5. PHPUnit_Util_Configuration->getTestSuiteConfiguration() .../lib/php/PHPUnit/TextUI/Command.php:670
-    0.0144    2456920   6. PHPUnit_Util_Configuration->getTestSuite() .../lib/php/PHPUnit/Util/Configuration.php:768
-    0.0419    2735176   7. PHPUnit_Framework_TestSuite->addTestFiles() .../lib/php/PHPUnit/Util/Configuration.php:848
-    0.2489   15277144   8. PHPUnit_Framework_TestSuite->addTestFile() .../lib/php/PHPUnit/Framework/TestSuite.php:419
-    0.2490   15277440   9. PHPUnit_Util_Fileloader::checkAndLoad() .../lib/php/PHPUnit/Framework/TestSuite.php:358
-    0.2490   15277604  10. PHPUnit_Util_Fileloader::load() .../lib/php/PHPUnit/Util/Fileloader.php:79
-    0.2499   15447436  11. include_once('.../tests/suite/joomla/database/JDatabasePostgreSQLQueryTest.php') .../lib/php/PHPUnit/Util/Fileloader.php:95
+</pre></li>
+<li><pre class="debug">JHtmlFormTest::testToken
+session_start(): Cannot send session cookie - headers already sent by (output started at .../lib/php/PHPUnit/Util/Printer.php:173)
 
-</pre>
+.../libraries/joomla/session/session.php:492
+.../libraries/joomla/session/session.php:118
+.../libraries/joomla/session/session.php:155
+.../libraries/joomla/factory.php:661
+.../libraries/joomla/factory.php:152
+.../libraries/joomla/utilities/utility.php:119
+.../tests/suite/joomla/html/html/JHtmlFormTest.php:24
+</pre></li>
+</ol>
 <h2>Checkstyle</h2>
 <p class="img24 img-success">There were 259 warnings and  0 errors. <a href="../logs/532checkstyle.xml">Checkstyle Log (XML)</a></p>
 <a href="../index.html">&lArr; Index &lArr;</a>
-<div class="footer">Generated on 04-Dec-2011 02:19 -05:00 ECT America/Guayaquil
+<div class="footer">Generated on 05-Dec-2011 16:21 -05:00 ECT America/Guayaquil
 <div class="myLinx"><em>BTW</em>: If you want to run this tests on your own machine - The source code is <a href="https://github.com/elkuku/pulltester/tree/testing1">available on GitHub</a> and is based on <a href="https://github.com/ianmacl/pulltester">Ian McLennan's PullTester</a> =;)</div>
 </div>
 </body>

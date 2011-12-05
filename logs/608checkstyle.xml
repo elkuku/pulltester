@@ -330,7 +330,7 @@
   <error line="191" column="12" severity="warning" message="Protected member variable &quot;_images&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
  </file>
  <file name=".../libraries/joomla/environment/request.php">
-  <error line="609" column="9" severity="warning" message="No scope modifier specified for function &quot;_cleanVar&quot;" source="Joomla.Classes.MethodScope.Missing"/>
+  <error line="607" column="9" severity="warning" message="No scope modifier specified for function &quot;_cleanVar&quot;" source="Joomla.Classes.MethodScope.Missing"/>
  </file>
  <file name=".../libraries/joomla/environment/response.php">
  </file>
@@ -408,9 +408,9 @@
  </file>
  <file name=".../libraries/joomla/filesystem/support/stringcontroller.php">
  </file>
- <file name=".../libraries/joomla/filter/filterinput.php">
+ <file name=".../libraries/joomla/filter/input.php">
  </file>
- <file name=".../libraries/joomla/filter/filteroutput.php">
+ <file name=".../libraries/joomla/filter/output.php">
  </file>
  <file name=".../libraries/joomla/form/fields/accesslevel.php">
  </file>
@@ -553,6 +553,11 @@
  <file name=".../libraries/joomla/html/html/batch.php">
  </file>
  <file name=".../libraries/joomla/html/html/behavior.php">
+  <error line="747" column="1" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
+  <error line="748" column="16" severity="error" message="You must use &quot;/**&quot; style comments for a function comment" source="Joomla.Commenting.FunctionComment.WrongStyle"/>
+  <error line="751" column="1" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
+  <error line="753" column="14" severity="error" message="Opening parenthesis of a multi-line function call must be the last content on the line" source="Joomla.Functions.FunctionCallSignature.ContentAfterOpenBracket"/>
+  <error line="770" column="4" severity="error" message="Closing parenthesis of a multi-line function call must be on a line by itself" source="Joomla.Functions.FunctionCallSignature.CloseBracketLine"/>
  </file>
  <file name=".../libraries/joomla/html/html/category.php">
  </file>
@@ -900,11 +905,11 @@
   <error line="26" column="12" severity="warning" message="Protected member variable &quot;_key&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
  </file>
  <file name=".../libraries/joomla/utilities/simplexml.php">
-  <error line="470" column="9" severity="warning" message="Public member variable &quot;_attributes&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
-  <error line="478" column="9" severity="warning" message="Public member variable &quot;_name&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
-  <error line="486" column="9" severity="warning" message="Public member variable &quot;_data&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
-  <error line="494" column="9" severity="warning" message="Public member variable &quot;_children&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
-  <error line="502" column="9" severity="warning" message="Public member variable &quot;_level&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
+  <error line="462" column="9" severity="warning" message="Public member variable &quot;_attributes&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
+  <error line="470" column="9" severity="warning" message="Public member variable &quot;_name&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
+  <error line="478" column="9" severity="warning" message="Public member variable &quot;_data&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
+  <error line="486" column="9" severity="warning" message="Public member variable &quot;_children&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
+  <error line="494" column="9" severity="warning" message="Public member variable &quot;_level&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
  </file>
  <file name=".../libraries/joomla/utilities/string.php">
  </file>

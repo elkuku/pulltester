@@ -330,7 +330,7 @@
   <error line="191" column="12" severity="warning" message="Protected member variable &quot;_images&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
  </file>
  <file name=".../libraries/joomla/environment/request.php">
-  <error line="609" column="9" severity="warning" message="No scope modifier specified for function &quot;_cleanVar&quot;" source="Joomla.Classes.MethodScope.Missing"/>
+  <error line="607" column="9" severity="warning" message="No scope modifier specified for function &quot;_cleanVar&quot;" source="Joomla.Classes.MethodScope.Missing"/>
  </file>
  <file name=".../libraries/joomla/environment/response.php">
  </file>
@@ -408,9 +408,9 @@
  </file>
  <file name=".../libraries/joomla/filesystem/support/stringcontroller.php">
  </file>
- <file name=".../libraries/joomla/filter/filterinput.php">
+ <file name=".../libraries/joomla/filter/input.php">
  </file>
- <file name=".../libraries/joomla/filter/filteroutput.php">
+ <file name=".../libraries/joomla/filter/output.php">
  </file>
  <file name=".../libraries/joomla/form/fields/accesslevel.php">
  </file>
@@ -592,6 +592,8 @@
  <file name=".../libraries/joomla/html/html/tabs.php">
  </file>
  <file name=".../libraries/joomla/html/html/tel.php">
+ </file>
+ <file name=".../libraries/joomla/html/html/user.php">
  </file>
  <file name=".../libraries/joomla/html/pagination.php">
   <error line="50" column="12" severity="warning" message="Protected member variable &quot;_viewall&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>

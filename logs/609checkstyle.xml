@@ -408,20 +408,6 @@
  </file>
  <file name=".../libraries/joomla/filesystem/support/stringcontroller.php">
  </file>
- <file name=".../libraries/joomla/filter/filterinput.php">
-  <error line="4" column="1" severity="error" message="@deprecated tag comment indented incorrectly; expected 1 spaces but found 7" source="Joomla.Commenting.FileComment.TagIndent"/>
-  <error line="5" column="1" severity="error" message="Missing @package tag in file comment" source="Joomla.Commenting.FileComment.MissingTag"/>
-  <error line="5" column="1" severity="error" message="Missing @copyright tag in file comment" source="Joomla.Commenting.FileComment.MissingTag"/>
-  <error line="5" column="1" severity="error" message="Missing @license tag in file comment" source="Joomla.Commenting.FileComment.MissingTag"/>
-  <error line="11" column="1" severity="error" message="Additional whitespace found at end of file" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
- </file>
- <file name=".../libraries/joomla/filter/filteroutput.php">
-  <error line="4" column="1" severity="error" message="@deprecated tag comment indented incorrectly; expected 1 spaces but found 7" source="Joomla.Commenting.FileComment.TagIndent"/>
-  <error line="5" column="1" severity="error" message="Missing @package tag in file comment" source="Joomla.Commenting.FileComment.MissingTag"/>
-  <error line="5" column="1" severity="error" message="Missing @copyright tag in file comment" source="Joomla.Commenting.FileComment.MissingTag"/>
-  <error line="5" column="1" severity="error" message="Missing @license tag in file comment" source="Joomla.Commenting.FileComment.MissingTag"/>
-  <error line="11" column="1" severity="error" message="Additional whitespace found at end of file" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
- </file>
  <file name=".../libraries/joomla/filter/input.php">
  </file>
  <file name=".../libraries/joomla/filter/output.php">
@@ -914,11 +900,11 @@
   <error line="26" column="12" severity="warning" message="Protected member variable &quot;_key&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
  </file>
  <file name=".../libraries/joomla/utilities/simplexml.php">
-  <error line="470" column="9" severity="warning" message="Public member variable &quot;_attributes&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
-  <error line="478" column="9" severity="warning" message="Public member variable &quot;_name&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
-  <error line="486" column="9" severity="warning" message="Public member variable &quot;_data&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
-  <error line="494" column="9" severity="warning" message="Public member variable &quot;_children&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
-  <error line="502" column="9" severity="warning" message="Public member variable &quot;_level&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
+  <error line="462" column="9" severity="warning" message="Public member variable &quot;_attributes&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
+  <error line="470" column="9" severity="warning" message="Public member variable &quot;_name&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
+  <error line="478" column="9" severity="warning" message="Public member variable &quot;_data&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
+  <error line="486" column="9" severity="warning" message="Public member variable &quot;_children&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
+  <error line="494" column="9" severity="warning" message="Public member variable &quot;_level&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
  </file>
  <file name=".../libraries/joomla/utilities/string.php">
  </file>
