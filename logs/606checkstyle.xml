@@ -470,11 +470,6 @@
  </file>
  <file name=".../libraries/joomla/form/fields/password.php">
  </file>
- <file name=".../libraries/joomla/form/fields/plugins.php">
-  <error line="18" column="1" severity="error" message="@package tag comment indented incorrectly; expected 4 spaces but found 4" source="Joomla.Commenting.ClassComment.TagIndent"/>
-  <error line="19" column="1" severity="error" message="@subpackage tag comment indented incorrectly; expected 1 spaces but found 1" source="Joomla.Commenting.ClassComment.TagIndent"/>
-  <error line="20" column="1" severity="error" message="@since tag comment indented incorrectly; expected 6 spaces but found 6" source="Joomla.Commenting.ClassComment.TagIndent"/>
- </file>
  <file name=".../libraries/joomla/form/fields/radio.php">
  </file>
  <file name=".../libraries/joomla/form/fields/rules.php">
