@@ -602,6 +602,8 @@
  </file>
  <file name=".../libraries/joomla/html/html/tel.php">
  </file>
+ <file name=".../libraries/joomla/html/html/user.php">
+ </file>
  <file name=".../libraries/joomla/html/pagination.php">
   <error line="50" column="12" severity="warning" message="Protected member variable &quot;_viewall&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
   <error line="59" column="12" severity="warning" message="Protected member variable &quot;_additionalUrlParams&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>

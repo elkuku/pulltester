@@ -385,7 +385,6 @@
  <file name=".../libraries/joomla/filesystem/folder.php">
  </file>
  <file name=".../libraries/joomla/filesystem/helper.php">
-  <error line="202" column="9" severity="warning" message="No scope modifier specified for function &quot;getWriteModes&quot;" source="Joomla.Classes.MethodScope.Missing"/>
  </file>
  <file name=".../libraries/joomla/filesystem/path.php">
  </file>
@@ -592,6 +591,8 @@
  <file name=".../libraries/joomla/html/html/tabs.php">
  </file>
  <file name=".../libraries/joomla/html/html/tel.php">
+ </file>
+ <file name=".../libraries/joomla/html/html/user.php">
  </file>
  <file name=".../libraries/joomla/html/pagination.php">
   <error line="50" column="12" severity="warning" message="Protected member variable &quot;_viewall&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
