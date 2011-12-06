@@ -854,9 +854,44 @@
  </file>
  <file name=".../libraries/joomla/session/storage/xcache.php">
  </file>
- <file name=".../libraries/joomla/string/normalise.php">
- </file>
  <file name=".../libraries/joomla/string/string.php">
+ </file>
+ <file name=".../libraries/joomla/string/stringinflector.php">
+  <error line="3" column="1" severity="error" message="@package tag comment indented incorrectly; expected 3 spaces but found 5" source="Joomla.Commenting.FileComment.TagIndent"/>
+  <error line="5" column="1" severity="error" message="@copyright tag comment indented incorrectly; expected 1 spaces but found 3" source="Joomla.Commenting.FileComment.TagIndent"/>
+  <error line="6" column="1" severity="error" message="@license tag comment indented incorrectly; expected 3 spaces but found 5" source="Joomla.Commenting.FileComment.TagIndent"/>
+  <error line="18" column="1" severity="error" message="The @since tag is in the wrong order; the tag must follow @see (if used) or @link (if used)" source="Joomla.Commenting.ClassComment.WrongTagOrder"/>
+  <error line="20" column="1" severity="error" message="@link tag comment indented incorrectly; expected 7 spaces but found 0" source="Joomla.Commenting.ClassComment.TagIndent"/>
+  <error line="51" column="1" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
+  <error line="52" column="2" severity="error" message="Doc comment for &quot;$word&quot; missing" source="Joomla.Commenting.FunctionComment.MissingParamTag"/>
+  <error line="61" column="9" severity="warning" message="No scope modifier specified for function &quot;countable&quot;" source="Joomla.Classes.MethodScope.Missing"/>
+  <error line="63" column="11" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+  <error line="63" column="84" severity="error" message="Space found before semicolon; expected &quot;false;&quot; but found &quot;false ;&quot;" source="Joomla.WhiteSpace.SemicolonSpacing.Incorrect"/>
+  <error line="65" column="1" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
+  <error line="66" column="2" severity="error" message="Doc comment for &quot;$word&quot; missing" source="Joomla.Commenting.FunctionComment.MissingParamTag"/>
+  <error line="75" column="9" severity="warning" message="No scope modifier specified for function &quot;pluralize&quot;" source="Joomla.Classes.MethodScope.Missing"/>
+  <error line="77" column="16" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+  <error line="79" column="1" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
+  <error line="80" column="2" severity="error" message="Doc comment for &quot;$word&quot; missing" source="Joomla.Commenting.FunctionComment.MissingParamTag"/>
+  <error line="89" column="9" severity="warning" message="No scope modifier specified for function &quot;singularize&quot;" source="Joomla.Classes.MethodScope.Missing"/>
+  <error line="91" column="16" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+  <error line="93" column="1" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
+  <error line="94" column="2" severity="error" message="Doc comment for &quot;$word&quot; missing" source="Joomla.Commenting.FunctionComment.MissingParamTag"/>
+  <error line="94" column="2" severity="error" message="Doc comment for &quot;$ruletype&quot; missing" source="Joomla.Commenting.FunctionComment.MissingParamTag"/>
+  <error line="104" column="9" severity="warning" message="No scope modifier specified for function &quot;matchRegexRule&quot;" source="Joomla.Classes.MethodScope.Missing"/>
+  <error line="106" column="3" severity="error" message="Expected &quot;if (...)\n&quot;; found &quot;if (...) &quot;" source="Joomla.ControlStructures.ControlSignature"/>
+  <error line="110" column="3" severity="error" message="Expected &quot;foreach (...)\n...{\n&quot;; found &quot;foreach (...) ...{\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
+  <error line="113" column="4" severity="error" message="Expected &quot;if (...)\n&quot;; found &quot;if (...) &quot;" source="Joomla.ControlStructures.ControlSignature"/>
+  <error line="118" column="1" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
+  <error line="121" column="1" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
+  <error line="122" column="2" severity="error" message="Doc comment for &quot;$data&quot; missing" source="Joomla.Commenting.FunctionComment.MissingParamTag"/>
+  <error line="122" column="2" severity="error" message="Doc comment for &quot;$ruletype&quot; missing" source="Joomla.Commenting.FunctionComment.MissingParamTag"/>
+  <error line="132" column="9" severity="warning" message="No scope modifier specified for function &quot;add&quot;" source="Joomla.Classes.MethodScope.Missing"/>
+  <error line="134" column="3" severity="error" message="Expected &quot;if (...)\n&quot;; found &quot;if (...) &quot;" source="Joomla.ControlStructures.ControlSignature"/>
+  <error line="134" column="8" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
+  <error line="137" column="1" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
+  <error line="139" column="1" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
+  <error line="142" column="1" severity="error" message="Please end your files with an empty line." source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
  </file>
  <file name=".../libraries/joomla/string/stringnormalize.php">
  </file>

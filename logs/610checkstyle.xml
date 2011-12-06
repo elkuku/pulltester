@@ -312,8 +312,8 @@
  <file name=".../libraries/joomla/database/importer/mysqli.php">
  </file>
  <file name=".../libraries/joomla/database/query.php">
-  <error line="1196" column="1" severity="error" message="Expected 2 spaces after the longest type" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType"/>
-  <error line="1196" column="1" severity="error" message="Expected 2 spaces after the longest variable name" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName"/>
+  <error line="1225" column="1" severity="error" message="Expected 2 spaces after the longest type" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType"/>
+  <error line="1225" column="1" severity="error" message="Expected 2 spaces after the longest variable name" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName"/>
  </file>
  <file name=".../libraries/joomla/database/query/limitable.php">
   <error line="32" column="1" severity="error" message="Expected 2 spaces after the longest type" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType"/>
