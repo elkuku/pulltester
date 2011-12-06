@@ -300,6 +300,24 @@
  </file>
  <file name=".../libraries/joomla/database/driver/sqlazure.php">
  </file>
+ <file name=".../libraries/joomla/database/driver/sqlite.php">
+  <error line="145" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
+  <error line="147" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
+  <error line="149" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
+  <error line="153" column="3" severity="error" message="Expected &quot;if (...)\n...{...}\n...else\n&quot;; found &quot;if(...)\n...{...}\n...else\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
+  <error line="200" column="3" severity="error" message="Expected &quot;foreach (...)\n...{\n&quot;; found &quot;foreach(...)\n...{\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
+  <error line="214" column="1" severity="error" message="There must be exactly one blank line before the tags in function comment" source="Joomla.Commenting.FunctionComment.SpacingBeforeTags"/>
+  <error line="217" column="1" severity="error" message="Superfluous doc comment at position 1" source="Joomla.Commenting.FunctionComment.ExtraParamComment"/>
+  <error line="217" column="1" severity="error" message="Expected 2 spaces after the longest variable name" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName"/>
+  <error line="218" column="1" severity="error" message="Last parameter comment requires a blank newline after it" source="Joomla.Commenting.FunctionComment.SpacingAfterParams"/>
+  <error line="218" column="1" severity="error" message="The comments for parameters The (1) and Whether (2) do not align" source="Joomla.Commenting.FunctionComment.ParameterCommentsNotAligned"/>
+  <error line="218" column="1" severity="error" message="Superfluous doc comment at position 2" source="Joomla.Commenting.FunctionComment.ExtraParamComment"/>
+  <error line="218" column="1" severity="error" message="Expected 2 spaces after the longest type" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType"/>
+  <error line="236" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
+  <error line="253" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
+  <error line="255" column="1" severity="error" message="Functions and classes must not contain multiple empty lines in a row; found 2 empty lines" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
+  <error line="299" column="1" severity="error" message="Please end your files with an empty line." source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
+ </file>
  <file name=".../libraries/joomla/database/driver/sqlsrv.php">
   <error line="241" column="2" severity="warning" message="No scope modifier specified for function &quot;dropTable&quot;" source="Joomla.Classes.MethodScope.Missing"/>
  </file>
@@ -368,6 +386,22 @@
   <error line="47" column="2" severity="error" message="Doc comment for &quot;$key&quot; missing" source="Joomla.Commenting.FunctionComment.MissingParamTag"/>
  </file>
  <file name=".../libraries/joomla/database/query/sqlazure.php">
+ </file>
+ <file name=".../libraries/joomla/database/query/sqlite.php">
+  <error line="46" column="1" severity="error" message="Expected 3 spaces before variable type" source="Joomla.Commenting.FunctionComment.BeforeParamType"/>
+  <error line="50" column="1" severity="error" message="Expected 3 spaces before variable type" source="Joomla.Commenting.FunctionComment.BeforeParamType"/>
+  <error line="50" column="1" severity="error" message="The comments for parameters $key (1) and $value (2) do not align" source="Joomla.Commenting.FunctionComment.ParameterCommentsNotAligned"/>
+  <error line="51" column="1" severity="error" message="Expected 3 spaces before variable type" source="Joomla.Commenting.FunctionComment.BeforeParamType"/>
+  <error line="51" column="1" severity="error" message="The comments for parameters $value (2) and $dataType (3) do not align" source="Joomla.Commenting.FunctionComment.ParameterCommentsNotAligned"/>
+  <error line="52" column="1" severity="error" message="Expected 3 spaces before variable type" source="Joomla.Commenting.FunctionComment.BeforeParamType"/>
+  <error line="54" column="1" severity="error" message="Expected 3 spaces before variable type" source="Joomla.Commenting.FunctionComment.BeforeParamType"/>
+  <error line="56" column="1" severity="error" message="Return comment requires a blank newline after it" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn"/>
+  <error line="92" column="2" severity="error" message="Doc comment for &quot;$key&quot; missing" source="Joomla.Commenting.FunctionComment.MissingParamTag"/>
+  <error line="97" column="1" severity="error" message="Return comment requires a blank newline after it" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn"/>
+  <error line="146" column="1" severity="error" message="Expected 2 spaces after the longest type" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType"/>
+  <error line="170" column="1" severity="error" message="Expected 2 spaces after the longest type" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType"/>
+  <error line="171" column="1" severity="error" message="Expected 2 spaces after the longest variable name" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName"/>
+  <error line="184" column="1" severity="error" message="Please end your files with an empty line." source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
  </file>
  <file name=".../libraries/joomla/database/query/sqlsrv.php">
  </file>

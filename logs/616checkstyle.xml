@@ -188,7 +188,6 @@
   <error line="31" column="9" severity="warning" message="No scope modifier specified for function &quot;test&quot;" source="Joomla.Classes.MethodScope.Missing"/>
  </file>
  <file name=".../libraries/joomla/database/database/mysql.php">
-  <error line="825" column="4" severity="warning" message="Inline control structures are discouraged" source="Joomla.ControlStructures.InlineControlStructure.Discouraged"/>
  </file>
  <file name=".../libraries/joomla/database/database/mysqlexporter.php">
  </file>
@@ -203,10 +202,6 @@
  <file name=".../libraries/joomla/database/database/mysqliquery.php">
  </file>
  <file name=".../libraries/joomla/database/database/mysqlquery.php">
- </file>
- <file name=".../libraries/joomla/database/database/postgresql.php">
- </file>
- <file name=".../libraries/joomla/database/database/postgresqlquery.php">
  </file>
  <file name=".../libraries/joomla/database/database/sqlazure.php">
  </file>
@@ -400,6 +395,8 @@
   <error line="115" column="12" severity="warning" message="Protected member variable &quot;_context&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
   <error line="122" column="12" severity="warning" message="Protected member variable &quot;_contextOptions&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
   <error line="129" column="12" severity="warning" message="Protected member variable &quot;_openmode&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
+ </file>
+ <file name=".../libraries/joomla/filesystem/streams/memory.php">
  </file>
  <file name=".../libraries/joomla/filesystem/streams/string.php">
   <error line="32" column="12" severity="warning" message="Protected member variable &quot;_currentstring&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>

@@ -18,21 +18,21 @@ Fatal error: Class 'JDatabaseExporterMySql' not found in .../tests/suite/joomla/
 
 Call Stack:
     0.0001     326280   1. {main}() .../bin/phpunit:0
-    0.0031     702324   2. PHPUnit_TextUI_Command::main() .../bin/phpunit:44
+    0.0030     702324   2. PHPUnit_TextUI_Command::main() .../bin/phpunit:44
     0.0031     702660   3. PHPUnit_TextUI_Command->run() .../lib/php/PHPUnit/TextUI/Command.php:125
     0.0031     702660   4. PHPUnit_TextUI_Command->handleArguments() .../lib/php/PHPUnit/TextUI/Command.php:134
-    0.0143    2456756   5. PHPUnit_Util_Configuration->getTestSuiteConfiguration() .../lib/php/PHPUnit/TextUI/Command.php:670
-    0.0143    2457300   6. PHPUnit_Util_Configuration->getTestSuite() .../lib/php/PHPUnit/Util/Configuration.php:768
-    0.0410    2735344   7. PHPUnit_Framework_TestSuite->addTestFiles() .../lib/php/PHPUnit/Util/Configuration.php:848
-    0.2887   18269104   8. PHPUnit_Framework_TestSuite->addTestFile() .../lib/php/PHPUnit/Framework/TestSuite.php:419
-    0.2888   18269300   9. PHPUnit_Util_Fileloader::checkAndLoad() .../lib/php/PHPUnit/Framework/TestSuite.php:358
-    0.2888   18269472  10. PHPUnit_Util_Fileloader::load() .../lib/php/PHPUnit/Util/Fileloader.php:79
-    0.2894   18407416  11. include_once('.../tests/suite/joomla/database/database/JDatabaseExporterMySqlTest.php') .../lib/php/PHPUnit/Util/Fileloader.php:95
-    0.2895   18421480  12. require_once('.../tests/suite/joomla/database/database/JDatabaseExporterMySqlInspector.php') .../tests/suite/joomla/database/database/JDatabaseExporterMySqlTest.php:7
+    0.0148    2456756   5. PHPUnit_Util_Configuration->getTestSuiteConfiguration() .../lib/php/PHPUnit/TextUI/Command.php:670
+    0.0148    2457300   6. PHPUnit_Util_Configuration->getTestSuite() .../lib/php/PHPUnit/Util/Configuration.php:768
+    0.0428    2735344   7. PHPUnit_Framework_TestSuite->addTestFiles() .../lib/php/PHPUnit/Util/Configuration.php:848
+    0.2906   18269104   8. PHPUnit_Framework_TestSuite->addTestFile() .../lib/php/PHPUnit/Framework/TestSuite.php:419
+    0.2907   18269300   9. PHPUnit_Util_Fileloader::checkAndLoad() .../lib/php/PHPUnit/Framework/TestSuite.php:358
+    0.2907   18269472  10. PHPUnit_Util_Fileloader::load() .../lib/php/PHPUnit/Util/Fileloader.php:79
+    0.2913   18407416  11. include_once('.../tests/suite/joomla/database/database/JDatabaseExporterMySqlTest.php') .../lib/php/PHPUnit/Util/Fileloader.php:95
+    0.2914   18421480  12. require_once('.../tests/suite/joomla/database/database/JDatabaseExporterMySqlInspector.php') .../tests/suite/joomla/database/database/JDatabaseExporterMySqlTest.php:7
 
 </pre>
 <h2>Checkstyle</h2>
-<p class="img24 img-warn">There were 255 warnings and 117 errors. <a href="../logs/610checkstyle.xml">Checkstyle Log (XML)</a></p>
+<p class="img24 img-warn">There were 255 warnings and 147 errors. <a href="../logs/610checkstyle.xml">Checkstyle Log (XML)</a></p>
 <h3>Errors</h3>
 <ul class="phpcs">
 <li><tt>libraries/joomla/database/database.php:633</tt><br />
@@ -185,6 +185,38 @@ Call Stack:
 <em>Expected 2 spaces after the longest variable name</em></li>
 <li><tt>libraries/joomla/database/driver/pdo.php:817</tt><br />
 <em>Please end your files with an empty line.</em></li>
+<li><tt>libraries/joomla/database/driver/sqlite.php:145</tt><br />
+<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
+<li><tt>libraries/joomla/database/driver/sqlite.php:147</tt><br />
+<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
+<li><tt>libraries/joomla/database/driver/sqlite.php:149</tt><br />
+<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
+<li><tt>libraries/joomla/database/driver/sqlite.php:153</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if(...)\n...{...}\n...else\n"</em></li>
+<li><tt>libraries/joomla/database/driver/sqlite.php:200</tt><br />
+<em>Expected "foreach (...)\n...{\n"; found "foreach(...)\n...{\n"</em></li>
+<li><tt>libraries/joomla/database/driver/sqlite.php:214</tt><br />
+<em>There must be exactly one blank line before the tags in function comment</em></li>
+<li><tt>libraries/joomla/database/driver/sqlite.php:217</tt><br />
+<em>Superfluous doc comment at position 1</em></li>
+<li><tt>libraries/joomla/database/driver/sqlite.php:217</tt><br />
+<em>Expected 2 spaces after the longest variable name</em></li>
+<li><tt>libraries/joomla/database/driver/sqlite.php:218</tt><br />
+<em>Last parameter comment requires a blank newline after it</em></li>
+<li><tt>libraries/joomla/database/driver/sqlite.php:218</tt><br />
+<em>The comments for parameters The (1) and Whether (2) do not align</em></li>
+<li><tt>libraries/joomla/database/driver/sqlite.php:218</tt><br />
+<em>Superfluous doc comment at position 2</em></li>
+<li><tt>libraries/joomla/database/driver/sqlite.php:218</tt><br />
+<em>Expected 2 spaces after the longest type</em></li>
+<li><tt>libraries/joomla/database/driver/sqlite.php:236</tt><br />
+<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
+<li><tt>libraries/joomla/database/driver/sqlite.php:253</tt><br />
+<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
+<li><tt>libraries/joomla/database/driver/sqlite.php:255</tt><br />
+<em>Functions and classes must not contain multiple empty lines in a row; found 2 empty lines</em></li>
+<li><tt>libraries/joomla/database/driver/sqlite.php:299</tt><br />
+<em>Please end your files with an empty line.</em></li>
 <li><tt>libraries/joomla/database/query.php:1225</tt><br />
 <em>Expected 2 spaces after the longest type</em></li>
 <li><tt>libraries/joomla/database/query.php:1225</tt><br />
@@ -269,9 +301,37 @@ Call Stack:
 <em>The variable names for parameters $length (4) and $driverOptions (5) do not align</em></li>
 <li><tt>libraries/joomla/database/query/preparable.php:47</tt><br />
 <em>Doc comment for "$key" missing</em></li>
+<li><tt>libraries/joomla/database/query/sqlite.php:46</tt><br />
+<em>Expected 3 spaces before variable type</em></li>
+<li><tt>libraries/joomla/database/query/sqlite.php:50</tt><br />
+<em>Expected 3 spaces before variable type</em></li>
+<li><tt>libraries/joomla/database/query/sqlite.php:50</tt><br />
+<em>The comments for parameters $key (1) and $value (2) do not align</em></li>
+<li><tt>libraries/joomla/database/query/sqlite.php:51</tt><br />
+<em>Expected 3 spaces before variable type</em></li>
+<li><tt>libraries/joomla/database/query/sqlite.php:51</tt><br />
+<em>The comments for parameters $value (2) and $dataType (3) do not align</em></li>
+<li><tt>libraries/joomla/database/query/sqlite.php:52</tt><br />
+<em>Expected 3 spaces before variable type</em></li>
+<li><tt>libraries/joomla/database/query/sqlite.php:54</tt><br />
+<em>Expected 3 spaces before variable type</em></li>
+<li><tt>libraries/joomla/database/query/sqlite.php:56</tt><br />
+<em>Return comment requires a blank newline after it</em></li>
+<li><tt>libraries/joomla/database/query/sqlite.php:92</tt><br />
+<em>Doc comment for "$key" missing</em></li>
+<li><tt>libraries/joomla/database/query/sqlite.php:97</tt><br />
+<em>Return comment requires a blank newline after it</em></li>
+<li><tt>libraries/joomla/database/query/sqlite.php:146</tt><br />
+<em>Expected 2 spaces after the longest type</em></li>
+<li><tt>libraries/joomla/database/query/sqlite.php:170</tt><br />
+<em>Expected 2 spaces after the longest type</em></li>
+<li><tt>libraries/joomla/database/query/sqlite.php:171</tt><br />
+<em>Expected 2 spaces after the longest variable name</em></li>
+<li><tt>libraries/joomla/database/query/sqlite.php:184</tt><br />
+<em>Please end your files with an empty line.</em></li>
 </ul>
 <a href="../index.html">&lArr; Index &lArr;</a>
-<div class="footer">Generated on 06-Dec-2011 12:14 -05:00 ECT America/Guayaquil
+<div class="footer">Generated on 06-Dec-2011 17:25 -05:00 ECT America/Guayaquil
 <div class="myLinx"><em>BTW</em>: If you want to run this tests on your own machine - The source code is <a href="https://github.com/elkuku/pulltester/tree/testing1">available on GitHub</a> and is based on <a href="https://github.com/ianmacl/pulltester">Ian McLennan's PullTester</a> =;)</div>
 </div>
 </body>
