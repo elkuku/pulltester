@@ -12,25 +12,83 @@
 <p class="title">JStringInflector</p>
 <div class="clr"></div>
 <h2>Unit Tests</h2>
-<p class="img24 img-warn">There were 0 failures and  1 errors. <a href="../logs/612junit.xml">Unit Test Log (XML)</a></p>
-<h3>Errors</h3>
-<ol>
-<li><pre class="debug">JHtmlFormTest::testToken
-session_start(): Cannot send session cookie - headers already sent by (output started at .../lib/php/PHPUnit/Util/Printer.php:173)
-
-.../libraries/joomla/session/session.php:492
-.../libraries/joomla/session/session.php:118
-.../libraries/joomla/session/session.php:155
-.../libraries/joomla/factory.php:661
-.../libraries/joomla/factory.php:152
-.../libraries/joomla/utilities/utility.php:119
-.../tests/suite/joomla/html/html/JHtmlFormTest.php:24
-</pre></li>
-</ol>
+<p class="img24 img-success">There were 0 failures and  0 errors. <a href="../logs/612junit.xml">Unit Test Log (XML)</a></p>
 <h2>Checkstyle</h2>
-<p class="img24 img-warn">There were 255 warnings and 36 errors. <a href="../logs/612checkstyle.xml">Checkstyle Log (XML)</a></p>
+<p class="img24 img-warn">There were 256 warnings and 72 errors. <a href="../logs/612checkstyle.xml">Checkstyle Log (XML)</a></p>
 <h3>Errors</h3>
 <ul class="phpcs">
+<li><tt>libraries/joomla/string/inflector.php:19</tt><br />
+<em>The @since tag is in the wrong order; the tag must follow @see (if used) or @link (if used)</em></li>
+<li><tt>libraries/joomla/string/inflector.php:20</tt><br />
+<em>@link tag comment indented incorrectly; expected 7 spaces but found 0</em></li>
+<li><tt>libraries/joomla/string/inflector.php:51</tt><br />
+<em>Whitespace found at end of line</em></li>
+<li><tt>libraries/joomla/string/inflector.php:62</tt><br />
+<em>Whitespace found at end of line</em></li>
+<li><tt>libraries/joomla/string/inflector.php:62</tt><br />
+<em>Functions and classes must not contain multiple empty lines in a row; found 2 empty lines</em></li>
+<li><tt>libraries/joomla/string/inflector.php:63</tt><br />
+<em>Whitespace found at end of line</em></li>
+<li><tt>libraries/joomla/string/inflector.php:67</tt><br />
+<em>Expected 2 spaces after the longest variable name</em></li>
+<li><tt>libraries/joomla/string/inflector.php:75</tt><br />
+<em>No space found after comma in function call</em></li>
+<li><tt>libraries/joomla/string/inflector.php:75</tt><br />
+<em>Space found before semicolon; expected "false;" but found "false ;"</em></li>
+<li><tt>libraries/joomla/string/inflector.php:77</tt><br />
+<em>Whitespace found at end of line</em></li>
+<li><tt>libraries/joomla/string/inflector.php:81</tt><br />
+<em>Expected 2 spaces after the longest variable name</em></li>
+<li><tt>libraries/joomla/string/inflector.php:89</tt><br />
+<em>No space found after comma in function call</em></li>
+<li><tt>libraries/joomla/string/inflector.php:91</tt><br />
+<em>Whitespace found at end of line</em></li>
+<li><tt>libraries/joomla/string/inflector.php:95</tt><br />
+<em>Doc comment for var [ UNKNOWN ] does not match actual variable name $word at position 1</em></li>
+<li><tt>libraries/joomla/string/inflector.php:95</tt><br />
+<em>Missing parameter name at position 1</em></li>
+<li><tt>libraries/joomla/string/inflector.php:95</tt><br />
+<em>Missing comment for param "[ UNKNOWN ]" at position 1</em></li>
+<li><tt>libraries/joomla/string/inflector.php:103</tt><br />
+<em>No space found after comma in function call</em></li>
+<li><tt>libraries/joomla/string/inflector.php:105</tt><br />
+<em>Whitespace found at end of line</em></li>
+<li><tt>libraries/joomla/string/inflector.php:109</tt><br />
+<em>Expected 2 spaces after the longest variable name</em></li>
+<li><tt>libraries/joomla/string/inflector.php:110</tt><br />
+<em>The comments for parameters $word (1) and $ruletype (2) do not align</em></li>
+<li><tt>libraries/joomla/string/inflector.php:118</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/string/inflector.php:122</tt><br />
+<em>Expected "foreach (...)\n...{\n"; found "foreach (...) ...{\n"</em></li>
+<li><tt>libraries/joomla/string/inflector.php:123</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/string/inflector.php:126</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/string/inflector.php:132</tt><br />
+<em>Whitespace found at end of line</em></li>
+<li><tt>libraries/joomla/string/inflector.php:135</tt><br />
+<em>Whitespace found at end of line</em></li>
+<li><tt>libraries/joomla/string/inflector.php:139</tt><br />
+<em>Doc comment for var string does not match actual variable name $data at position 1</em></li>
+<li><tt>libraries/joomla/string/inflector.php:139</tt><br />
+<em>Expected 2 spaces after the longest variable name</em></li>
+<li><tt>libraries/joomla/string/inflector.php:140</tt><br />
+<em>The comments for parameters string (1) and alias (2) do not align</em></li>
+<li><tt>libraries/joomla/string/inflector.php:140</tt><br />
+<em>Doc comment for var alias does not match actual variable name $ruletype at position 2</em></li>
+<li><tt>libraries/joomla/string/inflector.php:148</tt><br />
+<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
+<li><tt>libraries/joomla/string/inflector.php:151</tt><br />
+<em>Usage of ELSE IF is not allowed; use ELSEIF instead</em></li>
+<li><tt>libraries/joomla/string/inflector.php:151</tt><br />
+<em>Expected "if (...)\n"; found "if (...) "</em></li>
+<li><tt>libraries/joomla/string/inflector.php:154</tt><br />
+<em>Whitespace found at end of line</em></li>
+<li><tt>libraries/joomla/string/inflector.php:156</tt><br />
+<em>Whitespace found at end of line</em></li>
+<li><tt>libraries/joomla/string/inflector.php:159</tt><br />
+<em>Please end your files with an empty line.</em></li>
 <li><tt>libraries/joomla/string/stringinflector.php:19</tt><br />
 <em>The @since tag is in the wrong order; the tag must follow @see (if used) or @link (if used)</em></li>
 <li><tt>libraries/joomla/string/stringinflector.php:20</tt><br />
@@ -105,7 +163,7 @@ session_start(): Cannot send session cookie - headers already sent by (output st
 <em>Please end your files with an empty line.</em></li>
 </ul>
 <a href="../index.html">&lArr; Index &lArr;</a>
-<div class="footer">Generated on 06-Dec-2011 12:13 -05:00 ECT America/Guayaquil
+<div class="footer">Generated on 07-Dec-2011 15:17 -05:00 ECT America/Guayaquil
 <div class="myLinx"><em>BTW</em>: If you want to run this tests on your own machine - The source code is <a href="https://github.com/elkuku/pulltester/tree/testing1">available on GitHub</a> and is based on <a href="https://github.com/ianmacl/pulltester">Ian McLennan's PullTester</a> =;)</div>
 </div>
 </body>

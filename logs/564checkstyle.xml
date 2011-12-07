@@ -7,7 +7,7 @@
  <file name=".../libraries/joomla/access/rules.php">
  </file>
  <file name=".../libraries/joomla/application/application.php">
-  <error line="1183" column="9" severity="warning" message="No scope modifier specified for function &quot;isWinOS&quot;" source="Joomla.Classes.MethodScope.Missing"/>
+  <error line="1181" column="9" severity="warning" message="No scope modifier specified for function &quot;isWinOS&quot;" source="Joomla.Classes.MethodScope.Missing"/>
  </file>
  <file name=".../libraries/joomla/application/applicationexception.php">
  </file>
@@ -174,8 +174,8 @@
   <error line="39" column="12" severity="warning" message="Protected member variable &quot;_tbl_key&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
   <error line="47" column="12" severity="warning" message="Protected member variable &quot;_db&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
   <error line="55" column="12" severity="warning" message="Protected member variable &quot;_trackAssets&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
-  <error line="62" column="12" severity="warning" message="Protected member variable &quot;_rules&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
-  <error line="70" column="12" severity="warning" message="Protected member variable &quot;_locked&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
+  <error line="63" column="12" severity="warning" message="Protected member variable &quot;_rules&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
+  <error line="71" column="12" severity="warning" message="Protected member variable &quot;_locked&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
  </file>
  <file name=".../libraries/joomla/database/table/asset.php">
  </file>
@@ -423,6 +423,8 @@
  <file name=".../libraries/joomla/form/fields/modulelayout.php">
  </file>
  <file name=".../libraries/joomla/form/fields/password.php">
+ </file>
+ <file name=".../libraries/joomla/form/fields/plugins.php">
  </file>
  <file name=".../libraries/joomla/form/fields/radio.php">
  </file>
@@ -809,6 +811,8 @@
  <file name=".../libraries/joomla/session/storage/wincache.php">
  </file>
  <file name=".../libraries/joomla/session/storage/xcache.php">
+ </file>
+ <file name=".../libraries/joomla/string/normalise.php">
  </file>
  <file name=".../libraries/joomla/string/string.php">
  </file>
