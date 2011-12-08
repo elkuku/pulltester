@@ -12,158 +12,44 @@
 <p class="title">JStringInflector</p>
 <div class="clr"></div>
 <h2>Unit Tests</h2>
-<p class="img24 img-success">There were 0 failures and  0 errors. <a href="../logs/612junit.xml">Unit Test Log (XML)</a></p>
+<h3 class="img24 img-fail">Unit Tests log missing. Tests failed to execute.</h3>
+<pre class="debug">
+Warning: require_once(.../libraries/joomla/string/stringinflector.php): failed to open stream: No such file or directory in .../tests/suite/joomla/string/JStringInflectorTest.php on line 10
+
+Call Stack:
+    0.0001     326280   1. {main}() .../bin/phpunit:0
+    0.1617     702324   2. PHPUnit_TextUI_Command::main() .../bin/phpunit:44
+    0.1617     702660   3. PHPUnit_TextUI_Command->run() .../lib/php/PHPUnit/TextUI/Command.php:125
+    0.1617     702660   4. PHPUnit_TextUI_Command->handleArguments() .../lib/php/PHPUnit/TextUI/Command.php:134
+    0.3330    2456756   5. PHPUnit_Util_Configuration->getTestSuiteConfiguration() .../lib/php/PHPUnit/TextUI/Command.php:670
+    0.3331    2457300   6. PHPUnit_Util_Configuration->getTestSuite() .../lib/php/PHPUnit/Util/Configuration.php:768
+    0.3733    2735756   7. PHPUnit_Framework_TestSuite->addTestFiles() .../lib/php/PHPUnit/Util/Configuration.php:848
+    2.2367   48745804   8. PHPUnit_Framework_TestSuite->addTestFile() .../lib/php/PHPUnit/Framework/TestSuite.php:419
+    2.2370   48746076   9. PHPUnit_Util_Fileloader::checkAndLoad() .../lib/php/PHPUnit/Framework/TestSuite.php:358
+    2.2370   48746232  10. PHPUnit_Util_Fileloader::load() .../lib/php/PHPUnit/Util/Fileloader.php:79
+    2.2372   48813652  11. include_once('.../tests/suite/joomla/string/JStringInflectorTest.php') .../lib/php/PHPUnit/Util/Fileloader.php:95
+
+
+Fatal error: require_once(): Failed opening required '.../libraries/joomla/string/stringinflector.php' (include_path='.:.../lib/php') in .../tests/suite/joomla/string/JStringInflectorTest.php on line 10
+
+Call Stack:
+    0.0001     326280   1. {main}() .../bin/phpunit:0
+    0.1617     702324   2. PHPUnit_TextUI_Command::main() .../bin/phpunit:44
+    0.1617     702660   3. PHPUnit_TextUI_Command->run() .../lib/php/PHPUnit/TextUI/Command.php:125
+    0.1617     702660   4. PHPUnit_TextUI_Command->handleArguments() .../lib/php/PHPUnit/TextUI/Command.php:134
+    0.3330    2456756   5. PHPUnit_Util_Configuration->getTestSuiteConfiguration() .../lib/php/PHPUnit/TextUI/Command.php:670
+    0.3331    2457300   6. PHPUnit_Util_Configuration->getTestSuite() .../lib/php/PHPUnit/Util/Configuration.php:768
+    0.3733    2735756   7. PHPUnit_Framework_TestSuite->addTestFiles() .../lib/php/PHPUnit/Util/Configuration.php:848
+    2.2367   48745804   8. PHPUnit_Framework_TestSuite->addTestFile() .../lib/php/PHPUnit/Framework/TestSuite.php:419
+    2.2370   48746076   9. PHPUnit_Util_Fileloader::checkAndLoad() .../lib/php/PHPUnit/Framework/TestSuite.php:358
+    2.2370   48746232  10. PHPUnit_Util_Fileloader::load() .../lib/php/PHPUnit/Util/Fileloader.php:79
+    2.2372   48813652  11. include_once('.../tests/suite/joomla/string/JStringInflectorTest.php') .../lib/php/PHPUnit/Util/Fileloader.php:95
+
+</pre>
 <h2>Checkstyle</h2>
-<p class="img24 img-warn">There were 256 warnings and 72 errors. <a href="../logs/612checkstyle.xml">Checkstyle Log (XML)</a></p>
-<h3>Errors</h3>
-<ul class="phpcs">
-<li><tt>libraries/joomla/string/inflector.php:19</tt><br />
-<em>The @since tag is in the wrong order; the tag must follow @see (if used) or @link (if used)</em></li>
-<li><tt>libraries/joomla/string/inflector.php:20</tt><br />
-<em>@link tag comment indented incorrectly; expected 7 spaces but found 0</em></li>
-<li><tt>libraries/joomla/string/inflector.php:51</tt><br />
-<em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/string/inflector.php:62</tt><br />
-<em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/string/inflector.php:62</tt><br />
-<em>Functions and classes must not contain multiple empty lines in a row; found 2 empty lines</em></li>
-<li><tt>libraries/joomla/string/inflector.php:63</tt><br />
-<em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/string/inflector.php:67</tt><br />
-<em>Expected 2 spaces after the longest variable name</em></li>
-<li><tt>libraries/joomla/string/inflector.php:75</tt><br />
-<em>No space found after comma in function call</em></li>
-<li><tt>libraries/joomla/string/inflector.php:75</tt><br />
-<em>Space found before semicolon; expected "false;" but found "false ;"</em></li>
-<li><tt>libraries/joomla/string/inflector.php:77</tt><br />
-<em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/string/inflector.php:81</tt><br />
-<em>Expected 2 spaces after the longest variable name</em></li>
-<li><tt>libraries/joomla/string/inflector.php:89</tt><br />
-<em>No space found after comma in function call</em></li>
-<li><tt>libraries/joomla/string/inflector.php:91</tt><br />
-<em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/string/inflector.php:95</tt><br />
-<em>Doc comment for var [ UNKNOWN ] does not match actual variable name $word at position 1</em></li>
-<li><tt>libraries/joomla/string/inflector.php:95</tt><br />
-<em>Missing parameter name at position 1</em></li>
-<li><tt>libraries/joomla/string/inflector.php:95</tt><br />
-<em>Missing comment for param "[ UNKNOWN ]" at position 1</em></li>
-<li><tt>libraries/joomla/string/inflector.php:103</tt><br />
-<em>No space found after comma in function call</em></li>
-<li><tt>libraries/joomla/string/inflector.php:105</tt><br />
-<em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/string/inflector.php:109</tt><br />
-<em>Expected 2 spaces after the longest variable name</em></li>
-<li><tt>libraries/joomla/string/inflector.php:110</tt><br />
-<em>The comments for parameters $word (1) and $ruletype (2) do not align</em></li>
-<li><tt>libraries/joomla/string/inflector.php:118</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/string/inflector.php:122</tt><br />
-<em>Expected "foreach (...)\n...{\n"; found "foreach (...) ...{\n"</em></li>
-<li><tt>libraries/joomla/string/inflector.php:123</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/string/inflector.php:126</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/string/inflector.php:132</tt><br />
-<em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/string/inflector.php:135</tt><br />
-<em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/string/inflector.php:139</tt><br />
-<em>Doc comment for var string does not match actual variable name $data at position 1</em></li>
-<li><tt>libraries/joomla/string/inflector.php:139</tt><br />
-<em>Expected 2 spaces after the longest variable name</em></li>
-<li><tt>libraries/joomla/string/inflector.php:140</tt><br />
-<em>The comments for parameters string (1) and alias (2) do not align</em></li>
-<li><tt>libraries/joomla/string/inflector.php:140</tt><br />
-<em>Doc comment for var alias does not match actual variable name $ruletype at position 2</em></li>
-<li><tt>libraries/joomla/string/inflector.php:148</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/string/inflector.php:151</tt><br />
-<em>Usage of ELSE IF is not allowed; use ELSEIF instead</em></li>
-<li><tt>libraries/joomla/string/inflector.php:151</tt><br />
-<em>Expected "if (...)\n"; found "if (...) "</em></li>
-<li><tt>libraries/joomla/string/inflector.php:154</tt><br />
-<em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/string/inflector.php:156</tt><br />
-<em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/string/inflector.php:159</tt><br />
-<em>Please end your files with an empty line.</em></li>
-<li><tt>libraries/joomla/string/stringinflector.php:19</tt><br />
-<em>The @since tag is in the wrong order; the tag must follow @see (if used) or @link (if used)</em></li>
-<li><tt>libraries/joomla/string/stringinflector.php:20</tt><br />
-<em>@link tag comment indented incorrectly; expected 7 spaces but found 0</em></li>
-<li><tt>libraries/joomla/string/stringinflector.php:51</tt><br />
-<em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/string/stringinflector.php:62</tt><br />
-<em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/string/stringinflector.php:62</tt><br />
-<em>Functions and classes must not contain multiple empty lines in a row; found 2 empty lines</em></li>
-<li><tt>libraries/joomla/string/stringinflector.php:63</tt><br />
-<em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/string/stringinflector.php:67</tt><br />
-<em>Expected 2 spaces after the longest variable name</em></li>
-<li><tt>libraries/joomla/string/stringinflector.php:75</tt><br />
-<em>No space found after comma in function call</em></li>
-<li><tt>libraries/joomla/string/stringinflector.php:75</tt><br />
-<em>Space found before semicolon; expected "false;" but found "false ;"</em></li>
-<li><tt>libraries/joomla/string/stringinflector.php:77</tt><br />
-<em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/string/stringinflector.php:81</tt><br />
-<em>Expected 2 spaces after the longest variable name</em></li>
-<li><tt>libraries/joomla/string/stringinflector.php:89</tt><br />
-<em>No space found after comma in function call</em></li>
-<li><tt>libraries/joomla/string/stringinflector.php:91</tt><br />
-<em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/string/stringinflector.php:95</tt><br />
-<em>Doc comment for var [ UNKNOWN ] does not match actual variable name $word at position 1</em></li>
-<li><tt>libraries/joomla/string/stringinflector.php:95</tt><br />
-<em>Missing parameter name at position 1</em></li>
-<li><tt>libraries/joomla/string/stringinflector.php:95</tt><br />
-<em>Missing comment for param "[ UNKNOWN ]" at position 1</em></li>
-<li><tt>libraries/joomla/string/stringinflector.php:103</tt><br />
-<em>No space found after comma in function call</em></li>
-<li><tt>libraries/joomla/string/stringinflector.php:105</tt><br />
-<em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/string/stringinflector.php:109</tt><br />
-<em>Expected 2 spaces after the longest variable name</em></li>
-<li><tt>libraries/joomla/string/stringinflector.php:110</tt><br />
-<em>The comments for parameters $word (1) and $ruletype (2) do not align</em></li>
-<li><tt>libraries/joomla/string/stringinflector.php:118</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/string/stringinflector.php:122</tt><br />
-<em>Expected "foreach (...)\n...{\n"; found "foreach (...) ...{\n"</em></li>
-<li><tt>libraries/joomla/string/stringinflector.php:123</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/string/stringinflector.php:126</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/string/stringinflector.php:132</tt><br />
-<em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/string/stringinflector.php:135</tt><br />
-<em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/string/stringinflector.php:139</tt><br />
-<em>Doc comment for var string does not match actual variable name $data at position 1</em></li>
-<li><tt>libraries/joomla/string/stringinflector.php:139</tt><br />
-<em>Expected 2 spaces after the longest variable name</em></li>
-<li><tt>libraries/joomla/string/stringinflector.php:140</tt><br />
-<em>The comments for parameters string (1) and alias (2) do not align</em></li>
-<li><tt>libraries/joomla/string/stringinflector.php:140</tt><br />
-<em>Doc comment for var alias does not match actual variable name $ruletype at position 2</em></li>
-<li><tt>libraries/joomla/string/stringinflector.php:148</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if (...) ...{...}\n...else "</em></li>
-<li><tt>libraries/joomla/string/stringinflector.php:151</tt><br />
-<em>Usage of ELSE IF is not allowed; use ELSEIF instead</em></li>
-<li><tt>libraries/joomla/string/stringinflector.php:151</tt><br />
-<em>Expected "if (...)\n"; found "if (...) "</em></li>
-<li><tt>libraries/joomla/string/stringinflector.php:154</tt><br />
-<em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/string/stringinflector.php:156</tt><br />
-<em>Whitespace found at end of line</em></li>
-<li><tt>libraries/joomla/string/stringinflector.php:159</tt><br />
-<em>Please end your files with an empty line.</em></li>
-</ul>
+<p class="img24 img-success">There were 254 warnings and  0 errors. <a href="../logs/612checkstyle.xml">Checkstyle Log (XML)</a></p>
 <a href="../index.html">&lArr; Index &lArr;</a>
-<div class="footer">Generated on 07-Dec-2011 15:17 -05:00 ECT America/Guayaquil
+<div class="footer">Generated on 07-Dec-2011 23:40 -05:00 ECT America/Guayaquil
 <div class="myLinx"><em>BTW</em>: If you want to run this tests on your own machine - The source code is <a href="https://github.com/elkuku/pulltester/tree/testing1">available on GitHub</a> and is based on <a href="https://github.com/ianmacl/pulltester">Ian McLennan's PullTester</a> =;)</div>
 </div>
 </body>

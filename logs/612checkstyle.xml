@@ -859,86 +859,10 @@
  <file name=".../libraries/joomla/session/storage/xcache.php">
  </file>
  <file name=".../libraries/joomla/string/inflector.php">
-  <error line="19" column="1" severity="error" message="The @since tag is in the wrong order; the tag must follow @see (if used) or @link (if used)" source="Joomla.Commenting.ClassComment.WrongTagOrder"/>
-  <error line="20" column="1" severity="error" message="@link tag comment indented incorrectly; expected 7 spaces but found 0" source="Joomla.Commenting.ClassComment.TagIndent"/>
-  <error line="51" column="1" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
-  <error line="58" column="19" severity="warning" message="Protected member variable &quot;_cache&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
-  <error line="62" column="1" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
-  <error line="62" column="1" severity="error" message="Functions and classes must not contain multiple empty lines in a row; found 2 empty lines" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
-  <error line="63" column="1" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
-  <error line="67" column="1" severity="error" message="Expected 2 spaces after the longest variable name" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName"/>
-  <error line="75" column="11" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
-  <error line="75" column="84" severity="error" message="Space found before semicolon; expected &quot;false;&quot; but found &quot;false ;&quot;" source="Joomla.WhiteSpace.SemicolonSpacing.Incorrect"/>
-  <error line="77" column="1" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
-  <error line="81" column="1" severity="error" message="Expected 2 spaces after the longest variable name" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName"/>
-  <error line="89" column="16" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
-  <error line="91" column="1" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
-  <error line="95" column="1" severity="error" message="Doc comment for var [ UNKNOWN ] does not match actual variable name $word at position 1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch"/>
-  <error line="95" column="1" severity="error" message="Missing parameter name at position 1" source="Joomla.Commenting.FunctionComment.MissingParamName"/>
-  <error line="95" column="1" severity="error" message="Missing comment for param &quot;[ UNKNOWN ]&quot; at position 1" source="Joomla.Commenting.FunctionComment.MissingParamComment"/>
-  <error line="103" column="16" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
-  <error line="105" column="1" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
-  <error line="109" column="1" severity="error" message="Expected 2 spaces after the longest variable name" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName"/>
-  <error line="110" column="1" severity="error" message="The comments for parameters $word (1) and $ruletype (2) do not align" source="Joomla.Commenting.FunctionComment.ParameterCommentsNotAligned"/>
-  <error line="118" column="3" severity="error" message="Expected &quot;if (...)\n...{...}\n...else\n&quot;; found &quot;if (...) ...{...}\n...else &quot;" source="Joomla.ControlStructures.ControlSignature"/>
-  <error line="122" column="3" severity="error" message="Expected &quot;foreach (...)\n...{\n&quot;; found &quot;foreach (...) ...{\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
-  <error line="123" column="4" severity="error" message="Expected &quot;if (...)\n...{...}\n...else\n&quot;; found &quot;if (...) ...{...}\n...else &quot;" source="Joomla.ControlStructures.ControlSignature"/>
-  <error line="126" column="5" severity="error" message="Expected &quot;if (...)\n...{...}\n...else\n&quot;; found &quot;if (...) ...{...}\n...else &quot;" source="Joomla.ControlStructures.ControlSignature"/>
-  <error line="132" column="1" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
-  <error line="135" column="1" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
-  <error line="139" column="1" severity="error" message="Doc comment for var string does not match actual variable name $data at position 1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch"/>
-  <error line="139" column="1" severity="error" message="Expected 2 spaces after the longest variable name" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName"/>
-  <error line="140" column="1" severity="error" message="The comments for parameters string (1) and alias (2) do not align" source="Joomla.Commenting.FunctionComment.ParameterCommentsNotAligned"/>
-  <error line="140" column="1" severity="error" message="Doc comment for var alias does not match actual variable name $ruletype at position 2" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch"/>
-  <error line="148" column="3" severity="error" message="Expected &quot;if (...)\n...{...}\n...else\n&quot;; found &quot;if (...) ...{...}\n...else &quot;" source="Joomla.ControlStructures.ControlSignature"/>
-  <error line="151" column="3" severity="error" message="Usage of ELSE IF is not allowed; use ELSEIF instead" source="Joomla.ControlStructures.ElseIfDeclaration.NotAllowed"/>
-  <error line="151" column="8" severity="error" message="Expected &quot;if (...)\n&quot;; found &quot;if (...) &quot;" source="Joomla.ControlStructures.ControlSignature"/>
-  <error line="154" column="1" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
-  <error line="156" column="1" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
-  <error line="159" column="1" severity="error" message="Please end your files with an empty line." source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
  </file>
  <file name=".../libraries/joomla/string/normalise.php">
  </file>
  <file name=".../libraries/joomla/string/string.php">
- </file>
- <file name=".../libraries/joomla/string/stringinflector.php">
-  <error line="19" column="1" severity="error" message="The @since tag is in the wrong order; the tag must follow @see (if used) or @link (if used)" source="Joomla.Commenting.ClassComment.WrongTagOrder"/>
-  <error line="20" column="1" severity="error" message="@link tag comment indented incorrectly; expected 7 spaces but found 0" source="Joomla.Commenting.ClassComment.TagIndent"/>
-  <error line="51" column="1" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
-  <error line="58" column="19" severity="warning" message="Protected member variable &quot;_cache&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
-  <error line="62" column="1" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
-  <error line="62" column="1" severity="error" message="Functions and classes must not contain multiple empty lines in a row; found 2 empty lines" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
-  <error line="63" column="1" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
-  <error line="67" column="1" severity="error" message="Expected 2 spaces after the longest variable name" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName"/>
-  <error line="75" column="11" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
-  <error line="75" column="84" severity="error" message="Space found before semicolon; expected &quot;false;&quot; but found &quot;false ;&quot;" source="Joomla.WhiteSpace.SemicolonSpacing.Incorrect"/>
-  <error line="77" column="1" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
-  <error line="81" column="1" severity="error" message="Expected 2 spaces after the longest variable name" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName"/>
-  <error line="89" column="16" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
-  <error line="91" column="1" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
-  <error line="95" column="1" severity="error" message="Doc comment for var [ UNKNOWN ] does not match actual variable name $word at position 1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch"/>
-  <error line="95" column="1" severity="error" message="Missing parameter name at position 1" source="Joomla.Commenting.FunctionComment.MissingParamName"/>
-  <error line="95" column="1" severity="error" message="Missing comment for param &quot;[ UNKNOWN ]&quot; at position 1" source="Joomla.Commenting.FunctionComment.MissingParamComment"/>
-  <error line="103" column="16" severity="error" message="No space found after comma in function call" source="Generic.Functions.FunctionCallArgumentSpacing.NoSpaceAfterComma"/>
-  <error line="105" column="1" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
-  <error line="109" column="1" severity="error" message="Expected 2 spaces after the longest variable name" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName"/>
-  <error line="110" column="1" severity="error" message="The comments for parameters $word (1) and $ruletype (2) do not align" source="Joomla.Commenting.FunctionComment.ParameterCommentsNotAligned"/>
-  <error line="118" column="3" severity="error" message="Expected &quot;if (...)\n...{...}\n...else\n&quot;; found &quot;if (...) ...{...}\n...else &quot;" source="Joomla.ControlStructures.ControlSignature"/>
-  <error line="122" column="3" severity="error" message="Expected &quot;foreach (...)\n...{\n&quot;; found &quot;foreach (...) ...{\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
-  <error line="123" column="4" severity="error" message="Expected &quot;if (...)\n...{...}\n...else\n&quot;; found &quot;if (...) ...{...}\n...else &quot;" source="Joomla.ControlStructures.ControlSignature"/>
-  <error line="126" column="5" severity="error" message="Expected &quot;if (...)\n...{...}\n...else\n&quot;; found &quot;if (...) ...{...}\n...else &quot;" source="Joomla.ControlStructures.ControlSignature"/>
-  <error line="132" column="1" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
-  <error line="135" column="1" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
-  <error line="139" column="1" severity="error" message="Doc comment for var string does not match actual variable name $data at position 1" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch"/>
-  <error line="139" column="1" severity="error" message="Expected 2 spaces after the longest variable name" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName"/>
-  <error line="140" column="1" severity="error" message="The comments for parameters string (1) and alias (2) do not align" source="Joomla.Commenting.FunctionComment.ParameterCommentsNotAligned"/>
-  <error line="140" column="1" severity="error" message="Doc comment for var alias does not match actual variable name $ruletype at position 2" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch"/>
-  <error line="148" column="3" severity="error" message="Expected &quot;if (...)\n...{...}\n...else\n&quot;; found &quot;if (...) ...{...}\n...else &quot;" source="Joomla.ControlStructures.ControlSignature"/>
-  <error line="151" column="3" severity="error" message="Usage of ELSE IF is not allowed; use ELSEIF instead" source="Joomla.ControlStructures.ElseIfDeclaration.NotAllowed"/>
-  <error line="151" column="8" severity="error" message="Expected &quot;if (...)\n&quot;; found &quot;if (...) &quot;" source="Joomla.ControlStructures.ControlSignature"/>
-  <error line="154" column="1" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
-  <error line="156" column="1" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
-  <error line="159" column="1" severity="error" message="Please end your files with an empty line." source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
  </file>
  <file name=".../libraries/joomla/string/stringnormalize.php">
  </file>
