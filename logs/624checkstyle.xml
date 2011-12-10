@@ -10,7 +10,7 @@
   <error line="36" column="12" severity="warning" message="Protected member variable &quot;_clientId&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
   <error line="44" column="12" severity="warning" message="Protected member variable &quot;_messageQueue&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
   <error line="52" column="12" severity="warning" message="Protected member variable &quot;_name&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
-  <error line="1154" column="9" severity="warning" message="No scope modifier specified for function &quot;isWinOS&quot;" source="Joomla.Classes.MethodScope.Missing"/>
+  <error line="1152" column="9" severity="warning" message="No scope modifier specified for function &quot;isWinOS&quot;" source="Joomla.Classes.MethodScope.Missing"/>
  </file>
  <file name=".../libraries/joomla/application/applicationexception.php">
  </file>
@@ -226,6 +226,13 @@
  <file name=".../libraries/joomla/database/table/asset.php">
  </file>
  <file name=".../libraries/joomla/database/table/category.php">
+  <error line="195" column="1" severity="error" message="Expected 3 spaces before variable type" source="Joomla.Commenting.FunctionComment.BeforeParamType"/>
+  <error line="195" column="1" severity="error" message="Expected 2 spaces after the longest type" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType"/>
+  <error line="195" column="1" severity="error" message="Expected 2 spaces after the longest variable name" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName"/>
+  <error line="196" column="1" severity="error" message="Expected 3 spaces before variable type" source="Joomla.Commenting.FunctionComment.BeforeParamType"/>
+  <error line="196" column="1" severity="error" message="The comments for parameters $pk (1) and $children (2) do not align" source="Joomla.Commenting.FunctionComment.ParameterCommentsNotAligned"/>
+  <error line="198" column="1" severity="error" message="Return comment requires a blank newline after it" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn"/>
+  <error line="203" column="3" severity="error" message="Expected &quot;if (...)\n...{...}\n...else\n&quot;; found &quot;if (...) ...{...}\n...else\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
  </file>
  <file name=".../libraries/joomla/database/table/content.php">
  </file>

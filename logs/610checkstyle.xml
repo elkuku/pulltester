@@ -185,7 +185,6 @@
  <file name=".../libraries/joomla/client/ldap.php">
  </file>
  <file name=".../libraries/joomla/database/database.php">
-  <error line="31" column="9" severity="warning" message="No scope modifier specified for function &quot;test&quot;" source="Joomla.Classes.MethodScope.Missing"/>
  </file>
  <file name=".../libraries/joomla/database/database/mysql.php">
  </file>
@@ -214,6 +213,48 @@
  <file name=".../libraries/joomla/database/databaseexception.php">
  </file>
  <file name=".../libraries/joomla/database/databasequery.php">
+ </file>
+ <file name=".../libraries/joomla/database/driver/mysql.php">
+ </file>
+ <file name=".../libraries/joomla/database/driver/mysqli.php">
+ </file>
+ <file name=".../libraries/joomla/database/driver/oracle.php">
+ </file>
+ <file name=".../libraries/joomla/database/driver/pdo.php">
+ </file>
+ <file name=".../libraries/joomla/database/driver/sqlazure.php">
+ </file>
+ <file name=".../libraries/joomla/database/driver/sqlite.php">
+ </file>
+ <file name=".../libraries/joomla/database/driver/sqlsrv.php">
+ </file>
+ <file name=".../libraries/joomla/database/exporter/mysql.php">
+ </file>
+ <file name=".../libraries/joomla/database/exporter/mysqli.php">
+ </file>
+ <file name=".../libraries/joomla/database/importer/mysql.php">
+ </file>
+ <file name=".../libraries/joomla/database/importer/mysqli.php">
+ </file>
+ <file name=".../libraries/joomla/database/query.php">
+ </file>
+ <file name=".../libraries/joomla/database/query/limitable.php">
+ </file>
+ <file name=".../libraries/joomla/database/query/mysql.php">
+ </file>
+ <file name=".../libraries/joomla/database/query/mysqli.php">
+ </file>
+ <file name=".../libraries/joomla/database/query/oracle.php">
+ </file>
+ <file name=".../libraries/joomla/database/query/pdo.php">
+ </file>
+ <file name=".../libraries/joomla/database/query/preparable.php">
+ </file>
+ <file name=".../libraries/joomla/database/query/sqlazure.php">
+ </file>
+ <file name=".../libraries/joomla/database/query/sqlite.php">
+ </file>
+ <file name=".../libraries/joomla/database/query/sqlsrv.php">
  </file>
  <file name=".../libraries/joomla/database/table.php">
   <error line="31" column="12" severity="warning" message="Protected member variable &quot;_tbl&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
@@ -499,8 +540,6 @@
  <file name=".../libraries/joomla/form/fields/usergroup.php">
  </file>
  <file name=".../libraries/joomla/form/form.php">
-  <error line="1676" column="58" severity="error" message="Cast statements must be followed by a single space; expected &quot;(string) $translate&quot; but found &quot;(string)$translate&quot;" source="Joomla.WhiteSpace.SpaceAfterCast.Incorrect"/>
-  <error line="1676" column="88" severity="error" message="Cast statements must be followed by a single space; expected &quot;(string) $translate&quot; but found &quot;(string)$translate&quot;" source="Joomla.WhiteSpace.SpaceAfterCast.Incorrect"/>
  </file>
  <file name=".../libraries/joomla/form/formfield.php">
  </file>

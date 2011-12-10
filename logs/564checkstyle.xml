@@ -7,7 +7,7 @@
  <file name=".../libraries/joomla/access/rules.php">
  </file>
  <file name=".../libraries/joomla/application/application.php">
-  <error line="1181" column="9" severity="warning" message="No scope modifier specified for function &quot;isWinOS&quot;" source="Joomla.Classes.MethodScope.Missing"/>
+  <error line="1179" column="9" severity="warning" message="No scope modifier specified for function &quot;isWinOS&quot;" source="Joomla.Classes.MethodScope.Missing"/>
  </file>
  <file name=".../libraries/joomla/application/applicationexception.php">
  </file>
