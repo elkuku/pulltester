@@ -858,9 +858,6 @@
  </file>
  <file name=".../libraries/joomla/session/storage/xcache.php">
  </file>
- <file name=".../libraries/joomla/string/inflector.php">
-  <error line="29" column="19" severity="warning" message="Protected member variable &quot;_rules&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
- </file>
  <file name=".../libraries/joomla/string/normalise.php">
  </file>
  <file name=".../libraries/joomla/string/string.php">

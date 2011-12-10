@@ -192,6 +192,7 @@
  <file name=".../libraries/joomla/database/database/mysqlexporter.php">
  </file>
  <file name=".../libraries/joomla/database/database/mysqli.php">
+  <error line="138" column="3" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
  </file>
  <file name=".../libraries/joomla/database/database/mysqliexporter.php">
  </file>
@@ -857,9 +858,6 @@
  <file name=".../libraries/joomla/session/storage/wincache.php">
  </file>
  <file name=".../libraries/joomla/session/storage/xcache.php">
- </file>
- <file name=".../libraries/joomla/string/inflector.php">
-  <error line="29" column="19" severity="warning" message="Protected member variable &quot;_rules&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
  </file>
  <file name=".../libraries/joomla/string/normalise.php">
  </file>

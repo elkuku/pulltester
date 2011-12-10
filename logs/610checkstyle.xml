@@ -10,7 +10,7 @@
   <error line="36" column="12" severity="warning" message="Protected member variable &quot;_clientId&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
   <error line="44" column="12" severity="warning" message="Protected member variable &quot;_messageQueue&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
   <error line="52" column="12" severity="warning" message="Protected member variable &quot;_name&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
-  <error line="1152" column="9" severity="warning" message="No scope modifier specified for function &quot;isWinOS&quot;" source="Joomla.Classes.MethodScope.Missing"/>
+  <error line="1149" column="9" severity="warning" message="No scope modifier specified for function &quot;isWinOS&quot;" source="Joomla.Classes.MethodScope.Missing"/>
  </file>
  <file name=".../libraries/joomla/application/applicationexception.php">
  </file>
@@ -922,9 +922,9 @@
  <file name=".../libraries/joomla/updater/updater.php">
  </file>
  <file name=".../libraries/joomla/user/authentication.php">
-  <error line="93" column="12" severity="warning" message="Protected member variable &quot;_observers&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
-  <error line="101" column="12" severity="warning" message="Protected member variable &quot;_state&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
-  <error line="109" column="12" severity="warning" message="Protected member variable &quot;_methods&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
+  <error line="92" column="12" severity="warning" message="Protected member variable &quot;_observers&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
+  <error line="100" column="12" severity="warning" message="Protected member variable &quot;_state&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
+  <error line="108" column="12" severity="warning" message="Protected member variable &quot;_methods&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
  </file>
  <file name=".../libraries/joomla/user/helper.php">
  </file>
