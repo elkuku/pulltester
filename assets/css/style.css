@@ -90,7 +90,7 @@ table {
 }
 
 tr:hover {
-	background-color: #ffc;
+	background-color: #fff;
 }
 
 th {
@@ -115,7 +115,8 @@ div.footer {
 }
 
 div.system-specs {
-	background-color: #999;
+	background-color: #000;
 	color: lime;
 	font-family: monospace;
+	padding: 0.3em;
 }
