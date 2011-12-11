@@ -12,11 +12,11 @@
 <p class="title">PostgreSQL driver for Joomla! platform.</p>
 <div class="clr"></div>
 <h2>Unit Tests</h2>
-<p class="img24 img-warn">There were 5 failures and  1 errors. <a href="../logs/532junit.xml">Unit Test Log (XML)</a></p>
+<p class="img24 img-warn">There were 4 failures and  1 errors. <a href="../logs/532junit.xml">Unit Test Log (XML)</a></p>
 <h3>Errors</h3>
 <ol>
 <li><pre class="debug">JDatabasePostgreSQLTest::testReleaseTransactionSavepoint
-pg_query(): Query failed: FEHLER:  Savepoint existiert nicht
+pg_query(): Query failed: ERROR:  no such savepoint
 
 .../libraries/joomla/database/database/postgresql.php:503
 .../libraries/joomla/database/database/postgresql.php:981
@@ -54,7 +54,7 @@ Failed asserting that two strings are equal.
 +++ Actual
 @@ @@
 -'it_IT.UTF-8'
-+'de_DE.UTF-8'
++'it_IT'
 
 .../tests/suite/joomla/database/database/JDatabasePostgreSQLTest.php:300
 </pre></li>
@@ -84,17 +84,11 @@ Failed asserting that two arrays are equal.
 
 .../tests/suite/joomla/database/database/JDatabasePostgreSQLTest.php:403
 </pre></li>
-<li><pre class="debug">JDatabasePostgreSQLTest::testGetVersion with data set #0 ('9.1.1')
-421
-Failed asserting that '9.0.3' is equal to &lt;string:9.1.1&gt; or is greater than '9.1.1'.
-
-.../tests/suite/joomla/database/database/JDatabasePostgreSQLTest.php:422
-</pre></li>
 </ol>
 <h2>Checkstyle</h2>
-<p class="img24 img-success">There were 254 warnings and  0 errors. <a href="../logs/532checkstyle.xml">Checkstyle Log (XML)</a></p>
+<p class="img24 img-success">There were 253 warnings and  0 errors. <a href="../logs/532checkstyle.xml">Checkstyle Log (XML)</a></p>
 <a href="../index.html">&lArr; Index &lArr;</a>
-<div class="footer">Generated on 10-Dec-2011 19:34 -05:00 ECT America/Guayaquil
+<div class="footer">Generated on 11-Dec-2011 16:38 -05:00 ECT America/Guayaquil
 <div class="myLinx"><em>BTW</em>: If you want to run this tests on your own machine - The source code is <a href="https://github.com/elkuku/pulltester/tree/testing1">available on GitHub</a> and is based on <a href="https://github.com/ianmacl/pulltester">Ian McLennan's PullTester</a> =;)</div>
 </div>
 </body>

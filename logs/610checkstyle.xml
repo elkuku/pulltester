@@ -214,6 +214,8 @@
  </file>
  <file name=".../libraries/joomla/database/databasequery.php">
  </file>
+ <file name=".../libraries/joomla/database/driver.php">
+ </file>
  <file name=".../libraries/joomla/database/driver/mysql.php">
  </file>
  <file name=".../libraries/joomla/database/driver/mysqli.php">
@@ -228,9 +230,15 @@
  </file>
  <file name=".../libraries/joomla/database/driver/sqlsrv.php">
  </file>
+ <file name=".../libraries/joomla/database/exporter.php">
+ </file>
  <file name=".../libraries/joomla/database/exporter/mysql.php">
  </file>
  <file name=".../libraries/joomla/database/exporter/mysqli.php">
+ </file>
+ <file name=".../libraries/joomla/database/factory.php">
+ </file>
+ <file name=".../libraries/joomla/database/importer.php">
  </file>
  <file name=".../libraries/joomla/database/importer/mysql.php">
  </file>
@@ -426,7 +434,6 @@
  <file name=".../libraries/joomla/filesystem/folder.php">
  </file>
  <file name=".../libraries/joomla/filesystem/helper.php">
-  <error line="202" column="9" severity="warning" message="No scope modifier specified for function &quot;getWriteModes&quot;" source="Joomla.Classes.MethodScope.Missing"/>
  </file>
  <file name=".../libraries/joomla/filesystem/path.php">
  </file>

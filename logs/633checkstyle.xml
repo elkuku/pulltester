@@ -411,6 +411,8 @@
  </file>
  <file name=".../libraries/joomla/filter/output.php">
  </file>
+ <file name=".../libraries/joomla/form/field.php">
+ </file>
  <file name=".../libraries/joomla/form/fields/accesslevel.php">
  </file>
  <file name=".../libraries/joomla/form/fields/cachehandler.php">
@@ -499,11 +501,9 @@
  </file>
  <file name=".../libraries/joomla/form/form.php">
  </file>
- <file name=".../libraries/joomla/form/formfield.php">
- </file>
- <file name=".../libraries/joomla/form/formrule.php">
- </file>
  <file name=".../libraries/joomla/form/helper.php">
+ </file>
+ <file name=".../libraries/joomla/form/rule.php">
  </file>
  <file name=".../libraries/joomla/form/rules/boolean.php">
  </file>
@@ -856,8 +856,6 @@
  <file name=".../libraries/joomla/session/storage/wincache.php">
  </file>
  <file name=".../libraries/joomla/session/storage/xcache.php">
- </file>
- <file name=".../libraries/joomla/string/inflector.php">
  </file>
  <file name=".../libraries/joomla/string/normalise.php">
  </file>
