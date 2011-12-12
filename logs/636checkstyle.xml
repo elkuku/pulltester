@@ -146,7 +146,6 @@
  <file name=".../libraries/joomla/database/database/mysqlexporter.php">
  </file>
  <file name=".../libraries/joomla/database/database/mysqli.php">
-  <error line="138" column="3" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
  </file>
  <file name=".../libraries/joomla/database/database/mysqliexporter.php">
  </file>
@@ -455,6 +454,7 @@
  <file name=".../libraries/joomla/form/fields/usergroup.php">
  </file>
  <file name=".../libraries/joomla/form/form.php">
+  <error line="1121" column="171" severity="warning" message="Line exceeds 150 characters; contains 170 characters" source="Generic.Files.LineLength.TooLong"/>
  </file>
  <file name=".../libraries/joomla/form/helper.php">
  </file>

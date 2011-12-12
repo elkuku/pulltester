@@ -454,59 +454,35 @@
  <file name=".../libraries/joomla/form/fields/usergroup.php">
  </file>
  <file name=".../libraries/joomla/form/form.php">
-  <error line="1794" column="4" severity="error" message="Expected &quot;if (...)\n...{...}\n...else\n&quot;; found &quot;if (...)\n...{...}\n...else &quot;" source="Joomla.ControlStructures.ControlSignature"/>
-  <error line="1823" column="3" severity="warning" message="Inline control structures are discouraged" source="Joomla.ControlStructures.InlineControlStructure.Discouraged"/>
-  <error line="1823" column="3" severity="error" message="Expected &quot;if (...)\n&quot;; found &quot;if (...) &quot;" source="Joomla.ControlStructures.ControlSignature"/>
-  <error line="1827" column="3" severity="warning" message="Inline control structures are discouraged" source="Joomla.ControlStructures.InlineControlStructure.Discouraged"/>
-  <error line="1827" column="3" severity="error" message="Expected &quot;if (...)\n&quot;; found &quot;if (...) &quot;" source="Joomla.ControlStructures.ControlSignature"/>
-  <error line="1828" column="3" severity="warning" message="Inline control structures are discouraged" source="Joomla.ControlStructures.InlineControlStructure.Discouraged"/>
-  <error line="1828" column="3" severity="error" message="Expected &quot;if (...)\n&quot;; found &quot;if (...) &quot;" source="Joomla.ControlStructures.ControlSignature"/>
  </file>
  <file name=".../libraries/joomla/form/helper.php">
  </file>
  <file name=".../libraries/joomla/form/rule.php">
-  <error line="105" column="15" severity="error" message="Concat operator must be followed by one space" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing"/>
-  <error line="105" column="15" severity="error" message="Concat operator must be preceeded by one space" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing"/>
-  <error line="107" column="31" severity="error" message="Cast statements must be followed by a single space; expected &quot;(string) $element&quot; but found &quot;(string)$element&quot;" source="Joomla.WhiteSpace.SpaceAfterCast.Incorrect"/>
  </file>
  <file name=".../libraries/joomla/form/rules/alpha.php">
-  <error line="46" column="1" severity="error" message="Please end your files with an empty line." source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
  </file>
  <file name=".../libraries/joomla/form/rules/alphanum.php">
-  <error line="46" column="1" severity="error" message="Please end your files with an empty line." source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
  </file>
  <file name=".../libraries/joomla/form/rules/boolean.php">
  </file>
  <file name=".../libraries/joomla/form/rules/color.php">
  </file>
  <file name=".../libraries/joomla/form/rules/digits.php">
-  <error line="30" column="1" severity="error" message="Please end your files with an empty line." source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
  </file>
  <file name=".../libraries/joomla/form/rules/email.php">
-  <error line="87" column="93" severity="error" message="Cast statements must be followed by a single space; expected &quot;(string) $element&quot; but found &quot;(string)$element&quot;" source="Joomla.WhiteSpace.SpaceAfterCast.Incorrect"/>
  </file>
  <file name=".../libraries/joomla/form/rules/equals.php">
  </file>
  <file name=".../libraries/joomla/form/rules/integer.php">
-  <error line="30" column="1" severity="error" message="Please end your files with an empty line." source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
  </file>
  <file name=".../libraries/joomla/form/rules/maxlength.php">
-  <error line="41" column="3" severity="error" message="Expected &quot;if (...)\n...{...}\n...else\n&quot;; found &quot;if (...)\n...{...} ...else &quot;" source="Joomla.ControlStructures.ControlSignature"/>
-  <error line="61" column="71" severity="error" message="Cast statements must be followed by a single space; expected &quot;(string) $element&quot; but found &quot;(string)$element&quot;" source="Joomla.WhiteSpace.SpaceAfterCast.Incorrect"/>
-  <error line="61" column="98" severity="error" message="Cast statements must be followed by a single space; expected &quot;(string) $element&quot; but found &quot;(string)$element&quot;" source="Joomla.WhiteSpace.SpaceAfterCast.Incorrect"/>
-  <error line="63" column="1" severity="error" message="Please end your files with an empty line." source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
  </file>
  <file name=".../libraries/joomla/form/rules/minlength.php">
-  <error line="41" column="3" severity="error" message="Expected &quot;if (...)\n...{...}\n...else\n&quot;; found &quot;if (...)\n...{...} ...else &quot;" source="Joomla.ControlStructures.ControlSignature"/>
-  <error line="61" column="71" severity="error" message="Cast statements must be followed by a single space; expected &quot;(string) $element&quot; but found &quot;(string)$element&quot;" source="Joomla.WhiteSpace.SpaceAfterCast.Incorrect"/>
-  <error line="61" column="98" severity="error" message="Cast statements must be followed by a single space; expected &quot;(string) $element&quot; but found &quot;(string)$element&quot;" source="Joomla.WhiteSpace.SpaceAfterCast.Incorrect"/>
-  <error line="63" column="1" severity="error" message="Please end your files with an empty line." source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
+  <error line="65" column="1" severity="error" message="Please end your files with an empty line." source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
  </file>
  <file name=".../libraries/joomla/form/rules/nospace.php">
-  <error line="30" column="1" severity="error" message="Please end your files with an empty line." source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
  </file>
  <file name=".../libraries/joomla/form/rules/numeric.php">
-  <error line="30" column="1" severity="error" message="Please end your files with an empty line." source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
  </file>
  <file name=".../libraries/joomla/form/rules/options.php">
  </file>
@@ -515,10 +491,8 @@
  <file name=".../libraries/joomla/form/rules/tel.php">
  </file>
  <file name=".../libraries/joomla/form/rules/url.php">
-  <error line="84" column="1" severity="error" message="Closing parenthesis of a multi-line IF statement must be on the same line" source="Joomla.ControlStructures.MultiLineCondition.CloseBracketNewLine"/>
  </file>
  <file name=".../libraries/joomla/form/rules/username.php">
-  <error line="64" column="95" severity="error" message="Cast statements must be followed by a single space; expected &quot;(string) $element&quot; but found &quot;(string)$element&quot;" source="Joomla.WhiteSpace.SpaceAfterCast.Incorrect"/>
  </file>
  <file name=".../libraries/joomla/github/gists.php">
  </file>
@@ -857,8 +831,7 @@
  <file name=".../libraries/joomla/string/normalise.php">
  </file>
  <file name=".../libraries/joomla/string/string.php">
-  <error line="936" column="3" severity="warning" message="Inline control structures are discouraged" source="Joomla.ControlStructures.InlineControlStructure.Discouraged"/>
-  <error line="936" column="3" severity="error" message="Expected &quot;if (...)\n&quot;; found &quot;if (...) &quot;" source="Joomla.ControlStructures.ControlSignature"/>
+  <error line="936" column="31" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
  </file>
  <file name=".../libraries/joomla/string/stringnormalize.php">
  </file>
