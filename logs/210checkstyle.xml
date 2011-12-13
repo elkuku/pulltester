@@ -9,8 +9,6 @@
  <file name=".../libraries/joomla/application/application.php">
   <error line="1176" column="9" severity="warning" message="No scope modifier specified for function &quot;isWinOS&quot;" source="Joomla.Classes.MethodScope.Missing"/>
  </file>
- <file name=".../libraries/joomla/application/applicationexception.php">
- </file>
  <file name=".../libraries/joomla/application/categories.php">
  </file>
  <file name=".../libraries/joomla/application/cli.php">
@@ -478,7 +476,6 @@
  <file name=".../libraries/joomla/form/rules/maxlength.php">
  </file>
  <file name=".../libraries/joomla/form/rules/minlength.php">
-  <error line="65" column="1" severity="error" message="Please end your files with an empty line." source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
  </file>
  <file name=".../libraries/joomla/form/rules/nospace.php">
  </file>
@@ -831,7 +828,6 @@
  <file name=".../libraries/joomla/string/normalise.php">
  </file>
  <file name=".../libraries/joomla/string/string.php">
-  <error line="936" column="31" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
  </file>
  <file name=".../libraries/joomla/string/stringnormalize.php">
  </file>

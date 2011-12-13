@@ -9,8 +9,6 @@
  <file name=".../libraries/joomla/application/application.php">
   <error line="1176" column="9" severity="warning" message="No scope modifier specified for function &quot;isWinOS&quot;" source="Joomla.Classes.MethodScope.Missing"/>
  </file>
- <file name=".../libraries/joomla/application/applicationexception.php">
- </file>
  <file name=".../libraries/joomla/application/categories.php">
  </file>
  <file name=".../libraries/joomla/application/cli.php">

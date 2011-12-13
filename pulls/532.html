@@ -12,41 +12,9 @@
 <p class="title">PostgreSQL driver for Joomla! platform.</p>
 <div class="clr"></div>
 <h2>Unit Tests</h2>
-<p class="img24 img-warn">There were 4 failures and  1 errors. <a href="../logs/532junit.xml">Unit Test Log (XML)</a></p>
-<h3>Errors</h3>
-<ol>
-<li><pre class="debug">JDatabasePostgreSQLTest::testReleaseTransactionSavepoint
-pg_query(): Query failed: ERROR:  no such savepoint
-
-.../libraries/joomla/database/database/postgresql.php:503
-.../libraries/joomla/database/database/postgresql.php:981
-.../tests/suite/joomla/database/database/JDatabasePostgreSQLTest.php:1120
-</pre></li>
-</ol>
+<p class="img24 img-warn">There were 1 failures and  0 errors. <a href="../logs/532junit.xml">Unit Test Log (XML)</a></p>
 <h3>Failures</h3>
 <ol>
-<li><pre class="debug">JDatabasePostgreSQLTest::testEscape with data set #2 ('\\\'%_abc123', false, '\\\'\'%_abc123')
-The string was not escaped properly
-Failed asserting that two strings are equal.
---- Expected
-+++ Actual
-@@ @@
--'\''%_abc123'
-+'\\''%_abc123'
-
-.../tests/suite/joomla/database/database/JDatabasePostgreSQLTest.php:248
-</pre></li>
-<li><pre class="debug">JDatabasePostgreSQLTest::testEscape with data set #3 ('\\\'%_abc123', true, '\\\'\'\\%\\_abc123')
-The string was not escaped properly
-Failed asserting that two strings are equal.
---- Expected
-+++ Actual
-@@ @@
--'\''\%\_abc123'
-+'\\''\%\_abc123'
-
-.../tests/suite/joomla/database/database/JDatabasePostgreSQLTest.php:248
-</pre></li>
 <li><pre class="debug">JDatabasePostgreSQLTest::testGetCollation
 299
 Failed asserting that two strings are equal.
@@ -58,37 +26,11 @@ Failed asserting that two strings are equal.
 
 .../tests/suite/joomla/database/database/JDatabasePostgreSQLTest.php:300
 </pre></li>
-<li><pre class="debug">JDatabasePostgreSQLTest::testGetTableList
-402
-Failed asserting that two arrays are equal.
---- Expected
-+++ Actual
-@@ @@
-     14 =&gt; 'jos_update_categories'
--    15 =&gt; 'jos_update_sites'
--    16 =&gt; 'jos_update_sites_extensions'
--    17 =&gt; 'jos_updates'
--    18 =&gt; 'jos_user_profiles'
--    19 =&gt; 'jos_user_usergroup_map'
--    20 =&gt; 'jos_usergroups'
--    21 =&gt; 'jos_users'
-+    15 =&gt; 'jos_updates'
-+    16 =&gt; 'jos_update_sites'
-+    17 =&gt; 'jos_update_sites_extensions'
-+    18 =&gt; 'jos_usergroups'
-+    19 =&gt; 'jos_user_profiles'
-+    20 =&gt; 'jos_users'
-+    21 =&gt; 'jos_user_usergroup_map'
-     22 =&gt; 'jos_viewlevels'
- )
-
-.../tests/suite/joomla/database/database/JDatabasePostgreSQLTest.php:403
-</pre></li>
 </ol>
 <h2>Checkstyle</h2>
-<p class="img24 img-success">There were 253 warnings and  0 errors. <a href="../logs/532checkstyle.xml">Checkstyle Log (XML)</a></p>
+<p class="img24 img-success">There were 207 warnings and  0 errors. <a href="../logs/532checkstyle.xml">Checkstyle Log (XML)</a></p>
 <a href="../index.html">&lArr; Index &lArr;</a>
-<div class="footer">Generated on 11-Dec-2011 16:38 -05:00 ECT America/Guayaquil
+<div class="footer">Generated on 12-Dec-2011 20:51 -05:00 ECT America/Guayaquil
 <div class="myLinx"><em>BTW</em>: If you want to run this tests on your own machine - The source code is <a href="https://github.com/elkuku/pulltester/tree/testing1">available on GitHub</a> and is based on <a href="https://github.com/ianmacl/pulltester">Ian McLennan's PullTester</a> =;)</div>
 </div>
 </body>
