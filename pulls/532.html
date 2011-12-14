@@ -12,36 +12,20 @@
 <p class="title">PostgreSQL driver for Joomla! platform.</p>
 <div class="clr"></div>
 <h2>Unit Tests</h2>
-<p class="img24 img-warn">There were 2 failures and  0 errors. <a href="../logs/532junit.xml">Unit Test Log (XML)</a></p>
+<p class="img24 img-warn">There were 1 failures and  0 errors. <a href="../logs/532junit.xml">Unit Test Log (XML)</a></p>
 <h3>Failures</h3>
 <ol>
-<li><pre class="debug">JDatabasePostgreSQLTest::testExplain
-273
-Failed asserting that two strings are equal.
---- Expected
-+++ Actual
-@@ @@
--'&lt;table id=&quot;explain-sql&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;td colspan=&quot;99&quot;&gt;EXPLAIN SELECT * FROM jos_dbtest&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;QUERY PLAN&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Seq Scan on jos_dbtest  (cost=0.00..16.90 rows=690 width=87)&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;'
-+'&lt;table id=&quot;explain-sql&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;td colspan=&quot;99&quot;&gt;EXPLAIN SELECT * FROM jos_dbtest&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;QUERY PLAN&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Seq Scan on jos_dbtest  (cost=0.00..25.10 rows=1510 width=24)&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;'
-
-.../tests/suite/joomla/database/database/JDatabasePostgreSQLTest.php:274
-</pre></li>
 <li><pre class="debug">JDatabasePostgreSQLTest::testGetCollation
-312
-Failed asserting that two strings are equal.
---- Expected
-+++ Actual
-@@ @@
--'it_IT.UTF-8'
-+'it_IT'
+299
+Failed asserting that 'it_IT' contains &quot;UTF-8&quot;.
 
-.../tests/suite/joomla/database/database/JDatabasePostgreSQLTest.php:313
+.../tests/suite/joomla/database/database/JDatabasePostgreSQLTest.php:300
 </pre></li>
 </ol>
 <h2>Checkstyle</h2>
-<p class="img24 img-success">There were 207 warnings and  0 errors. <a href="../logs/532checkstyle.xml">Checkstyle Log (XML)</a></p>
+<p class="img24 img-success">There were 199 warnings and  0 errors. <a href="../logs/532checkstyle.xml">Checkstyle Log (XML)</a></p>
 <a href="../index.html">&lArr; Index &lArr;</a>
-<div class="footer">Generated on 13-Dec-2011 14:31 -05:00 ECT America/Guayaquil
+<div class="footer">Generated on 14-Dec-2011 01:08 -05:00 ECT America/Guayaquil
 <div class="myLinx"><em>BTW</em>: If you want to run this tests on your own machine - The source code is <a href="https://github.com/elkuku/pulltester/tree/testing1">available on GitHub</a> and is based on <a href="https://github.com/ianmacl/pulltester">Ian McLennan's PullTester</a> =;)</div>
 </div>
 </body>
