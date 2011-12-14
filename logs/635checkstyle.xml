@@ -198,11 +198,6 @@
  <file name=".../libraries/joomla/database/table/user.php">
  </file>
  <file name=".../libraries/joomla/database/table/usergroup.php">
-  <error line="217" column="4" severity="error" message="Expected &quot;foreach (...)\n...{\n&quot;; found &quot;foreach(...)\n...{\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
-  <error line="231" column="27" severity="error" message="Concat operator must be followed by one space" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing"/>
-  <error line="231" column="27" severity="error" message="Concat operator must be preceeded by one space" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing"/>
-  <error line="231" column="52" severity="error" message="Concat operator must be followed by one space" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing"/>
-  <error line="231" column="52" severity="error" message="Concat operator must be preceeded by one space" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing"/>
  </file>
  <file name=".../libraries/joomla/database/table/viewlevel.php">
  </file>
@@ -479,6 +474,8 @@
  <file name=".../libraries/joomla/form/rules/url.php">
  </file>
  <file name=".../libraries/joomla/form/rules/username.php">
+ </file>
+ <file name=".../libraries/joomla/github/forks.php">
  </file>
  <file name=".../libraries/joomla/github/gists.php">
  </file>

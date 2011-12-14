@@ -7,7 +7,6 @@
  <file name=".../libraries/joomla/access/rules.php">
  </file>
  <file name=".../libraries/joomla/application/application.php">
-  <error line="1176" column="9" severity="warning" message="No scope modifier specified for function &quot;isWinOS&quot;" source="Joomla.Classes.MethodScope.Missing"/>
  </file>
  <file name=".../libraries/joomla/application/categories.php">
  </file>
@@ -108,7 +107,6 @@
  <file name=".../libraries/joomla/client/ldap.php">
  </file>
  <file name=".../libraries/joomla/database/database.php">
-  <error line="31" column="9" severity="warning" message="No scope modifier specified for function &quot;test&quot;" source="Joomla.Classes.MethodScope.Missing"/>
  </file>
  <file name=".../libraries/joomla/database/database/mysql.php">
  </file>
@@ -403,8 +401,6 @@
  <file name=".../libraries/joomla/html/html/form.php">
  </file>
  <file name=".../libraries/joomla/html/html/grid.php">
-  <error line="33" column="9" severity="warning" message="No scope modifier specified for function &quot;boolean&quot;" source="Joomla.Classes.MethodScope.Missing"/>
-  <error line="347" column="9" severity="warning" message="No scope modifier specified for function &quot;behavior&quot;" source="Joomla.Classes.MethodScope.Missing"/>
  </file>
  <file name=".../libraries/joomla/html/html/image.php">
  </file>
@@ -563,15 +559,12 @@
  <file name=".../libraries/joomla/installer/packagemanifest.php">
  </file>
  <file name=".../libraries/joomla/language/help.php">
-  <error line="33" column="9" severity="warning" message="No scope modifier specified for function &quot;createURL&quot;" source="Joomla.Classes.MethodScope.Missing"/>
-  <error line="158" column="9" severity="warning" message="No scope modifier specified for function &quot;createSiteList&quot;" source="Joomla.Classes.MethodScope.Missing"/>
  </file>
  <file name=".../libraries/joomla/language/helper.php">
  </file>
  <file name=".../libraries/joomla/language/language.php">
  </file>
  <file name=".../libraries/joomla/language/latin_transliterate.php">
-  <error line="38" column="9" severity="warning" message="No scope modifier specified for function &quot;utf8_latin_to_ascii&quot;" source="Joomla.Classes.MethodScope.Missing"/>
  </file>
  <file name=".../libraries/joomla/log/log.php">
  </file>
@@ -620,7 +613,6 @@
  <file name=".../libraries/joomla/session/storage.php">
  </file>
  <file name=".../libraries/joomla/session/storage/apc.php">
-  <error line="128" column="9" severity="warning" message="No scope modifier specified for function &quot;test&quot;" source="Joomla.Classes.MethodScope.Missing"/>
  </file>
  <file name=".../libraries/joomla/session/storage/database.php">
  </file>
