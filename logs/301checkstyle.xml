@@ -824,9 +824,6 @@
   <error line="49" column="12" severity="warning" message="Protected member variable &quot;_updatecols&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
  </file>
  <file name=".../libraries/joomla/updater/updater.php">
-  <error line="108" column="26" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
-  <error line="110" column="65" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
-  <error line="187" column="1" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
  </file>
  <file name=".../libraries/joomla/user/authentication.php">
   <error line="92" column="12" severity="warning" message="Protected member variable &quot;_observers&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>

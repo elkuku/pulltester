@@ -14,28 +14,44 @@
 <h2>Unit Tests</h2>
 <h3 class="img24 img-fail">Unit Tests log missing. Tests failed to execute.</h3>
 <pre class="debug">
-Fatal error: Class 'JLogEntry' not found in .../libraries/joomla/log/log.php on line 168
+Warning: require_once(.../libraries/joomla/database/databaseexception.php): failed to open stream: No such file or directory in .../tests/suite/joomla/database/database/JDatabaseImporterMySqlInspector.php on line 8
 
 Call Stack:
     0.0001     326280   1. {main}() .../bin/phpunit:0
-    0.0031     702324   2. PHPUnit_TextUI_Command::main() .../bin/phpunit:44
-    0.0031     702660   3. PHPUnit_TextUI_Command->run() .../lib/php/PHPUnit/TextUI/Command.php:125
-    0.0031     702660   4. PHPUnit_TextUI_Command->handleArguments() .../lib/php/PHPUnit/TextUI/Command.php:134
-    0.0142    2456448   5. PHPUnit_Util_Configuration->getTestSuiteConfiguration() .../lib/php/PHPUnit/TextUI/Command.php:670
-    0.0142    2456992   6. PHPUnit_Util_Configuration->getTestSuite() .../lib/php/PHPUnit/Util/Configuration.php:768
-    0.0450    2737300   7. PHPUnit_Framework_TestSuite->addTestFiles() .../lib/php/PHPUnit/Util/Configuration.php:848
-    0.0771    4651804   8. PHPUnit_Framework_TestSuite->addTestFile() .../lib/php/PHPUnit/Framework/TestSuite.php:419
-    0.0771    4652124   9. PHPUnit_Util_Fileloader::checkAndLoad() .../lib/php/PHPUnit/Framework/TestSuite.php:358
-    0.0772    4652280  10. PHPUnit_Util_Fileloader::load() .../lib/php/PHPUnit/Util/Fileloader.php:79
-    0.0776    4745884  11. include_once('.../tests/suite/joomla/application/JApplicationTest.php') .../lib/php/PHPUnit/Util/Fileloader.php:95
-    0.0783    4843112  12. require_once('.../libraries/joomla/environment/request.php') .../tests/suite/joomla/application/JApplicationTest.php:10
-    0.0792    4897308  13. JLog::add() .../libraries/joomla/environment/request.php:24
+    0.1189     702324   2. PHPUnit_TextUI_Command::main() .../bin/phpunit:44
+    0.1190     702660   3. PHPUnit_TextUI_Command->run() .../lib/php/PHPUnit/TextUI/Command.php:125
+    0.1190     702660   4. PHPUnit_TextUI_Command->handleArguments() .../lib/php/PHPUnit/TextUI/Command.php:134
+    0.3220    2456448   5. PHPUnit_Util_Configuration->getTestSuiteConfiguration() .../lib/php/PHPUnit/TextUI/Command.php:670
+    0.3220    2456992   6. PHPUnit_Util_Configuration->getTestSuite() .../lib/php/PHPUnit/Util/Configuration.php:768
+    0.3720    2737300   7. PHPUnit_Framework_TestSuite->addTestFiles() .../lib/php/PHPUnit/Util/Configuration.php:848
+    1.0560   18844152   8. PHPUnit_Framework_TestSuite->addTestFile() .../lib/php/PHPUnit/Framework/TestSuite.php:419
+    1.0561   18844480   9. PHPUnit_Util_Fileloader::checkAndLoad() .../lib/php/PHPUnit/Framework/TestSuite.php:358
+    1.0562   18844652  10. PHPUnit_Util_Fileloader::load() .../lib/php/PHPUnit/Util/Fileloader.php:79
+    1.0653   19031796  11. include_once('.../tests/suite/joomla/database/database/JDatabaseImporterMySqlTest.php') .../lib/php/PHPUnit/Util/Fileloader.php:95
+    1.0692   19059652  12. require_once('.../tests/suite/joomla/database/database/JDatabaseImporterMySqlInspector.php') .../tests/suite/joomla/database/database/JDatabaseImporterMySqlTest.php:7
+
+
+Fatal error: require_once(): Failed opening required '.../libraries/joomla/database/databaseexception.php' (include_path='.:.../lib/php') in .../tests/suite/joomla/database/database/JDatabaseImporterMySqlInspector.php on line 8
+
+Call Stack:
+    0.0001     326280   1. {main}() .../bin/phpunit:0
+    0.1189     702324   2. PHPUnit_TextUI_Command::main() .../bin/phpunit:44
+    0.1190     702660   3. PHPUnit_TextUI_Command->run() .../lib/php/PHPUnit/TextUI/Command.php:125
+    0.1190     702660   4. PHPUnit_TextUI_Command->handleArguments() .../lib/php/PHPUnit/TextUI/Command.php:134
+    0.3220    2456448   5. PHPUnit_Util_Configuration->getTestSuiteConfiguration() .../lib/php/PHPUnit/TextUI/Command.php:670
+    0.3220    2456992   6. PHPUnit_Util_Configuration->getTestSuite() .../lib/php/PHPUnit/Util/Configuration.php:768
+    0.3720    2737300   7. PHPUnit_Framework_TestSuite->addTestFiles() .../lib/php/PHPUnit/Util/Configuration.php:848
+    1.0560   18844152   8. PHPUnit_Framework_TestSuite->addTestFile() .../lib/php/PHPUnit/Framework/TestSuite.php:419
+    1.0561   18844480   9. PHPUnit_Util_Fileloader::checkAndLoad() .../lib/php/PHPUnit/Framework/TestSuite.php:358
+    1.0562   18844652  10. PHPUnit_Util_Fileloader::load() .../lib/php/PHPUnit/Util/Fileloader.php:79
+    1.0653   19031796  11. include_once('.../tests/suite/joomla/database/database/JDatabaseImporterMySqlTest.php') .../lib/php/PHPUnit/Util/Fileloader.php:95
+    1.0692   19059652  12. require_once('.../tests/suite/joomla/database/database/JDatabaseImporterMySqlInspector.php') .../tests/suite/joomla/database/database/JDatabaseImporterMySqlTest.php:7
 
 </pre>
 <h2>Checkstyle</h2>
 <p class="img24 img-success">There were 199 warnings and  0 errors. <a href="../logs/661checkstyle.xml">Checkstyle Log (XML)</a></p>
 <a href="../index.html">&lArr; Index &lArr;</a>
-<div class="footer">Generated on 19-Dec-2011 14:41 -05:00 ECT America/Guayaquil
+<div class="footer">Generated on 19-Dec-2011 19:54 -05:00 ECT America/Guayaquil
 <div class="myLinx"><em>BTW</em>: If you want to run this tests on your own machine - The source code is <a href="https://github.com/elkuku/pulltester/tree/testing1">available on GitHub</a> and is based on <a href="https://github.com/ianmacl/pulltester">Ian McLennan's PullTester</a> =;)</div>
 </div>
 </body>

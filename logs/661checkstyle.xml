@@ -735,9 +735,9 @@
  </file>
  <file name=".../libraries/joomla/language/latin_transliterate.php">
  </file>
- <file name=".../libraries/joomla/log/log.php">
+ <file name=".../libraries/joomla/log/entry.php">
  </file>
- <file name=".../libraries/joomla/log/logentry.php">
+ <file name=".../libraries/joomla/log/log.php">
  </file>
  <file name=".../libraries/joomla/log/logexception.php">
  </file>
