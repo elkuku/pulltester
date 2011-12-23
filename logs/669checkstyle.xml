@@ -172,10 +172,12 @@
   <error line="55" column="12" severity="warning" message="Protected member variable &quot;_trackAssets&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
   <error line="63" column="12" severity="warning" message="Protected member variable &quot;_rules&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
   <error line="71" column="12" severity="warning" message="Protected member variable &quot;_locked&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
+  <error line="627" column="83" severity="error" message="Space before closing parenthesis of function call prohibited" source="Joomla.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
  </file>
  <file name=".../libraries/joomla/database/table/asset.php">
  </file>
  <file name=".../libraries/joomla/database/table/category.php">
+  <error line="219" column="86" severity="error" message="Space before closing parenthesis of function call prohibited" source="Joomla.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
  </file>
  <file name=".../libraries/joomla/database/table/content.php">
  </file>
@@ -802,8 +804,6 @@
  <file name=".../libraries/joomla/session/storage/wincache.php">
  </file>
  <file name=".../libraries/joomla/session/storage/xcache.php">
- </file>
- <file name=".../libraries/joomla/string/inflector.php">
  </file>
  <file name=".../libraries/joomla/string/normalise.php">
  </file>
