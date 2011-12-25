@@ -15,39 +15,23 @@
 <p class="img24 img-warn">There were 2 failures and  0 errors. <a href="../logs/532junit.xml">Unit Test Log (XML)</a></p>
 <h3>Failures</h3>
 <ol>
-<li><pre class="debug">JDatabasePostgreSQLQueryTest::testCastAsChar
-The default castAsChar behaviour is to return the input.
-Failed asserting that two strings are equal.
---- Expected
-+++ Actual
-@@ @@
--'123'
-+''_123_''
+<li><pre class="debug">JDatabaseTest::testQuoteName
+Tests the left-right quotes on an array.
+Array (...) does not match expected type &quot;string&quot;.
 
-.../tests/suite/joomla/database/JDatabasePostgreSQLQueryTest.php:202
+.../tests/suite/joomla/database/JDatabaseTest.php:357
 </pre></li>
 <li><pre class="debug">JDatabasePostgreSQLTest::testGetCollation
-306
+338
 Failed asserting that 'it_IT' contains &quot;UTF-8&quot;.
 
-.../tests/suite/joomla/database/database/JDatabasePostgreSQLTest.php:307
+.../tests/suite/joomla/database/database/JDatabasePostgreSQLTest.php:339
 </pre></li>
 </ol>
 <h2>Checkstyle</h2>
-<p class="img24 img-warn">There were 199 warnings and  4 errors. <a href="../logs/532checkstyle.xml">Checkstyle Log (XML)</a></p>
-<h3>Errors</h3>
-<ul class="phpcs">
-<li><tt>libraries/joomla/database/database/postgresql.php:641</tt><br />
-<em>Expected 1 space before "=>"; 0 found</em></li>
-<li><tt>libraries/joomla/database/database/postgresql.php:641</tt><br />
-<em>Expected 1 space after "=>"; 0 found</em></li>
-<li><tt>libraries/joomla/database/database/postgresql.php:649</tt><br />
-<em>Expected 1 space before "=>"; 0 found</em></li>
-<li><tt>libraries/joomla/database/database/postgresql.php:649</tt><br />
-<em>Expected 1 space after "=>"; 0 found</em></li>
-</ul>
+<p class="img24 img-success">There were 199 warnings and  0 errors. <a href="../logs/532checkstyle.xml">Checkstyle Log (XML)</a></p>
 <a href="../index.html">&lArr; Index &lArr;</a>
-<div class="footer">Generated on 22-Dec-2011 19:35 -05:00 ECT America/Guayaquil
+<div class="footer">Generated on 25-Dec-2011 15:50 -05:00 ECT America/Guayaquil
 <div class="myLinx"><em>BTW</em>: If you want to run this tests on your own machine - The source code is <a href="https://github.com/elkuku/pulltester/tree/testing1">available on GitHub</a> and is based on <a href="https://github.com/ianmacl/pulltester">Ian McLennan's PullTester</a> =;)</div>
 </div>
 </body>

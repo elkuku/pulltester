@@ -132,9 +132,9 @@
  </file>
  <file name=".../libraries/joomla/database/database/sqlsrvquery.php">
  </file>
- <file name=".../libraries/joomla/database/databaseexception.php">
+ <file name=".../libraries/joomla/database/exception.php">
  </file>
- <file name=".../libraries/joomla/database/databasequery.php">
+ <file name=".../libraries/joomla/database/query.php">
  </file>
  <file name=".../libraries/joomla/database/table.php">
  </file>
@@ -201,7 +201,6 @@
  <file name=".../libraries/joomla/environment/browser.php">
  </file>
  <file name=".../libraries/joomla/environment/request.php">
-  <error line="607" column="9" severity="warning" message="No scope modifier specified for function &quot;_cleanVar&quot;" source="Joomla.Classes.MethodScope.Missing"/>
  </file>
  <file name=".../libraries/joomla/environment/response.php">
  </file>
@@ -382,7 +381,6 @@
  <file name=".../libraries/joomla/html/grid.php">
  </file>
  <file name=".../libraries/joomla/html/html.php">
-  <error line="38" column="9" severity="warning" message="Scope modifier not specified for member variable &quot;$formatOptions&quot;" source="Joomla.Classes.MemberVarScope.Missing"/>
  </file>
  <file name=".../libraries/joomla/html/html/access.php">
  </file>
@@ -568,9 +566,9 @@
  </file>
  <file name=".../libraries/joomla/language/latin_transliterate.php">
  </file>
- <file name=".../libraries/joomla/log/log.php">
+ <file name=".../libraries/joomla/log/entry.php">
  </file>
- <file name=".../libraries/joomla/log/logentry.php">
+ <file name=".../libraries/joomla/log/log.php">
  </file>
  <file name=".../libraries/joomla/log/logexception.php">
  </file>

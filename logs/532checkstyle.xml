@@ -154,10 +154,6 @@
  <file name=".../libraries/joomla/database/database/mysqlquery.php">
  </file>
  <file name=".../libraries/joomla/database/database/postgresql.php">
-  <error line="641" column="24" severity="error" message="Expected 1 space before &quot;=&gt;&quot;; 0 found" source="Joomla.WhiteSpace.OperatorSpacing.NoSpaceBefore"/>
-  <error line="641" column="24" severity="error" message="Expected 1 space after &quot;=&gt;&quot;; 0 found" source="Joomla.WhiteSpace.OperatorSpacing.NoSpaceAfter"/>
-  <error line="649" column="23" severity="error" message="Expected 1 space before &quot;=&gt;&quot;; 0 found" source="Joomla.WhiteSpace.OperatorSpacing.NoSpaceBefore"/>
-  <error line="649" column="23" severity="error" message="Expected 1 space after &quot;=&gt;&quot;; 0 found" source="Joomla.WhiteSpace.OperatorSpacing.NoSpaceAfter"/>
  </file>
  <file name=".../libraries/joomla/database/database/postgresqlquery.php">
  </file>
