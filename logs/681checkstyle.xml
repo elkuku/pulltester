@@ -222,6 +222,8 @@
   <error line="182" column="9" severity="warning" message="Public member variable &quot;_engine&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
   <error line="190" column="9" severity="warning" message="Public member variable &quot;_type&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
   <error line="198" column="16" severity="warning" message="Public member variable &quot;_buffer&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
+  <error line="371" column="1" severity="error" message="Doc comment for var $httpEquiv does not match actual variable name $context at position 2" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch"/>
+  <error line="413" column="1" severity="error" message="Doc comment for var $http_equiv does not match actual variable name $context at position 3" source="Joomla.Commenting.FunctionComment.ParamNameNoMatch"/>
  </file>
  <file name=".../libraries/joomla/document/error/error.php">
   <error line="27" column="12" severity="warning" message="Protected member variable &quot;_error&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
@@ -450,7 +452,6 @@
  <file name=".../libraries/joomla/form/fields/usergroup.php">
  </file>
  <file name=".../libraries/joomla/form/form.php">
-  <error line="1121" column="171" severity="warning" message="Line exceeds 150 characters; contains 170 characters" source="Generic.Files.LineLength.TooLong"/>
  </file>
  <file name=".../libraries/joomla/form/helper.php">
  </file>

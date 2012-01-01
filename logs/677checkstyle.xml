@@ -66,8 +66,8 @@
  <file name=".../libraries/joomla/base/adapterinstance.php">
  </file>
  <file name=".../libraries/joomla/base/node.php">
-  <error line="27" column="12" severity="warning" message="Protected member variable &quot;_parent&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
-  <error line="35" column="12" severity="warning" message="Protected member variable &quot;_children&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
+  <error line="29" column="12" severity="warning" message="Protected member variable &quot;_parent&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
+  <error line="37" column="12" severity="warning" message="Protected member variable &quot;_children&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
  </file>
  <file name=".../libraries/joomla/base/object.php">
   <error line="30" column="12" severity="warning" message="Protected member variable &quot;_errors&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
@@ -77,8 +77,8 @@
  <file name=".../libraries/joomla/base/observer.php">
  </file>
  <file name=".../libraries/joomla/base/tree.php">
-  <error line="29" column="12" severity="warning" message="Protected member variable &quot;_root&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
-  <error line="37" column="12" severity="warning" message="Protected member variable &quot;_current&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
+  <error line="31" column="12" severity="warning" message="Protected member variable &quot;_root&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
+  <error line="39" column="12" severity="warning" message="Protected member variable &quot;_current&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
  </file>
  <file name=".../libraries/joomla/cache/cache.php">
   <error line="33" column="16" severity="warning" message="Public member variable &quot;_handler&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
@@ -450,7 +450,6 @@
  <file name=".../libraries/joomla/form/fields/usergroup.php">
  </file>
  <file name=".../libraries/joomla/form/form.php">
-  <error line="1121" column="171" severity="warning" message="Line exceeds 150 characters; contains 170 characters" source="Generic.Files.LineLength.TooLong"/>
  </file>
  <file name=".../libraries/joomla/form/helper.php">
  </file>

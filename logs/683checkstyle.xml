@@ -252,6 +252,8 @@
  </file>
  <file name=".../libraries/joomla/document/html/renderer/modules.php">
  </file>
+ <file name=".../libraries/joomla/document/image/image.php">
+ </file>
  <file name=".../libraries/joomla/document/json/json.php">
   <error line="28" column="12" severity="warning" message="Protected member variable &quot;_name&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
  </file>
@@ -450,7 +452,6 @@
  <file name=".../libraries/joomla/form/fields/usergroup.php">
  </file>
  <file name=".../libraries/joomla/form/form.php">
-  <error line="1121" column="171" severity="warning" message="Line exceeds 150 characters; contains 170 characters" source="Generic.Files.LineLength.TooLong"/>
  </file>
  <file name=".../libraries/joomla/form/helper.php">
  </file>

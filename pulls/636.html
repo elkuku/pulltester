@@ -12,11 +12,28 @@
 <p class="title">Allow form rules to throw exceptions.</p>
 <div class="clr"></div>
 <h2>Unit Tests</h2>
-<p class="img24 img-success">There were 0 failures and  0 errors. <a href="../logs/636junit.xml">Unit Test Log (XML)</a></p>
+<h3 class="img24 img-fail">Unit Tests log missing. Tests failed to execute.</h3>
+<pre class="debug">
+Parse error: syntax error, unexpected '}' in .../libraries/joomla/form/form.php on line 1910
+
+Call Stack:
+    0.0001     326280   1. {main}() .../bin/phpunit:0
+    0.0033     702324   2. PHPUnit_TextUI_Command::main() .../bin/phpunit:44
+    0.0033     702660   3. PHPUnit_TextUI_Command->run() .../lib/php/PHPUnit/TextUI/Command.php:125
+    0.0033     702660   4. PHPUnit_TextUI_Command->handleArguments() .../lib/php/PHPUnit/TextUI/Command.php:134
+    0.0147    2456448   5. PHPUnit_Util_Configuration->getTestSuiteConfiguration() .../lib/php/PHPUnit/TextUI/Command.php:670
+    0.0147    2456992   6. PHPUnit_Util_Configuration->getTestSuite() .../lib/php/PHPUnit/Util/Configuration.php:768
+    0.0442    2737300   7. PHPUnit_Framework_TestSuite->addTestFiles() .../lib/php/PHPUnit/Util/Configuration.php:848
+    0.5421   31352156   8. PHPUnit_Framework_TestSuite->addTestFile() .../lib/php/PHPUnit/Framework/TestSuite.php:419
+    0.5423   31352652   9. PHPUnit_Util_Fileloader::checkAndLoad() .../lib/php/PHPUnit/Framework/TestSuite.php:358
+    0.5423   31352800  10. PHPUnit_Util_Fileloader::load() .../lib/php/PHPUnit/Util/Fileloader.php:79
+    0.5429   31499716  11. include_once('.../tests/suite/joomla/form/JFormFieldTest.php') .../lib/php/PHPUnit/Util/Fileloader.php:95
+
+</pre>
 <h2>Checkstyle</h2>
 <p class="img24 img-success">There were 200 warnings and  0 errors. <a href="../logs/636checkstyle.xml">Checkstyle Log (XML)</a></p>
 <a href="../index.html">&lArr; Index &lArr;</a>
-<div class="footer">Generated on 17-Dec-2011 04:36 -05:00 ECT America/Guayaquil
+<div class="footer">Generated on 30-Dec-2011 21:06 -05:00 ECT America/Guayaquil
 <div class="myLinx"><em>BTW</em>: If you want to run this tests on your own machine - The source code is <a href="https://github.com/elkuku/pulltester/tree/testing1">available on GitHub</a> and is based on <a href="https://github.com/ianmacl/pulltester">Ian McLennan's PullTester</a> =;)</div>
 </div>
 </body>
