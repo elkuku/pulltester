@@ -360,6 +360,9 @@
  <file name=".../libraries/joomla/filter/input.php">
  </file>
  <file name=".../libraries/joomla/filter/output.php">
+  <error line="93" column="1" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
+  <error line="102" column="1" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
+  <error line="102" column="1" severity="error" message="Functions and classes must not contain multiple empty lines in a row; found 2 empty lines" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
  </file>
  <file name=".../libraries/joomla/form/field.php">
  </file>
