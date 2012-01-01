@@ -12,181 +12,65 @@
 <p class="title">Improper use of lock and unlock and racing condition in tablenested</p>
 <div class="clr"></div>
 <h2>Unit Tests</h2>
-<h3 class="img24 img-fail">Unit Tests log missing. Tests failed to execute.</h3>
-<pre class="debug">
-Fatal error: Class JDatabaseNosql contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (JDatabase::lockTables) in .../tests/suite/joomla/database/stubs/nosqldriver.php on line 459
+<h3 class="img24 img-fail">Unit Tests log corrupt.</h3>
+<pre class="debug">PHPUnit 3.6.4 by Sebastian Bergmann.
+
+Configuration read from .../phpunit.xml.dist
+
+..............[36;1mS[0m..................................[36;1mS[0m...........   61 / 2840 (  2%)
+...........[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m.[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m.[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m...............  122 / 2840 (  4%)
+............[33;1mI[0m..[33;1mI[0m..............[33;1mI[0m.....[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m....[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m  183 / 2840 (  6%)
+[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m....[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m....[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m..[33;1mI[0m[33;1mI[0m[33;1mI[0m.[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m.[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m....[36;1mS[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m  244 / 2840 (  8%)
+[33;1mI[0m[33;1mI[0m.[33;1mI[0m...[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m.[33;1mI[0m.[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m...  305 / 2840 ( 10%)
+.[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m.....................................................  366 / 2840 ( 12%)
+...................................................
+Fatal error: Class Mock_JDatabase_a78362d6 contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (JDatabase::lockTables) in .../lib/php/PHPUnit/Framework/MockObject/Generator.php(216) : eval()'d code on line 1399
 
 Call Stack:
     0.0001     326280   1. {main}() .../bin/phpunit:0
-    0.1310     702324   2. PHPUnit_TextUI_Command::main() .../bin/phpunit:44
-    0.1311     702660   3. PHPUnit_TextUI_Command->run() .../lib/php/PHPUnit/TextUI/Command.php:125
-    0.1311     702660   4. PHPUnit_TextUI_Command->handleArguments() .../lib/php/PHPUnit/TextUI/Command.php:134
-    0.2272    2456448   5. PHPUnit_Util_Configuration->getTestSuiteConfiguration() .../lib/php/PHPUnit/TextUI/Command.php:670
-    0.2272    2456992   6. PHPUnit_Util_Configuration->getTestSuite() .../lib/php/PHPUnit/Util/Configuration.php:768
-    0.2629    2737300   7. PHPUnit_Framework_TestSuite->addTestFiles() .../lib/php/PHPUnit/Util/Configuration.php:848
-    0.8927   16238656   8. PHPUnit_Framework_TestSuite->addTestFile() .../lib/php/PHPUnit/Framework/TestSuite.php:419
-    0.8928   16239180   9. PHPUnit_Util_Fileloader::checkAndLoad() .../lib/php/PHPUnit/Framework/TestSuite.php:358
-    0.8928   16239328  10. PHPUnit_Util_Fileloader::load() .../lib/php/PHPUnit/Util/Fileloader.php:79
-    0.8934   16347004  11. include_once('.../tests/suite/joomla/database/JDatabaseTest.php') .../lib/php/PHPUnit/Util/Fileloader.php:95
+    0.0030     702324   2. PHPUnit_TextUI_Command::main() .../bin/phpunit:44
+    0.0031     702660   3. PHPUnit_TextUI_Command->run() .../lib/php/PHPUnit/TextUI/Command.php:125
+    1.0506   53345636   4. PHPUnit_TextUI_TestRunner->doRun() .../lib/php/PHPUnit/TextUI/Command.php:187
+    1.0856   53914232   5. PHPUnit_Framework_TestSuite->run() .../lib/php/PHPUnit/TextUI/TestRunner.php:325
+   39.6988   65427644   6. PHPUnit_Framework_TestSuite->run() .../lib/php/PHPUnit/Framework/TestSuite.php:705
+   39.6989   65427860   7. PHPUnit_Framework_TestSuite->runTest() .../lib/php/PHPUnit/Framework/TestSuite.php:745
+   39.6989   65427860   8. PHPUnit_Framework_TestCase->run() .../lib/php/PHPUnit/Framework/TestSuite.php:772
+   39.6989   65427860   9. PHPUnit_Framework_TestResult->run() .../lib/php/PHPUnit/Framework/TestCase.php:734
+   39.6992   65428560  10. PHPUnit_Framework_TestCase->runBare() .../lib/php/PHPUnit/Framework/TestResult.php:649
+   39.7017   65491700  11. JAdapterInstanceTest->setUp() .../lib/php/PHPUnit/Framework/TestCase.php:784
+   39.7049   65493392  12. JoomlaTestCase->getMockDatabase() .../tests/suite/joomla/base/JAdapterInstanceTest.php:33
+   39.7056   65513396  13. JDatabaseGlobalMock::create() .../tests/includes/JoomlaTestCase.php:372
+   39.7058   65519760  14. PHPUnit_Framework_TestCase->getMock() .../tests/includes/mocks/JDatabaseMock.php:110
+   39.7059   65519816  15. PHPUnit_Framework_MockObject_Generator::getMock() .../lib/php/PHPUnit/Framework/TestCase.php:1246
+   39.7768   65562728  16. PHPUnit_Framework_MockObject_Generator::getObject() .../lib/php/PHPUnit/Framework/MockObject/Generator.php:201
+   39.7788   65927864  17. eval(''class Mock_JDatabase_a78362d6 extends JDatabase implements PHPUnit_Framework_MockObject_MockObject\n{\n    protected static $staticInvocationMocker;\n    protected $invocationMocker;\n\n    public function __clone()\n    {\n        $this->invocationMocker = clone $this->__phpunit_getInvocationMocker();\n    }\n\n    public function addQuoted($quoted)\n    {\n        $arguments = array($quoted);\n        $count     = func_num_args();\n\n        if ($count > 1) {\n            $_arguments = func_get_args();\n\n            for ($i = 1; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'addQuoted\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public function connected()\n    {\n        $arguments = array();\n        $count     = func_num_args();\n\n        if ($count > 0) {\n            $_arguments = func_get_args();\n\n            for ($i = 0; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'connected\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public function debug($level)\n    {\n        $arguments = array($level);\n        $count     = func_num_args();\n\n        if ($count > 1) {\n            $_arguments = func_get_args();\n\n            for ($i = 1; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'debug\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public function dropTable($table, $ifExists = true)\n    {\n        $arguments = array($table, $ifExists);\n        $count     = func_num_args();\n\n        if ($count > 2) {\n            $_arguments = func_get_args();\n\n            for ($i = 2; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'dropTable\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public function escape($text, $extra = false)\n    {\n        $arguments = array($text, $extra);\n        $count     = func_num_args();\n\n        if ($count > 2) {\n            $_arguments = func_get_args();\n\n            for ($i = 2; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'escape\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public function explain()\n    {\n        $arguments = array();\n        $count     = func_num_args();\n\n        if ($count > 0) {\n            $_arguments = func_get_args();\n\n            for ($i = 0; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'explain\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    protected function fetchArray($cursor = NULL)\n    {\n        $arguments = array($cursor);\n        $count     = func_num_args();\n\n        if ($count > 1) {\n            $_arguments = func_get_args();\n\n            for ($i = 1; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'fetchArray\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    protected function fetchAssoc($cursor = NULL)\n    {\n        $arguments = array($cursor);\n        $count     = func_num_args();\n\n        if ($count > 1) {\n            $_arguments = func_get_args();\n\n            for ($i = 1; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'fetchAssoc\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    protected function fetchObject($cursor = NULL, $class = \'stdClass\')\n    {\n        $arguments = array($cursor, $class);\n        $count     = func_num_args();\n\n        if ($count > 2) {\n            $_arguments = func_get_args();\n\n            for ($i = 2; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'fetchObject\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    protected function freeResult($cursor = NULL)\n    {\n        $arguments = array($cursor);\n        $count     = func_num_args();\n\n        if ($count > 1) {\n            $_arguments = func_get_args();\n\n            for ($i = 1; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'freeResult\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public function getAffectedRows()\n    {\n        $arguments = array();\n        $count     = func_num_args();\n\n        if ($count > 0) {\n            $_arguments = func_get_args();\n\n            for ($i = 0; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'getAffectedRows\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public function getCollation()\n    {\n        $arguments = array();\n        $count     = func_num_args();\n\n        if ($count > 0) {\n            $_arguments = func_get_args();\n\n            for ($i = 0; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'getCollation\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public static function getConnectors()\n    {\n        $arguments = array();\n        $count     = func_num_args();\n\n        if ($count > 0) {\n            $_arguments = func_get_args();\n\n            for ($i = 0; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = self::__phpunit_getStaticInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Static(\n            \'JDatabase\', \'getConnectors\', $arguments\n          )\n        );\n\n        return $result;\n    }\n\n    public function getDateFormat()\n    {\n        $arguments = array();\n        $count     = func_num_args();\n\n        if ($count > 0) {\n            $_arguments = func_get_args();\n\n            for ($i = 0; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'getDateFormat\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public function getErrorMsg($escaped = false)\n    {\n        $arguments = array($escaped);\n        $count     = func_num_args();\n\n        if ($count > 1) {\n            $_arguments = func_get_args();\n\n            for ($i = 1; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'getErrorMsg\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public function getErrorNum()\n    {\n        $arguments = array();\n        $count     = func_num_args();\n\n        if ($count > 0) {\n            $_arguments = func_get_args();\n\n            for ($i = 0; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'getErrorNum\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public function getEscaped($text, $extra = false)\n    {\n        $arguments = array($text, $extra);\n        $count     = func_num_args();\n\n        if ($count > 2) {\n            $_arguments = func_get_args();\n\n            for ($i = 2; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'getEscaped\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public static function getInstance($options = array (\n))\n    {\n        $arguments = array($options);\n        $count     = func_num_args();\n\n        if ($count > 1) {\n            $_arguments = func_get_args();\n\n            for ($i = 1; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = self::__phpunit_getStaticInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Static(\n            \'JDatabase\', \'getInstance\', $arguments\n          )\n        );\n\n        return $result;\n    }\n\n    public function getLog()\n    {\n        $arguments = array();\n        $count     = func_num_args();\n\n        if ($count > 0) {\n            $_arguments = func_get_args();\n\n            for ($i = 0; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'getLog\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public function getNullDate()\n    {\n        $arguments = array();\n        $count     = func_num_args();\n\n        if ($count > 0) {\n            $_arguments = func_get_args();\n\n            for ($i = 0; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'getNullDate\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public function getNumRows($cursor = NULL)\n    {\n        $arguments = array($cursor);\n        $count     = func_num_args();\n\n        if ($count > 1) {\n            $_arguments = func_get_args();\n\n            for ($i = 1; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'getNumRows\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public function getPrefix()\n    {\n        $arguments = array();\n        $count     = func_num_args();\n\n        if ($count > 0) {\n            $_arguments = func_get_args();\n\n            for ($i = 0; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'getPrefix\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public function getQuery($new = false)\n    {\n        $arguments = array($new);\n        $count     = func_num_args();\n\n        if ($count > 1) {\n            $_arguments = func_get_args();\n\n            for ($i = 1; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'getQuery\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public function getTableColumns($table, $typeOnly = true)\n    {\n        $arguments = array($table, $typeOnly);\n        $count     = func_num_args();\n\n        if ($count > 2) {\n            $_arguments = func_get_args();\n\n            for ($i = 2; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'getTableColumns\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public function getTableCreate($tables)\n    {\n        $arguments = array($tables);\n        $count     = func_num_args();\n\n        if ($count > 1) {\n            $_arguments = func_get_args();\n\n            for ($i = 1; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'getTableCreate\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public function getTableFields($tables, $typeOnly = true)\n    {\n        $arguments = array($tables, $typeOnly);\n        $count     = func_num_args();\n\n        if ($count > 2) {\n            $_arguments = func_get_args();\n\n            for ($i = 2; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'getTableFields\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public function getTableKeys($tables)\n    {\n        $arguments = array($tables);\n        $count     = func_num_args();\n\n        if ($count > 1) {\n            $_arguments = func_get_args();\n\n            for ($i = 1; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'getTableKeys\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public function getTableList()\n    {\n        $arguments = array();\n        $count     = func_num_args();\n\n        if ($count > 0) {\n            $_arguments = func_get_args();\n\n            for ($i = 0; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'getTableList\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public function getTicker()\n    {\n        $arguments = array();\n        $count     = func_num_args();\n\n        if ($count > 0) {\n            $_arguments = func_get_args();\n\n            for ($i = 0; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'getTicker\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public function getUTFSupport()\n    {\n        $arguments = array();\n        $count     = func_num_args();\n\n        if ($count > 0) {\n            $_arguments = func_get_args();\n\n            for ($i = 0; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'getUTFSupport\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public function getVersion()\n    {\n        $arguments = array();\n        $count     = func_num_args();\n\n        if ($count > 0) {\n            $_arguments = func_get_args();\n\n            for ($i = 0; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'getVersion\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public function hasUTF()\n    {\n        $arguments = array();\n        $count     = func_num_args();\n\n        if ($count > 0) {\n            $_arguments = func_get_args();\n\n            for ($i = 0; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'hasUTF\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public function insertid()\n    {\n        $arguments = array();\n        $count     = func_num_args();\n\n        if ($count > 0) {\n            $_arguments = func_get_args();\n\n            for ($i = 0; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'insertid\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public function insertObject($table, &$object, $key = NULL)\n    {\n        $arguments = array($table, $object, $key);\n        $count     = func_num_args();\n\n        if ($count > 3) {\n            $_arguments = func_get_args();\n\n            for ($i = 3; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'insertObject\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public function loadAssoc()\n    {\n        $arguments = array();\n        $count     = func_num_args();\n\n        if ($count > 0) {\n            $_arguments = func_get_args();\n\n            for ($i = 0; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'loadAssoc\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public function loadAssocList($key = NULL, $column = NULL)\n    {\n        $arguments = array($key, $column);\n        $count     = func_num_args();\n\n        if ($count > 2) {\n            $_arguments = func_get_args();\n\n            for ($i = 2; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'loadAssocList\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public function loadColumn($offset = 0)\n    {\n        $arguments = array($offset);\n        $count     = func_num_args();\n\n        if ($count > 1) {\n            $_arguments = func_get_args();\n\n            for ($i = 1; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'loadColumn\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public function loadObject($class = \'stdClass\')\n    {\n        $arguments = array($class);\n        $count     = func_num_args();\n\n        if ($count > 1) {\n            $_arguments = func_get_args();\n\n            for ($i = 1; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'loadObject\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public function loadObjectList($key = \'\', $class = \'stdClass\')\n    {\n        $arguments = array($key, $class);\n        $count     = func_num_args();\n\n        if ($count > 2) {\n            $_arguments = func_get_args();\n\n            for ($i = 2; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'loadObjectList\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public function loadResult()\n    {\n        $arguments = array();\n        $count     = func_num_args();\n\n        if ($count > 0) {\n            $_arguments = func_get_args();\n\n            for ($i = 0; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'loadResult\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public function loadResultArray($offset = 0)\n    {\n        $arguments = array($offset);\n        $count     = func_num_args();\n\n        if ($count > 1) {\n            $_arguments = func_get_args();\n\n            for ($i = 1; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'loadResultArray\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public function loadRow()\n    {\n        $arguments = array();\n        $count     = func_num_args();\n\n        if ($count > 0) {\n            $_arguments = func_get_args();\n\n            for ($i = 0; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'loadRow\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public function loadRowList($key = NULL)\n    {\n        $arguments = array($key);\n        $count     = func_num_args();\n\n        if ($count > 1) {\n            $_arguments = func_get_args();\n\n            for ($i = 1; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'loadRowList\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public function lockTable()\n    {\n        $arguments = array();\n        $count     = func_num_args();\n\n        if ($count > 0) {\n            $_arguments = func_get_args();\n\n            for ($i = 0; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'lockTable\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public function nameQuote($name)\n    {\n        $arguments = array($name);\n        $count     = func_num_args();\n\n        if ($count > 1) {\n            $_arguments = func_get_args();\n\n            for ($i = 1; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'nameQuote\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public function query()\n    {\n        $arguments = array();\n        $count     = func_num_args();\n\n        if ($count > 0) {\n            $_arguments = func_get_args();\n\n            for ($i = 0; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'query\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public function queryBatch($abortOnError = true, $transactionSafe = false)\n    {\n        $arguments = array($abortOnError, $transactionSafe);\n        $count     = func_num_args();\n\n        if ($count > 2) {\n            $_arguments = func_get_args();\n\n            for ($i = 2; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'queryBatch\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public function quote($text, $escape = true)\n    {\n        $arguments = array($text, $escape);\n        $count     = func_num_args();\n\n        if ($count > 2) {\n            $_arguments = func_get_args();\n\n            for ($i = 2; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'quote\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public function quoteName($name)\n    {\n        $arguments = array($name);\n        $count     = func_num_args();\n\n        if ($count > 1) {\n            $_arguments = func_get_args();\n\n            for ($i = 1; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'quoteName\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public function renameTable($oldTable, $newTable, $backup = NULL, $prefix = NULL)\n    {\n        $arguments = array($oldTable, $newTable, $backup, $prefix);\n        $count     = func_num_args();\n\n        if ($count > 4) {\n            $_arguments = func_get_args();\n\n            for ($i = 4; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'renameTable\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public function replacePrefix($sql, $prefix = \'#__\')\n    {\n        $arguments = array($sql, $prefix);\n        $count     = func_num_args();\n\n        if ($count > 2) {\n            $_arguments = func_get_args();\n\n            for ($i = 2; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'replacePrefix\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public function select($database)\n    {\n        $arguments = array($database);\n        $count     = func_num_args();\n\n        if ($count > 1) {\n            $_arguments = func_get_args();\n\n            for ($i = 1; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'select\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public function setQuery($query, $offset = 0, $limit = 0)\n    {\n        $arguments = array($query, $offset, $limit);\n        $count     = func_num_args();\n\n        if ($count > 3) {\n            $_arguments = func_get_args();\n\n            for ($i = 3; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'setQuery\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public function setUTF()\n    {\n        $arguments = array();\n        $count     = func_num_args();\n\n        if ($count > 0) {\n            $_arguments = func_get_args();\n\n            for ($i = 0; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'setUTF\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public static function splitSql($sql)\n    {\n        $arguments = array($sql);\n        $count     = func_num_args();\n\n        if ($count > 1) {\n            $_arguments = func_get_args();\n\n            for ($i = 1; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = self::__phpunit_getStaticInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Static(\n            \'JDatabase\', \'splitSql\', $arguments\n          )\n        );\n\n        return $result;\n    }\n\n    public static function test()\n    {\n        $arguments = array();\n        $count     = func_num_args();\n\n        if ($count > 0) {\n            $_arguments = func_get_args();\n\n            for ($i = 0; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = self::__phpunit_getStaticInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Static(\n            \'JDatabaseInterface\', \'test\', $arguments\n          )\n        );\n\n        return $result;\n    }\n\n    public function transactionCommit()\n    {\n        $arguments = array();\n        $count     = func_num_args();\n\n        if ($count > 0) {\n            $_arguments = func_get_args();\n\n            for ($i = 0; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'transactionCommit\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public function transactionRollback()\n    {\n        $arguments = array();\n        $count     = func_num_args();\n\n        if ($count > 0) {\n            $_arguments = func_get_args();\n\n            for ($i = 0; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'transactionRollback\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public function transactionStart()\n    {\n        $arguments = array();\n        $count     = func_num_args();\n\n        if ($count > 0) {\n            $_arguments = func_get_args();\n\n            for ($i = 0; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'transactionStart\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public function unlockTables()\n    {\n        $arguments = array();\n        $count     = func_num_args();\n\n        if ($count > 0) {\n            $_arguments = func_get_args();\n\n            for ($i = 0; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'unlockTables\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public function updateObject($table, &$object, $key, $nulls = false)\n    {\n        $arguments = array($table, $object, $key, $nulls);\n        $count     = func_num_args();\n\n        if ($count > 4) {\n            $_arguments = func_get_args();\n\n            for ($i = 4; $i < $count; $i++) {\n                $arguments[] = $_arguments[$i];\n            }\n        }\n\n        $result = $this->__phpunit_getInvocationMocker()->invoke(\n          new PHPUnit_Framework_MockObject_Invocation_Object(\n            \'JDatabase\', \'updateObject\', $arguments, $this\n          )\n        );\n\n        return $result;\n    }\n\n    public function expects(PHPUnit_Framework_MockObject_Matcher_Invocation $matcher)\n    {\n        return $this->__phpunit_getInvocationMocker()->expects($matcher);\n    }\n\n    public static function staticExpects(PHPUnit_Framework_MockObject_Matcher_Invocation $matcher)\n    {\n        return self::__phpunit_getStaticInvocationMocker()->expects($matcher);\n    }\n\n    public function __phpunit_getInvocationMocker()\n    {\n        if ($this->invocationMocker === NULL) {\n            $this->invocationMocker = new PHPUnit_Framework_MockObject_InvocationMocker;\n        }\n\n        return $this->invocationMocker;\n    }\n\n    public static function __phpunit_getStaticInvocationMocker()\n    {\n        if (self::$staticInvocationMocker === NULL) {\n            self::$staticInvocationMocker = new PHPUnit_Framework_MockObject_InvocationMocker;\n        }\n\n        return self::$staticInvocationMocker;\n    }\n\n    public function __phpunit_hasMatchers()\n    {\n        return self::__phpunit_getStaticInvocationMocker()->hasMatchers() ||\n               $this->__phpunit_getInvocationMocker()->hasMatchers();\n    }\n\n    public function __phpunit_verify()\n    {\n        self::__phpunit_getStaticInvocationMocker()->verify();\n        $this->__phpunit_getInvocationMocker()->verify();\n    }\n\n    public function __phpunit_cleanup()\n    {\n        self::$staticInvocationMocker = NULL;\n        $this->invocationMocker       = NULL;\n    }\n}\n'') .../lib/php/PHPUnit/Framework/MockObject/Generator.php:216
 
 </pre>
+<pre class="debug">Document is empty
+</pre>
+<pre class="debug">Start tag expected, '<' not found
+</pre>
 <h2>Checkstyle</h2>
-<p class="img24 img-warn">There were 198 warnings and 339 errors. <a href="../logs/691checkstyle.xml">Checkstyle Log (XML)</a></p>
+<p class="img24 img-warn">There were 198 warnings and 89 errors. <a href="../logs/691checkstyle.xml">Checkstyle Log (XML)</a></p>
 <h3>Errors</h3>
 <ul class="phpcs">
-<li><tt>libraries/joomla/database/database/mysql.php:460</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/database/mysql.php:470</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/database/mysql.php:471</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/database/mysql.php:472</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/database/mysql.php:472</tt><br />
-<em>Expected "foreach (...)\n...{\n"; found "foreach(...)\n...{\n"</em></li>
-<li><tt>libraries/joomla/database/database/mysql.php:473</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/database/mysql.php:474</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/database/mysql.php:475</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/database/mysql.php:477</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/database/mysql.php:478</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/database/mysql.php:480</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/database/mysql.php:481</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/database/mysql.php:841</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/database/mysql.php:849</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/database/mysql.php:850</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/database/mysql.php:851</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/database/mysql.php:852</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/database/mysql.php:854</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/database/mysql.php:855</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1043</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1053</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1054</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1055</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1055</tt><br />
-<em>Expected "foreach (...)\n...{\n"; found "foreach(...)\n...{\n"</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1056</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1057</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1058</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1060</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1061</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1063</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1064</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1066</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1074</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1075</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1076</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1077</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1079</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/database/sqlsrv.php:1080</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/table.php:64</tt><br />
-<em>Functions and classes must not contain multiple empty lines in a row; found 2 empty lines</em></li>
-<li><tt>libraries/joomla/database/tablenested.php:366</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/tablenested.php:367</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/tablenested.php:367</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if(...)\n...{...}\n...else\n"</em></li>
-<li><tt>libraries/joomla/database/tablenested.php:368</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/tablenested.php:369</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/tablenested.php:370</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/tablenested.php:547</tt><br />
-<em>Functions and classes must not contain multiple empty lines in a row; found 2 empty lines</em></li>
-<li><tt>libraries/joomla/database/tablenested.php:549</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/tablenested.php:550</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/tablenested.php:550</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if(...)\n...{...}\n...else\n"</em></li>
-<li><tt>libraries/joomla/database/tablenested.php:551</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/tablenested.php:552</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/database/tablenested.php:553</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/component.php:259</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/component.php:259</tt><br />
 <em>Expected "if (...)\n...{...}\n...else\n"; found "if(...)\n...{...}\n...else\n"</em></li>
-<li><tt>libraries/joomla/installer/adapters/component.php:260</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/component.php:261</tt><br />
 <em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/component.php:262</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/component.php:740</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/component.php:740</tt><br />
 <em>Expected "if (...)\n...{...}\n...else\n"; found "if(...)\n...{...}\n...else\n"</em></li>
-<li><tt>libraries/joomla/installer/adapters/component.php:741</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/component.php:742</tt><br />
 <em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/component.php:743</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/component.php:1203</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/component.php:1203</tt><br />
 <em>Expected "if (...)\n...{...}\n...else\n"; found "if(...)\n...{...}\n...else\n"</em></li>
-<li><tt>libraries/joomla/installer/adapters/component.php:1204</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/component.php:1205</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/component.php:1206</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/component.php:1825</tt><br />
 <em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/component.php:1825</tt><br />
 <em>Expected "if (...)\n"; found "if(...)\n"</em></li>
-<li><tt>libraries/joomla/installer/adapters/component.php:1826</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/component.php:1827</tt><br />
 <em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/component.php:1828</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/file.php:121</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/file.php:121</tt><br />
-<em>Expected "if (...)\n...{...}\n...else\n"; found "if(...)\n...{...}\n...else\n"</em></li>
-<li><tt>libraries/joomla/installer/adapters/file.php:122</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/file.php:123</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/file.php:124</tt><br />
 <em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/file.php:455</tt><br />
 <em>Tabs must be used to indent lines; spaces are not allowed</em></li>
@@ -198,40 +82,16 @@ Call Stack:
 <em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/file.php:458</tt><br />
 <em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:123</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:124</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:125</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/library.php:125</tt><br />
 <em>Expected "if (...)\n...{...}\n...else\n"; found "if(...)\n...{...}\n...else\n"</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:126</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:127</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:128</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/library.php:128</tt><br />
 <em>Expected "if (...)\n...{...}\n...else\n"; found "if(...)\n...{...}\n...else\n"</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:129</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/library.php:130</tt><br />
 <em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/library.php:131</tt><br />
 <em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:132</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:134</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:135</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:136</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/library.php:136</tt><br />
 <em>Expected "if (...)\n...{...}\n...else\n"; found "if(...)\n...{...}\n...else\n"</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:137</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/library.php:138</tt><br />
 <em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/library.php:139</tt><br />
@@ -240,62 +100,20 @@ Call Stack:
 <em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/library.php:141</tt><br />
 <em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:142</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:143</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:145</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:146</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:147</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:149</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/library.php:149</tt><br />
 <em>Expected "if (...)\n...{...}\n...else\n"; found "if(...)\n...{...}\n...else\n"</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:150</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:151</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/library.php:151</tt><br />
 <em>Expected "if (...)\n...{...}\n...else\n"; found "if(...)\n...{...}\n...else\n"</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:152</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/library.php:153</tt><br />
 <em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/library.php:154</tt><br />
 <em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/library.php:155</tt><br />
 <em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:156</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:157</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:159</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:160</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:161</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/library.php:162</tt><br />
 <em>Functions and classes must not contain multiple empty lines in a row; found 5 empty lines</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:199</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:200</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/library.php:200</tt><br />
 <em>Expected "if (...)\n...{...}\n...else\n"; found "if(...)\n...{...}\n...else\n"</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:201</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:202</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:203</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:205</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:206</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/library.php:207</tt><br />
 <em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/library.php:208</tt><br />
@@ -308,107 +126,25 @@ Call Stack:
 <em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/library.php:213</tt><br />
 <em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:214</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:215</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:217</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:219</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:220</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:221</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:223</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/library.php:223</tt><br />
 <em>Expected "if (...)\n...{...}\n...else\n"; found "if(...)\n...{...}\n...else\n"</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:224</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:225</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/library.php:225</tt><br />
 <em>Expected "if (...)\n...{...}\n...else\n"; found "if(...)\n...{...}\n...else\n"</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:226</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/library.php:227</tt><br />
 <em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/library.php:228</tt><br />
 <em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/library.php:230</tt><br />
 <em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:231</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:232</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:234</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:235</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:236</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/library.php:237</tt><br />
 <em>Functions and classes must not contain multiple empty lines in a row; found 2 empty lines</em></li>
 <li><tt>libraries/joomla/installer/adapters/library.php:275</tt><br />
 <em>Functions and classes must not contain multiple empty lines in a row; found 2 empty lines</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:277</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:278</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:279</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:281</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:282</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:283</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:284</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:286</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:287</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:288</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:290</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:291</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:292</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:293</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/library.php:374</tt><br />
 <em>Functions and classes must not contain multiple empty lines in a row; found 2 empty lines</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:386</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:387</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:389</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:390</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:391</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:393</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:394</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/library.php:395</tt><br />
 <em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/library.php:396</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:397</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:399</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:400</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:402</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:403</tt><br />
 <em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/library.php:404</tt><br />
 <em>Tabs must be used to indent lines; spaces are not allowed</em></li>
@@ -420,99 +156,25 @@ Call Stack:
 <em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/library.php:409</tt><br />
 <em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:410</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:411</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:413</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:414</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:416</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:417</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:418</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:419</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:420</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:422</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/library.php:423</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/library.php:424</tt><br />
 <em>Functions and classes must not contain multiple empty lines in a row; found 2 empty lines</em></li>
 <li><tt>libraries/joomla/installer/adapters/module.php:292</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/module.php:292</tt><br />
 <em>Expected "if (...)\n...{...}\n...else\n"; found "if(...)\n...{...}\n...else\n"</em></li>
-<li><tt>libraries/joomla/installer/adapters/module.php:293</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/module.php:294</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/module.php:295</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/module.php:756</tt><br />
 <em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/module.php:756</tt><br />
 <em>Expected "if (...)\n"; found "if(...)\n"</em></li>
-<li><tt>libraries/joomla/installer/adapters/module.php:757</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/module.php:758</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/module.php:759</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/plugin.php:256</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/plugin.php:256</tt><br />
 <em>Expected "if (...)\n...{...}\n...else\n"; found "if(...)\n...{...}\n...else\n"</em></li>
-<li><tt>libraries/joomla/installer/adapters/plugin.php:257</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/plugin.php:258</tt><br />
 <em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/plugin.php:259</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/plugin.php:629</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/plugin.php:629</tt><br />
 <em>Expected "if (...)\n...{...}\n...else\n"; found "if(...)\n...{...}\n...else\n"</em></li>
-<li><tt>libraries/joomla/installer/adapters/plugin.php:630</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/plugin.php:631</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/plugin.php:632</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:175</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:177</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:178</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:180</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:181</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:182</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:184</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:185</tt><br />
 <em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/template.php:186</tt><br />
 <em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/template.php:187</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:188</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:190</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:191</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:193</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:194</tt><br />
 <em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/template.php:195</tt><br />
 <em>Tabs must be used to indent lines; spaces are not allowed</em></li>
@@ -522,58 +184,16 @@ Call Stack:
 <em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/template.php:198</tt><br />
 <em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:199</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:200</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:202</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:203</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:204</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:206</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:207</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:208</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:209</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/template.php:210</tt><br />
 <em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/template.php:211</tt><br />
 <em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/template.php:212</tt><br />
 <em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:213</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:214</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:216</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:217</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:218</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/template.php:219</tt><br />
 <em>Functions and classes must not contain multiple empty lines in a row; found 3 empty lines</em></li>
 <li><tt>libraries/joomla/installer/adapters/template.php:270</tt><br />
 <em>Functions and classes must not contain multiple empty lines in a row; found 2 empty lines</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:275</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:276</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:277</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:278</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:279</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:281</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:282</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/template.php:283</tt><br />
 <em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/template.php:284</tt><br />
@@ -586,97 +206,19 @@ Call Stack:
 <em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/template.php:289</tt><br />
 <em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:290</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:291</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:293</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:294</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:296</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:297</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:298</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:299</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/template.php:300</tt><br />
 <em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/template.php:301</tt><br />
 <em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/template.php:303</tt><br />
 <em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:304</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:305</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:307</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:308</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:309</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/template.php:310</tt><br />
 <em>Functions and classes must not contain multiple empty lines in a row; found 2 empty lines</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:370</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:371</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:372</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:374</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:375</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:376</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:377</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:379</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:380</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:381</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:383</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:384</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:385</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:386</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/template.php:387</tt><br />
 <em>Functions and classes must not contain multiple empty lines in a row; found 3 empty lines</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:487</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:488</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:490</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:491</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:492</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:494</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:495</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/template.php:496</tt><br />
 <em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/template.php:497</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:498</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:500</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:501</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:503</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:504</tt><br />
 <em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/template.php:505</tt><br />
 <em>Tabs must be used to indent lines; spaces are not allowed</em></li>
@@ -688,33 +230,11 @@ Call Stack:
 <em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/template.php:510</tt><br />
 <em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:511</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:512</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:514</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:515</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:517</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:518</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:519</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:520</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:521</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:523</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
-<li><tt>libraries/joomla/installer/adapters/template.php:524</tt><br />
-<em>Tabs must be used to indent lines; spaces are not allowed</em></li>
 <li><tt>libraries/joomla/installer/adapters/template.php:525</tt><br />
 <em>Functions and classes must not contain multiple empty lines in a row; found 2 empty lines</em></li>
 </ul>
 <a href="../index.html">&lArr; Index &lArr;</a>
-<div class="footer">Generated on 01-Jan-2012 12:47 -05:00 ECT America/Guayaquil
+<div class="footer">Generated on 01-Jan-2012 13:58 -05:00 ECT America/Guayaquil
 <div class="myLinx"><em>BTW</em>: If you want to run this tests on your own machine - The source code is <a href="https://github.com/elkuku/pulltester/tree/testing1">available on GitHub</a> and is based on <a href="https://github.com/ianmacl/pulltester">Ian McLennan's PullTester</a> =;)</div>
 </div>
 </body>

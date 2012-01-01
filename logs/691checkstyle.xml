@@ -138,25 +138,6 @@
  <file name=".../libraries/joomla/database/database.php">
  </file>
  <file name=".../libraries/joomla/database/database/mysql.php">
-  <error line="460" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="470" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="471" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="472" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="472" column="5" severity="error" message="Expected &quot;foreach (...)\n...{\n&quot;; found &quot;foreach(...)\n...{\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
-  <error line="473" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="474" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="475" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="477" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="478" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="480" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="481" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="841" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="849" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="850" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="851" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="852" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="854" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="855" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
  </file>
  <file name=".../libraries/joomla/database/database/mysqlexporter.php">
  </file>
@@ -177,25 +158,6 @@
  <file name=".../libraries/joomla/database/database/sqlazurequery.php">
  </file>
  <file name=".../libraries/joomla/database/database/sqlsrv.php">
-  <error line="1043" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="1053" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="1054" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="1055" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="1055" column="5" severity="error" message="Expected &quot;foreach (...)\n...{\n&quot;; found &quot;foreach(...)\n...{\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
-  <error line="1056" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="1057" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="1058" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="1060" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="1061" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="1063" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="1064" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="1066" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="1074" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="1075" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="1076" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="1077" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="1079" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="1080" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
  </file>
  <file name=".../libraries/joomla/database/database/sqlsrvquery.php">
  </file>
@@ -209,7 +171,6 @@
   <error line="47" column="12" severity="warning" message="Protected member variable &quot;_db&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
   <error line="55" column="12" severity="warning" message="Protected member variable &quot;_trackAssets&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
   <error line="63" column="12" severity="warning" message="Protected member variable &quot;_rules&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
-  <error line="64" column="1" severity="error" message="Functions and classes must not contain multiple empty lines in a row; found 2 empty lines" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
  </file>
  <file name=".../libraries/joomla/database/table/asset.php">
  </file>
@@ -242,19 +203,6 @@
   <error line="85" column="12" severity="warning" message="Protected member variable &quot;_location_id&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
   <error line="93" column="12" severity="warning" message="Protected member variable &quot;_cache&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
   <error line="101" column="12" severity="warning" message="Protected member variable &quot;_debug&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
-  <error line="366" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="367" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="367" column="5" severity="error" message="Expected &quot;if (...)\n...{...}\n...else\n&quot;; found &quot;if(...)\n...{...}\n...else\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
-  <error line="368" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="369" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="370" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="547" column="1" severity="error" message="Functions and classes must not contain multiple empty lines in a row; found 2 empty lines" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
-  <error line="549" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="550" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="550" column="5" severity="error" message="Expected &quot;if (...)\n...{...}\n...else\n&quot;; found &quot;if(...)\n...{...}\n...else\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
-  <error line="551" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="552" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="553" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
  </file>
  <file name=".../libraries/joomla/document/document.php">
   <error line="78" column="9" severity="warning" message="Public member variable &quot;_generator&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
@@ -748,35 +696,19 @@
  <file name=".../libraries/joomla/image/image.php">
  </file>
  <file name=".../libraries/joomla/installer/adapters/component.php">
-  <error line="259" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="259" column="7" severity="error" message="Expected &quot;if (...)\n...{...}\n...else\n&quot;; found &quot;if(...)\n...{...}\n...else\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
-  <error line="260" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
+  <error line="259" column="4" severity="error" message="Expected &quot;if (...)\n...{...}\n...else\n&quot;; found &quot;if(...)\n...{...}\n...else\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
   <error line="261" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="262" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="740" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="740" column="7" severity="error" message="Expected &quot;if (...)\n...{...}\n...else\n&quot;; found &quot;if(...)\n...{...}\n...else\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
-  <error line="741" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
+  <error line="740" column="4" severity="error" message="Expected &quot;if (...)\n...{...}\n...else\n&quot;; found &quot;if(...)\n...{...}\n...else\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
   <error line="742" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="743" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="1203" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="1203" column="7" severity="error" message="Expected &quot;if (...)\n...{...}\n...else\n&quot;; found &quot;if(...)\n...{...}\n...else\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
-  <error line="1204" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
+  <error line="1203" column="4" severity="error" message="Expected &quot;if (...)\n...{...}\n...else\n&quot;; found &quot;if(...)\n...{...}\n...else\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
   <error line="1205" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="1206" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="1825" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="1825" column="7" severity="error" message="Expected &quot;if (...)\n&quot;; found &quot;if(...)\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
-  <error line="1826" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
+  <error line="1825" column="4" severity="error" message="Expected &quot;if (...)\n&quot;; found &quot;if(...)\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
   <error line="1827" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="1828" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
  </file>
  <file name=".../libraries/joomla/installer/adapters/file.php">
-  <error line="121" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="121" column="7" severity="error" message="Expected &quot;if (...)\n...{...}\n...else\n&quot;; found &quot;if(...)\n...{...}\n...else\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
-  <error line="122" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="123" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="124" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="455" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="455" column="9" severity="error" message="Expected &quot;if (...)\n...{...}\n...else\n&quot;; found &quot;if(...)\n...{...}\n...else\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
+  <error line="455" column="6" severity="error" message="Expected &quot;if (...)\n...{...}\n...else\n&quot;; found &quot;if(...)\n...{...}\n...else\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
   <error line="456" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="457" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="458" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
@@ -785,270 +717,88 @@
   <error line="29" column="12" severity="warning" message="Protected member variable &quot;_core&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
  </file>
  <file name=".../libraries/joomla/installer/adapters/library.php">
-  <error line="123" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="124" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="125" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="125" column="5" severity="error" message="Expected &quot;if (...)\n...{...}\n...else\n&quot;; found &quot;if(...)\n...{...}\n...else\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
-  <error line="126" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="127" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="128" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="128" column="7" severity="error" message="Expected &quot;if (...)\n...{...}\n...else\n&quot;; found &quot;if(...)\n...{...}\n...else\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
-  <error line="129" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
+  <error line="125" column="3" severity="error" message="Expected &quot;if (...)\n...{...}\n...else\n&quot;; found &quot;if(...)\n...{...}\n...else\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
+  <error line="128" column="4" severity="error" message="Expected &quot;if (...)\n...{...}\n...else\n&quot;; found &quot;if(...)\n...{...}\n...else\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
   <error line="130" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="131" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="132" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="134" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="135" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="136" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="136" column="7" severity="error" message="Expected &quot;if (...)\n...{...}\n...else\n&quot;; found &quot;if(...)\n...{...}\n...else\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
-  <error line="137" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
+  <error line="136" column="4" severity="error" message="Expected &quot;if (...)\n...{...}\n...else\n&quot;; found &quot;if(...)\n...{...}\n...else\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
   <error line="138" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="139" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="140" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="141" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="142" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="143" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="145" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="146" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="147" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="149" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="149" column="5" severity="error" message="Expected &quot;if (...)\n...{...}\n...else\n&quot;; found &quot;if(...)\n...{...}\n...else\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
-  <error line="150" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="151" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="151" column="7" severity="error" message="Expected &quot;if (...)\n...{...}\n...else\n&quot;; found &quot;if(...)\n...{...}\n...else\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
-  <error line="152" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
+  <error line="149" column="3" severity="error" message="Expected &quot;if (...)\n...{...}\n...else\n&quot;; found &quot;if(...)\n...{...}\n...else\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
+  <error line="151" column="4" severity="error" message="Expected &quot;if (...)\n...{...}\n...else\n&quot;; found &quot;if(...)\n...{...}\n...else\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
   <error line="153" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="154" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="155" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="156" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="157" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="159" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="160" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="161" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="162" column="1" severity="error" message="Functions and classes must not contain multiple empty lines in a row; found 5 empty lines" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
-  <error line="199" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="200" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="200" column="5" severity="error" message="Expected &quot;if (...)\n...{...}\n...else\n&quot;; found &quot;if(...)\n...{...}\n...else\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
-  <error line="201" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="202" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="203" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="205" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="206" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
+  <error line="200" column="3" severity="error" message="Expected &quot;if (...)\n...{...}\n...else\n&quot;; found &quot;if(...)\n...{...}\n...else\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
   <error line="207" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="208" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="209" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="210" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="212" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="213" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="214" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="215" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="217" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="219" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="220" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="221" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="223" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="223" column="5" severity="error" message="Expected &quot;if (...)\n...{...}\n...else\n&quot;; found &quot;if(...)\n...{...}\n...else\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
-  <error line="224" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="225" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="225" column="7" severity="error" message="Expected &quot;if (...)\n...{...}\n...else\n&quot;; found &quot;if(...)\n...{...}\n...else\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
-  <error line="226" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
+  <error line="223" column="3" severity="error" message="Expected &quot;if (...)\n...{...}\n...else\n&quot;; found &quot;if(...)\n...{...}\n...else\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
+  <error line="225" column="4" severity="error" message="Expected &quot;if (...)\n...{...}\n...else\n&quot;; found &quot;if(...)\n...{...}\n...else\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
   <error line="227" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="228" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="230" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="231" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="232" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="234" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="235" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="236" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="237" column="1" severity="error" message="Functions and classes must not contain multiple empty lines in a row; found 2 empty lines" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
   <error line="275" column="1" severity="error" message="Functions and classes must not contain multiple empty lines in a row; found 2 empty lines" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
-  <error line="277" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="278" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="279" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="281" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="282" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="283" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="284" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="286" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="287" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="288" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="290" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="291" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="292" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="293" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="374" column="1" severity="error" message="Functions and classes must not contain multiple empty lines in a row; found 2 empty lines" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
-  <error line="386" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="387" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="389" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="390" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="391" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="393" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="394" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="395" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="396" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="397" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="399" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="400" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="402" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="403" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="404" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="405" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="406" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="407" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="409" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="410" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="411" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="413" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="414" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="416" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="417" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="418" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="419" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="420" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="422" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="423" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="424" column="1" severity="error" message="Functions and classes must not contain multiple empty lines in a row; found 2 empty lines" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
  </file>
  <file name=".../libraries/joomla/installer/adapters/module.php">
-  <error line="292" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="292" column="7" severity="error" message="Expected &quot;if (...)\n...{...}\n...else\n&quot;; found &quot;if(...)\n...{...}\n...else\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
-  <error line="293" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
+  <error line="292" column="4" severity="error" message="Expected &quot;if (...)\n...{...}\n...else\n&quot;; found &quot;if(...)\n...{...}\n...else\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
   <error line="294" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="295" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="756" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="756" column="7" severity="error" message="Expected &quot;if (...)\n&quot;; found &quot;if(...)\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
-  <error line="757" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="758" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="759" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
+  <error line="756" column="4" severity="error" message="Expected &quot;if (...)\n&quot;; found &quot;if(...)\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
  </file>
  <file name=".../libraries/joomla/installer/adapters/package.php">
  </file>
  <file name=".../libraries/joomla/installer/adapters/plugin.php">
-  <error line="256" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="256" column="7" severity="error" message="Expected &quot;if (...)\n...{...}\n...else\n&quot;; found &quot;if(...)\n...{...}\n...else\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
-  <error line="257" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
+  <error line="256" column="4" severity="error" message="Expected &quot;if (...)\n...{...}\n...else\n&quot;; found &quot;if(...)\n...{...}\n...else\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
   <error line="258" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="259" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="629" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="629" column="7" severity="error" message="Expected &quot;if (...)\n...{...}\n...else\n&quot;; found &quot;if(...)\n...{...}\n...else\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
-  <error line="630" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
+  <error line="629" column="4" severity="error" message="Expected &quot;if (...)\n...{...}\n...else\n&quot;; found &quot;if(...)\n...{...}\n...else\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
   <error line="631" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="632" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
  </file>
  <file name=".../libraries/joomla/installer/adapters/template.php">
-  <error line="175" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="177" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="178" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="180" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="181" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="182" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="184" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="185" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="186" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="187" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="188" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="190" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="191" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="193" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="194" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="195" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="196" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="197" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="198" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="199" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="200" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="202" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="203" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="204" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="206" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="207" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="208" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="209" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="210" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="211" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="212" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="213" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="214" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="216" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="217" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="218" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="219" column="1" severity="error" message="Functions and classes must not contain multiple empty lines in a row; found 3 empty lines" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
   <error line="270" column="1" severity="error" message="Functions and classes must not contain multiple empty lines in a row; found 2 empty lines" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
-  <error line="275" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="276" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="277" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="278" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="279" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="281" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="282" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="283" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="284" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="285" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="286" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="288" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="289" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="290" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="291" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="293" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="294" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="296" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="297" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="298" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="299" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="300" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="301" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="303" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="304" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="305" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="307" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="308" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="309" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="310" column="1" severity="error" message="Functions and classes must not contain multiple empty lines in a row; found 2 empty lines" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
-  <error line="370" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="371" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="372" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="374" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="375" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="376" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="377" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="379" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="380" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="381" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="383" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="384" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="385" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="386" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="387" column="1" severity="error" message="Functions and classes must not contain multiple empty lines in a row; found 3 empty lines" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
-  <error line="487" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="488" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="490" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="491" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="492" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="494" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="495" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="496" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="497" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="498" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="500" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="501" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="503" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="504" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="505" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="506" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="507" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="508" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="510" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="511" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="512" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="514" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="515" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="517" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="518" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="519" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="520" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="521" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="523" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
-  <error line="524" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
   <error line="525" column="1" severity="error" message="Functions and classes must not contain multiple empty lines in a row; found 2 empty lines" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
  </file>
  <file name=".../libraries/joomla/installer/extension.php">
