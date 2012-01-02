@@ -120,3 +120,10 @@ div.system-specs {
 	font-family: monospace;
 	padding: 0.3em;
 }
+
+div.legal-note {
+	background-color: #ffcc99;
+	padding: 0.3em;
+	border: 10px solid orange;
+	border-top: 0;
+}
