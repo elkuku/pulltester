@@ -846,8 +846,6 @@
  </file>
  <file name=".../libraries/joomla/utilities/date.php">
   <error line="77" column="12" severity="warning" message="Protected member variable &quot;_tz&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
-  <error line="125" column="56" severity="error" message="Concat operator must be followed by one space" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing"/>
-  <error line="125" column="56" severity="error" message="Concat operator must be preceeded by one space" source="Joomla.WhiteSpace.ConcatenationSpacing.Missing"/>
  </file>
  <file name=".../libraries/joomla/utilities/simplecrypt.php">
   <error line="26" column="12" severity="warning" message="Protected member variable &quot;_key&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>

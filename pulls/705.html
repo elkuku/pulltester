@@ -12,78 +12,11 @@
 <p class="title">JDate breaks valid DateTime input</p>
 <div class="clr"></div>
 <h2>Unit Tests</h2>
-<h3 class="img24 img-fail">Unit Tests log corrupt.</h3>
-<pre class="debug">PHPUnit 3.6.5 by Sebastian Bergmann.
-
-Configuration read from .../phpunit.xml.dist
-
-..............[36;1mS[0m..................................[36;1mS[0m...........   61 / 2840 (  2%)
-...........[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m.[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m.[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m...............  122 / 2840 (  4%)
-............[33;1mI[0m..[33;1mI[0m..............[33;1mI[0m.....[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m....[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m  183 / 2840 (  6%)
-[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m....[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m....[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m..[33;1mI[0m[33;1mI[0m[33;1mI[0m.[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m.[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m....[36;1mS[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m  244 / 2840 (  8%)
-[33;1mI[0m[33;1mI[0m.[33;1mI[0m...[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m.[33;1mI[0m.[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m...  305 / 2840 ( 10%)
-.[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m.....................................................  366 / 2840 ( 12%)
-.............................................................  427 / 2840 ( 15%)
-............[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m....[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m.[36;1mS[0m[36;1mS[0m.[36;1mS[0m..........................  488 / 2840 ( 17%)
-............[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m.[36;1mS[0m[36;1mS[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m.[36;1mS[0m[36;1mS[0m......[33;1mI[0m[33;1mI[0m.......  549 / 2840 ( 19%)
-.....[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m.[36;1mS[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m  610 / 2840 ( 21%)
-[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m.........................................  671 / 2840 ( 23%)
-............[33;1mI[0m[33;1mI[0m.[33;1mI[0m...[36;1mS[0m[33;1mI[0m[36;1mS[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m.[33;1mI[0m[33;1mI[0m..[33;1mI[0m[33;1mI[0m[33;1mI[0m[36;1mS[0m[33;1mI[0m..[33;1mI[0m[33;1mI[0m................[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m  732 / 2840 ( 25%)
-[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m........................................  793 / 2840 ( 27%)
-........[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m  854 / 2840 ( 30%)
-[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m...[36;1mS[0m.[33;1mI[0m..[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m  915 / 2840 ( 32%)
-[33;1mI[0m..........................................[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[36;1mS[0m[36;1mS[0m[36;1mS[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m  976 / 2840 ( 34%)
-[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m...[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m.[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m..[33;1mI[0m[33;1mI[0m[33;1mI[0m.......... 1037 / 2840 ( 36%)
-.....[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m....[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m..[33;1mI[0m..........................[33;1mI[0m[33;1mI[0m[33;1mI[0m 1098 / 2840 ( 38%)
-[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m..........[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m 1159 / 2840 ( 40%)
-[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m.[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m 1220 / 2840 ( 42%)
-[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[33;1mI[0m[36;1mS[0m[36;1mS[0m................................................. 1281 / 2840 ( 45%)
-............................................................. 1342 / 2840 ( 47%)
-............................................................. 1403 / 2840 ( 49%)
-............................................................. 1464 / 2840 ( 51%)
-............................................................. 1525 / 2840 ( 53%)
-............................................................. 1586 / 2840 ( 55%)
-............................................................. 1647 / 2840 ( 57%)
-............................................................. 1708 / 2840 ( 60%)
-............................................................[33;1mI[0m 1769 / 2840 ( 62%)
-.......[33;1mI[0m........[33;1mI[0m..........................[33;1mI[0m[33;1mI[0m.......
-Fatal error: Call to undefined function str_len() in .../libraries/joomla/utilities/date.php on line 125
-
-Call Stack:
-    0.0001     326500   1. {main}() .../bin/phpunit:0
-    0.1220     702040   2. PHPUnit_TextUI_Command::main() .../bin/phpunit:44
-    0.1220     702376   3. PHPUnit_TextUI_Command->run() .../lib/php/PHPUnit/TextUI/Command.php:125
-    2.6646   53817728   4. PHPUnit_TextUI_TestRunner->doRun() .../lib/php/PHPUnit/TextUI/Command.php:187
-    2.7312   54387088   5. PHPUnit_Framework_TestSuite->run() .../lib/php/PHPUnit/TextUI/TestRunner.php:325
-  118.9459   80609092   6. PHPUnit_Framework_TestSuite->run() .../lib/php/PHPUnit/Framework/TestSuite.php:705
-  119.9704   80783744   7. PHPUnit_Framework_TestSuite->runTest() .../lib/php/PHPUnit/Framework/TestSuite.php:745
-  119.9704   80783744   8. PHPUnit_Framework_TestCase->run() .../lib/php/PHPUnit/Framework/TestSuite.php:772
-  119.9705   80783744   9. PHPUnit_Framework_TestResult->run() .../lib/php/PHPUnit/Framework/TestCase.php:748
-  119.9712   80784444  10. PHPUnit_Framework_TestCase->runBare() .../lib/php/PHPUnit/Framework/TestResult.php:649
-  119.9751   80848176  11. PHPUnit_Framework_TestCase->runTest() .../lib/php/PHPUnit/Framework/TestCase.php:801
-  119.9753   80848960  12. ReflectionMethod->invokeArgs() .../lib/php/PHPUnit/Framework/TestCase.php:939
-  119.9753   80848976  13. JFormFieldCalendarTest->testGetInputServer_UTC() .../tests/suite/joomla/form/fields/JFormFieldCalendarTest.php:939
-  119.9926   80890408  14. JFormFieldCalendarInspector->getInput() .../tests/suite/joomla/form/fields/JFormFieldCalendarTest.php:372
-  119.9927   80890408  15. JFormFieldCalendar->getInput() .../tests/suite/joomla/form/fields/inspectors/JFormFieldCalendar.php:24
-  120.0005   80891848  16. JFactory::getDate() .../libraries/joomla/form/fields/calendar.php:90
-  120.0050   80892856  17. JDate->__construct() .../libraries/joomla/factory.php:557
-
-</pre>
-<pre class="debug">Document is empty
-</pre>
-<pre class="debug">Start tag expected, '<' not found
-</pre>
+<p class="img24 img-success">There were 0 failures and  0 errors. <a href="../logs/705junit.xml">Unit Test Log (XML)</a></p>
 <h2>Checkstyle</h2>
-<p class="img24 img-warn">There were 199 warnings and  2 errors. <a href="../logs/705checkstyle.xml">Checkstyle Log (XML)</a></p>
-<h3>Errors</h3>
-<ul class="phpcs">
-<li><tt>libraries/joomla/utilities/date.php:125</tt><br />
-<em>Concat operator must be followed by one space</em></li>
-<li><tt>libraries/joomla/utilities/date.php:125</tt><br />
-<em>Concat operator must be preceeded by one space</em></li>
-</ul>
+<p class="img24 img-success">There were 199 warnings and  0 errors. <a href="../logs/705checkstyle.xml">Checkstyle Log (XML)</a></p>
 <a href="../index.html">&lArr; Index &lArr;</a>
-<div class="footer">Generated on 03-Jan-2012 21:08 -05:00 ECT America/Guayaquil
+<div class="footer">Generated on 03-Jan-2012 21:22 -05:00 ECT America/Guayaquil
 <div class="myLinx"><em>BTW</em>: If you want to run this tests on your own machine - The source code is <a href="https://github.com/elkuku/pulltester/tree/testing1">available on GitHub</a>, based on <a href="https://github.com/ianmacl/pulltester">Ian McLennan's PullTester</a> =;)</div>
 </div>
 </body>
