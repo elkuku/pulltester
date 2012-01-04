@@ -45,6 +45,8 @@
  <file name=".../libraries/joomla/application/input/files.php">
  </file>
  <file name=".../libraries/joomla/application/menu.php">
+  <error line="126" column="1" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
+  <error line="132" column="1" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
  </file>
  <file name=".../libraries/joomla/application/module/helper.php">
  </file>
@@ -171,6 +173,7 @@
   <error line="47" column="12" severity="warning" message="Protected member variable &quot;_db&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
   <error line="55" column="12" severity="warning" message="Protected member variable &quot;_trackAssets&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
   <error line="63" column="12" severity="warning" message="Protected member variable &quot;_rules&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
+  <error line="71" column="12" severity="warning" message="Protected member variable &quot;_locked&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
  </file>
  <file name=".../libraries/joomla/database/table/asset.php">
  </file>
