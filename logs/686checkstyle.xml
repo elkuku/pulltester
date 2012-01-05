@@ -695,6 +695,14 @@
  <file name=".../libraries/joomla/image/filters/smooth.php">
  </file>
  <file name=".../libraries/joomla/image/image.php">
+  <error line="757" column="1" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
+  <error line="761" column="1" severity="error" message="Return comment requires a blank newline after it" source="Joomla.Commenting.FunctionComment.SpacingAfterReturn"/>
+  <error line="769" column="14" severity="error" message="Space after opening parenthesis of function call prohibited" source="Joomla.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+  <error line="769" column="59" severity="error" message="Space before closing parenthesis of function call prohibited" source="Joomla.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+  <error line="771" column="1" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
+  <error line="771" column="1" severity="error" message="Tabs must be used to indent lines; spaces are not allowed" source="Joomla.WhiteSpace.DisallowSpaceIndent.SpaceUsed"/>
+  <error line="772" column="10" severity="error" message="Space after opening parenthesis of function call prohibited" source="Joomla.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+  <error line="772" column="38" severity="error" message="Space before closing parenthesis of function call prohibited" source="Joomla.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
  </file>
  <file name=".../libraries/joomla/installer/adapters/component.php">
  </file>
