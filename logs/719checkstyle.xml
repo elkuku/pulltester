@@ -155,15 +155,13 @@
  </file>
  <file name=".../libraries/joomla/database/database/mysqlquery.php">
  </file>
- <file name=".../libraries/joomla/database/database/postgresql.php">
- </file>
- <file name=".../libraries/joomla/database/database/postgresqlquery.php">
- </file>
  <file name=".../libraries/joomla/database/database/sqlazure.php">
  </file>
  <file name=".../libraries/joomla/database/database/sqlazurequery.php">
  </file>
  <file name=".../libraries/joomla/database/database/sqlsrv.php">
+  <error line="685" column="1" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
+  <error line="697" column="2" severity="warning" message="No scope modifier specified for function &quot;replacePrefix&quot;" source="Joomla.Classes.MethodScope.Missing"/>
  </file>
  <file name=".../libraries/joomla/database/database/sqlsrvquery.php">
  </file>

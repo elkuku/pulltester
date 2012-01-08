@@ -155,10 +155,6 @@
  </file>
  <file name=".../libraries/joomla/database/database/mysqlquery.php">
  </file>
- <file name=".../libraries/joomla/database/database/postgresql.php">
- </file>
- <file name=".../libraries/joomla/database/database/postgresqlquery.php">
- </file>
  <file name=".../libraries/joomla/database/database/sqlazure.php">
  </file>
  <file name=".../libraries/joomla/database/database/sqlazurequery.php">
@@ -376,6 +372,7 @@
  <file name=".../libraries/joomla/form/fields/calendar.php">
  </file>
  <file name=".../libraries/joomla/form/fields/category.php">
+  <error line="74" column="6" severity="error" message="Expected &quot;foreach (...)\n...{\n&quot;; found &quot;foreach (...) ...{\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
  </file>
  <file name=".../libraries/joomla/form/fields/checkbox.php">
  </file>

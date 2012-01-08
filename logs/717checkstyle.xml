@@ -155,10 +155,6 @@
  </file>
  <file name=".../libraries/joomla/database/database/mysqlquery.php">
  </file>
- <file name=".../libraries/joomla/database/database/postgresql.php">
- </file>
- <file name=".../libraries/joomla/database/database/postgresqlquery.php">
- </file>
  <file name=".../libraries/joomla/database/database/sqlazure.php">
  </file>
  <file name=".../libraries/joomla/database/database/sqlazurequery.php">
