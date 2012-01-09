@@ -34,6 +34,8 @@
  </file>
  <file name=".../libraries/joomla/application/component/view.php">
  </file>
+ <file name=".../libraries/joomla/application/daemon.php">
+ </file>
  <file name=".../libraries/joomla/application/helper.php">
  </file>
  <file name=".../libraries/joomla/application/input.php">
@@ -161,9 +163,9 @@
  </file>
  <file name=".../libraries/joomla/database/database/sqlsrvquery.php">
  </file>
- <file name=".../libraries/joomla/database/databaseexception.php">
+ <file name=".../libraries/joomla/database/exception.php">
  </file>
- <file name=".../libraries/joomla/database/databasequery.php">
+ <file name=".../libraries/joomla/database/query.php">
  </file>
  <file name=".../libraries/joomla/database/table.php">
   <error line="31" column="12" severity="warning" message="Protected member variable &quot;_tbl&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
@@ -737,9 +739,9 @@
  </file>
  <file name=".../libraries/joomla/language/latin_transliterate.php">
  </file>
- <file name=".../libraries/joomla/log/log.php">
+ <file name=".../libraries/joomla/log/entry.php">
  </file>
- <file name=".../libraries/joomla/log/logentry.php">
+ <file name=".../libraries/joomla/log/log.php">
  </file>
  <file name=".../libraries/joomla/log/logexception.php">
  </file>
