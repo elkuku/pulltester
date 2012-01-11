@@ -12,11 +12,20 @@
 <p class="title">*PHP 5.3.8 Notice for some language packs with iconv.</p>
 <div class="clr"></div>
 <h2>Unit Tests</h2>
-<p class="img24 img-success">There were 0 failures and  0 errors. <a href="../logs/727junit.xml">Unit Test Log (XML)</a></p>
+<p class="img24 img-warn">There were 0 failures and  1 errors. <a href="../logs/727junit.xml">Unit Test Log (XML)</a></p>
+<h3>Errors</h3>
+<ol>
+<li><pre class="debug">JStringTest::testTranscode with data set #0 ('&Atilde;…bc &Atilde;–de &acirc;‚&not;100', 'UTF-8', 'ISO-8859-1', 'bc de EUR100')
+iconv(): Detected an illegal character in input string
+
+.../libraries/joomla/string/string.php:730
+.../tests/suite/joomla/string/JStringTest.php:584
+</pre></li>
+</ol>
 <h2>Checkstyle</h2>
 <p class="img24 img-success">There were 199 warnings and  0 errors. <a href="../logs/727checkstyle.xml">Checkstyle Log (XML)</a></p>
 <a href="../index.html">&lArr; Index &lArr;</a>
-<div class="footer">Generated on 09-Jan-2012 14:10 -05:00 ECT America/Guayaquil
+<div class="footer">Generated on 10-Jan-2012 21:40 -05:00 ECT America/Guayaquil
 <div class="myLinx"><em>BTW</em>: If you want to run this tests on your own machine - The source code is <a href="https://github.com/elkuku/pulltester/tree/testing1">available on GitHub</a>, based on <a href="https://github.com/ianmacl/pulltester">Ian McLennan's PullTester</a> =;)</div>
 </div>
 </body>
