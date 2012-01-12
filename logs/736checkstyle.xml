@@ -224,8 +224,6 @@
   <error line="182" column="9" severity="warning" message="Public member variable &quot;_engine&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
   <error line="190" column="9" severity="warning" message="Public member variable &quot;_type&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
   <error line="198" column="16" severity="warning" message="Public member variable &quot;_buffer&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
-  <error line="477" column="1" severity="error" message="Expected 2 spaces after the longest type" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType"/>
-  <error line="477" column="1" severity="error" message="Expected 2 spaces after the longest variable name" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName"/>
  </file>
  <file name=".../libraries/joomla/document/error/error.php">
   <error line="27" column="12" severity="warning" message="Protected member variable &quot;_error&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
@@ -249,12 +247,6 @@
  <file name=".../libraries/joomla/document/html/renderer/component.php">
  </file>
  <file name=".../libraries/joomla/document/html/renderer/head.php">
-  <error line="44" column="1" severity="error" message="Extra newline(s) found before function comment short description" source="Joomla.Commenting.FunctionComment.SpacingBeforeShort"/>
-  <error line="46" column="1" severity="error" message="There must be exactly one blank line before the tags in function comment" source="Joomla.Commenting.FunctionComment.SpacingBeforeTags"/>
-  <error line="52" column="88" severity="error" message="Opening brace should be on a new line" source="Joomla.Functions.FunctionDeclaration.BraceOnSameLine"/>
-  <error line="192" column="1" severity="error" message="Multi-line IF statement not indented correctly; expected 4 spaces but found 3" source="Joomla.ControlStructures.MultiLineCondition.Alignment"/>
-  <error line="199" column="1" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
-  <error line="216" column="4" severity="error" message="Expected &quot;if (...)\n&quot;; found &quot;if(...)\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
  </file>
  <file name=".../libraries/joomla/document/html/renderer/message.php">
  </file>
@@ -514,39 +506,6 @@
  <file name=".../libraries/joomla/html/html/batch.php">
  </file>
  <file name=".../libraries/joomla/html/html/behavior.php">
-  <error line="91" column="1" severity="warning" message="Line exceeds 150 characters; contains 226 characters" source="Generic.Files.LineLength.TooLong"/>
-  <error line="92" column="1" severity="warning" message="Line exceeds 150 characters; contains 186 characters" source="Generic.Files.LineLength.TooLong"/>
-  <error line="101" column="1" severity="warning" message="Line exceeds 150 characters; contains 178 characters" source="Generic.Files.LineLength.TooLong"/>
-  <error line="108" column="1" severity="warning" message="Line exceeds 150 characters; contains 233 characters" source="Generic.Files.LineLength.TooLong"/>
-  <error line="109" column="1" severity="warning" message="Line exceeds 150 characters; contains 195 characters" source="Generic.Files.LineLength.TooLong"/>
-  <error line="110" column="1" severity="warning" message="Line exceeds 150 characters; contains 223 characters" source="Generic.Files.LineLength.TooLong"/>
-  <error line="111" column="1" severity="error" message="Expected 2 spaces after the longest type" source="Joomla.Commenting.FunctionComment.SpacingAfterLongType"/>
-  <error line="121" column="1" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
-  <error line="148" column="15" severity="error" message="Space after opening parenthesis of function call prohibited" source="Joomla.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
-  <error line="148" column="41" severity="error" message="Space before closing parenthesis of function call prohibited" source="Joomla.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
-  <error line="155" column="1" severity="warning" message="Line exceeds 150 characters; contains 186 characters" source="Generic.Files.LineLength.TooLong"/>
-  <error line="164" column="19" severity="error" message="Expected 1 blank line before member var; 0 found" source="Joomla.WhiteSpace.MemberVarSpacing.After"/>
-  <error line="170" column="19" severity="error" message="Expected 1 blank line before member var; 0 found" source="Joomla.WhiteSpace.MemberVarSpacing.After"/>
-  <error line="177" column="1" severity="error" message="Expected 2 spaces after the longest variable name" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName"/>
-  <error line="178" column="1" severity="warning" message="Line exceeds 150 characters; contains 162 characters" source="Generic.Files.LineLength.TooLong"/>
-  <error line="208" column="1" severity="error" message="Missing comment for param &quot;$majorVersion&quot; at position 1" source="Joomla.Commenting.FunctionComment.MissingParamComment"/>
-  <error line="243" column="3" severity="error" message="Expected &quot;foreach (...)\n...{\n&quot;; found &quot;foreach (...) ...{\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
-  <error line="247" column="73" severity="error" message="Space after opening parenthesis of function call prohibited" source="Joomla.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
-  <error line="247" column="110" severity="error" message="Space before closing parenthesis of function call prohibited" source="Joomla.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
-  <error line="247" column="190" severity="warning" message="Line exceeds 150 characters; contains 189 characters" source="Generic.Files.LineLength.TooLong"/>
-  <error line="249" column="5" severity="warning" message="Line exceeds 150 characters; contains 171 characters" source="Generic.Files.LineLength.TooLong"/>
-  <error line="277" column="1" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
-  <error line="287" column="1" severity="error" message="Missing comment for param &quot;$majorVersion&quot; at position 1" source="Joomla.Commenting.FunctionComment.MissingParamComment"/>
-  <error line="294" column="3" severity="error" message="Expected &quot;foreach (...)\n...{\n&quot;; found &quot;foreach (...) ...{\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
-  <error line="301" column="1" severity="error" message="Expected 2 spaces after the longest variable name" source="Joomla.Commenting.FunctionComment.SpacingAfterLongName"/>
-  <error line="314" column="44" severity="error" message="Space after opening parenthesis of function call prohibited" source="Joomla.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
-  <error line="314" column="64" severity="error" message="Space before closing parenthesis of function call prohibited" source="Joomla.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
-  <error line="320" column="24" severity="error" message="Space after opening parenthesis of function call prohibited" source="Joomla.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
-  <error line="320" column="32" severity="error" message="Space after opening parenthesis of function call prohibited" source="Joomla.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
-  <error line="320" column="37" severity="error" message="Space after opening parenthesis of function call prohibited" source="Joomla.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
-  <error line="320" column="54" severity="error" message="Space before closing parenthesis of function call prohibited" source="Joomla.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
-  <error line="320" column="65" severity="error" message="Space before closing parenthesis of function call prohibited" source="Joomla.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
-  <error line="320" column="74" severity="error" message="Space before closing parenthesis of function call prohibited" source="Joomla.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
  </file>
  <file name=".../libraries/joomla/html/html/category.php">
  </file>
