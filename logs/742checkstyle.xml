@@ -399,8 +399,6 @@
  </file>
  <file name=".../libraries/joomla/form/fields/groupedlist.php">
  </file>
- <file name=".../libraries/joomla/form/fields/helpsite.php">
- </file>
  <file name=".../libraries/joomla/form/fields/hidden.php">
  </file>
  <file name=".../libraries/joomla/form/fields/imagelist.php">
@@ -410,8 +408,6 @@
  <file name=".../libraries/joomla/form/fields/language.php">
  </file>
  <file name=".../libraries/joomla/form/fields/list.php">
- </file>
- <file name=".../libraries/joomla/form/fields/media.php">
  </file>
  <file name=".../libraries/joomla/form/fields/menu.php">
  </file>
