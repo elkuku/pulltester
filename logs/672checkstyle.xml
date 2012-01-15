@@ -302,8 +302,6 @@
  </file>
  <file name=".../libraries/joomla/error/exception.php">
  </file>
- <file name=".../libraries/joomla/error/log.php">
- </file>
  <file name=".../libraries/joomla/error/profiler.php">
   <error line="26" column="12" severity="warning" message="Protected member variable &quot;_start&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
   <error line="32" column="12" severity="warning" message="Protected member variable &quot;_prefix&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
@@ -554,87 +552,6 @@
  </file>
  <file name=".../libraries/joomla/html/pane.php">
  </file>
- <file name=".../libraries/joomla/html/parameter.php">
-  <error line="29" column="12" severity="warning" message="Protected member variable &quot;_raw&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
-  <error line="35" column="12" severity="warning" message="Protected member variable &quot;_xml&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
-  <error line="41" column="12" severity="warning" message="Protected member variable &quot;_elements&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
-  <error line="47" column="12" severity="warning" message="Protected member variable &quot;_elementPath&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
- </file>
- <file name=".../libraries/joomla/html/parameter/element.php">
-  <error line="33" column="12" severity="warning" message="Protected member variable &quot;_name&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
-  <error line="41" column="12" severity="warning" message="Protected member variable &quot;_parent&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
- </file>
- <file name=".../libraries/joomla/html/parameter/element/calendar.php">
- </file>
- <file name=".../libraries/joomla/html/parameter/element/category.php">
-  <error line="27" column="12" severity="warning" message="Protected member variable &quot;_name&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
- </file>
- <file name=".../libraries/joomla/html/parameter/element/componentlayouts.php">
-  <error line="29" column="12" severity="warning" message="Protected member variable &quot;_name&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
- </file>
- <file name=".../libraries/joomla/html/parameter/element/contentlanguages.php">
-  <error line="30" column="12" severity="warning" message="Protected member variable &quot;_name&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
- </file>
- <file name=".../libraries/joomla/html/parameter/element/editors.php">
-  <error line="27" column="12" severity="warning" message="Protected member variable &quot;_name&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
- </file>
- <file name=".../libraries/joomla/html/parameter/element/filelist.php">
-  <error line="27" column="12" severity="warning" message="Protected member variable &quot;_name&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
- </file>
- <file name=".../libraries/joomla/html/parameter/element/folderlist.php">
-  <error line="27" column="12" severity="warning" message="Protected member variable &quot;_name&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
- </file>
- <file name=".../libraries/joomla/html/parameter/element/helpsites.php">
-  <error line="28" column="12" severity="warning" message="Protected member variable &quot;_name&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
- </file>
- <file name=".../libraries/joomla/html/parameter/element/hidden.php">
-  <error line="28" column="12" severity="warning" message="Protected member variable &quot;_name&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
- </file>
- <file name=".../libraries/joomla/html/parameter/element/imagelist.php">
-  <error line="27" column="12" severity="warning" message="Protected member variable &quot;_name&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
- </file>
- <file name=".../libraries/joomla/html/parameter/element/languages.php">
-  <error line="28" column="12" severity="warning" message="Protected member variable &quot;_name&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
- </file>
- <file name=".../libraries/joomla/html/parameter/element/list.php">
-  <error line="27" column="12" severity="warning" message="Protected member variable &quot;_name&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
- </file>
- <file name=".../libraries/joomla/html/parameter/element/menu.php">
-  <error line="27" column="12" severity="warning" message="Protected member variable &quot;_name&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
- </file>
- <file name=".../libraries/joomla/html/parameter/element/menuitem.php">
-  <error line="27" column="12" severity="warning" message="Protected member variable &quot;_name&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
- </file>
- <file name=".../libraries/joomla/html/parameter/element/modulelayouts.php">
-  <error line="28" column="12" severity="warning" message="Protected member variable &quot;_name&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
- </file>
- <file name=".../libraries/joomla/html/parameter/element/password.php">
-  <error line="27" column="12" severity="warning" message="Protected member variable &quot;_name&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
- </file>
- <file name=".../libraries/joomla/html/parameter/element/radio.php">
-  <error line="27" column="12" severity="warning" message="Protected member variable &quot;_name&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
- </file>
- <file name=".../libraries/joomla/html/parameter/element/spacer.php">
-  <error line="27" column="12" severity="warning" message="Protected member variable &quot;_name&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
- </file>
- <file name=".../libraries/joomla/html/parameter/element/sql.php">
-  <error line="27" column="12" severity="warning" message="Protected member variable &quot;_name&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
- </file>
- <file name=".../libraries/joomla/html/parameter/element/templatestyle.php">
-  <error line="27" column="12" severity="warning" message="Protected member variable &quot;_name&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
- </file>
- <file name=".../libraries/joomla/html/parameter/element/text.php">
-  <error line="27" column="12" severity="warning" message="Protected member variable &quot;_name&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
- </file>
- <file name=".../libraries/joomla/html/parameter/element/textarea.php">
-  <error line="27" column="12" severity="warning" message="Protected member variable &quot;_name&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
- </file>
- <file name=".../libraries/joomla/html/parameter/element/timezones.php">
-  <error line="28" column="12" severity="warning" message="Protected member variable &quot;_name&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
- </file>
- <file name=".../libraries/joomla/html/parameter/element/usergroup.php">
-  <error line="27" column="12" severity="warning" message="Protected member variable &quot;_name&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
- </file>
  <file name=".../libraries/joomla/html/toolbar.php">
   <error line="29" column="12" severity="warning" message="Protected member variable &quot;_name&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
   <error line="36" column="12" severity="warning" message="Protected member variable &quot;_bar&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
@@ -858,8 +775,6 @@
   <error line="478" column="9" severity="warning" message="Public member variable &quot;_data&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
   <error line="486" column="9" severity="warning" message="Public member variable &quot;_children&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
   <error line="494" column="9" severity="warning" message="Public member variable &quot;_level&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
- </file>
- <file name=".../libraries/joomla/utilities/string.php">
  </file>
  <file name=".../libraries/joomla/utilities/utility.php">
  </file>
