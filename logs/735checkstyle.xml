@@ -525,8 +525,6 @@
  </file>
  <file name=".../libraries/joomla/html/html/grid.php">
  </file>
- <file name=".../libraries/joomla/html/html/image.php">
- </file>
  <file name=".../libraries/joomla/html/html/jgrid.php">
  </file>
  <file name=".../libraries/joomla/html/html/list.php">
@@ -553,8 +551,6 @@
  <file name=".../libraries/joomla/html/pagination.php">
   <error line="50" column="12" severity="warning" message="Protected member variable &quot;_viewall&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
   <error line="59" column="12" severity="warning" message="Protected member variable &quot;_additionalUrlParams&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
- </file>
- <file name=".../libraries/joomla/html/pane.php">
  </file>
  <file name=".../libraries/joomla/html/toolbar.php">
   <error line="29" column="12" severity="warning" message="Protected member variable &quot;_name&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
@@ -683,6 +679,8 @@
  <file name=".../libraries/joomla/mail/mail.php">
  </file>
  <file name=".../libraries/joomla/methods.php">
+  <error line="54" column="3" severity="error" message="Expected &quot;if (...)\n...{...}\n...else\n&quot;; found &quot;if (...) ...{...}\n...else\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
+  <error line="57" column="4" severity="error" message="Expected &quot;if (...)\n...{...}\n...else\n&quot;; found &quot;if (...) ...{...}\n...else\n&quot;" source="Joomla.ControlStructures.ControlSignature"/>
  </file>
  <file name=".../libraries/joomla/plugin/helper.php">
  </file>
@@ -772,13 +770,6 @@
  </file>
  <file name=".../libraries/joomla/utilities/simplecrypt.php">
   <error line="26" column="12" severity="warning" message="Protected member variable &quot;_key&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
- </file>
- <file name=".../libraries/joomla/utilities/simplexml.php">
-  <error line="462" column="9" severity="warning" message="Public member variable &quot;_attributes&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
-  <error line="470" column="9" severity="warning" message="Public member variable &quot;_name&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
-  <error line="478" column="9" severity="warning" message="Public member variable &quot;_data&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
-  <error line="486" column="9" severity="warning" message="Public member variable &quot;_children&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
-  <error line="494" column="9" severity="warning" message="Public member variable &quot;_level&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
  </file>
  <file name=".../libraries/joomla/utilities/utility.php">
  </file>

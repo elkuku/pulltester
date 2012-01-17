@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head><meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>754 Test results</title>
+<link href="../assets/css/style.css" rel="stylesheet" type="text/css" />
+<link href="../favicon.ico" rel="icon" type="image/x-icon" />
+</head>
+<body>
+<a href="../index.html">&lArr; Index &lArr;</a>
+<h1>Details for <a href="https://github.com/joomla/joomla-platform/pull/754">Pull Request #754</a></h1>
+<div class="avatar"><img src="https://secure.gravatar.com/avatar/7f21fabe666713f3825297e6577a396c?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png" /><br />elinw</div>
+<p class="title">Add Union method</p>
+<div class="clr"></div>
+<h2>Unit Tests</h2>
+<p class="img24 img-warn">There were 1 failures and  1 errors. <a href="../logs/754junit.xml">Unit Test Log (XML)</a></p>
+<h3>Errors</h3>
+<ol>
+<li><pre class="debug">JDatabaseQueryTest::testUnion
+Undefined variable: 
+SELECT foo.name
+
+.../tests/suite/joomla/database/JDatabaseQueryTest.php:1363
+</pre></li>
+</ol>
+<h3>Failures</h3>
+<ol>
+<li><pre class="debug">JDatabaseQueryTest::testUnionDistinct
+Tests rendered query with union distint.
+Failed asserting that two strings are equal.
+--- Expected
++++ Actual
+@@ @@
+-'UNION SELECT DISTINCT name FROM #__foo'
++''
+
+.../tests/suite/joomla/database/JDatabaseQueryTest.php:1409
+</pre></li>
+</ol>
+<h2>Checkstyle</h2>
+<p class="img24 img-success">There were 165 warnings and  0 errors. <a href="../logs/754checkstyle.xml">Checkstyle Log (XML)</a></p>
+<a href="../index.html">&lArr; Index &lArr;</a>
+<div class="footer">Generated on 17-Jan-2012 04:32 -05:00 ECT America/Guayaquil
+<div class="myLinx"><em>BTW</em>: If you want to run this tests on your own machine - The source code is <a href="https://github.com/elkuku/pulltester/tree/testing1">available on GitHub</a>, based on <a href="https://github.com/ianmacl/pulltester">Ian McLennan's PullTester</a> =;)</div>
+</div>
+</body>
+</html>
