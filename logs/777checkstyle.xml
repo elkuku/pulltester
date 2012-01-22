@@ -623,6 +623,9 @@
  <file name=".../libraries/joomla/installer/adapters/plugin.php">
  </file>
  <file name=".../libraries/joomla/installer/adapters/template.php">
+  <error line="83" column="1" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
+  <error line="114" column="1" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
+  <error line="120" column="25" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
  </file>
  <file name=".../libraries/joomla/installer/extension.php">
  </file>

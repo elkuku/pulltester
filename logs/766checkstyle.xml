@@ -160,6 +160,7 @@
  <file name=".../libraries/joomla/database/database/sqlazurequery.php">
  </file>
  <file name=".../libraries/joomla/database/database/sqlsrv.php">
+  <error line="686" column="3" severity="error" message="Whitespace found at end of line" source="Joomla.WhiteSpace.SuperfluousWhitespace"/>
  </file>
  <file name=".../libraries/joomla/database/database/sqlsrvquery.php">
  </file>
