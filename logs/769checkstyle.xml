@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="1.3.2">
+ <file name=".../libraries/import.php">
+ </file>
  <file name=".../libraries/joomla/access/access.php">
  </file>
  <file name=".../libraries/joomla/access/rule.php">
@@ -387,8 +389,6 @@
  </file>
  <file name=".../libraries/joomla/form/fields/editor.php">
  </file>
- <file name=".../libraries/joomla/form/fields/editors.php">
- </file>
  <file name=".../libraries/joomla/form/fields/email.php">
  </file>
  <file name=".../libraries/joomla/form/fields/file.php">
@@ -764,5 +764,9 @@
  <file name=".../libraries/joomla/utilities/utility.php">
  </file>
  <file name=".../libraries/joomla/utilities/xmlelement.php">
+ </file>
+ <file name=".../libraries/loader.php">
+ </file>
+ <file name=".../libraries/platform.php">
  </file>
 </checkstyle>
