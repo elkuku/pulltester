@@ -15,13 +15,34 @@
 <p class="title">Allow JFormFieldCalendar to accept a JDate object as value.</p>
 <div class="clr"></div>
 <h2>Unit Tests</h2>
-<p class="img24 img-warn">There were 2 failures and  0 errors. <a href="../logs/787junit.xml">Unit Test Log (XML)</a></p>
+<p class="img24 img-warn">There were 3 failures and  0 errors. <a href="../logs/787junit.xml">Unit Test Log (XML)</a></p>
 <h3>Failures</h3>
 <ol>
+<li><pre class="debug">JFormFieldCalendarTest::testGetInputAttributes with data set &quot;value_is_now&quot; ('myCalendarElement', 'myCalendarId', 'NOW', array('', '25est', 'forty five', '', '1', 'true', 'This is my onchange value', ''), array('strftime(\'%Y-%m-%d\')', 'myCalendarElement', 'myCalendarId', '%Y-%m-%d', array('25', '0', 'disabled', 'This is my onchange value')))
+Expectation failed for method name is equal to &lt;string:calendar&gt; when invoked 1 time(s)
+Parameter 0 for invocation calendarHandler::calendar('2012-01-25 00:00:00', 'myCalendarElement', 'myCalendarId', '%Y-%m-%d', Array (...)) does not match expected value.
+Failed asserting that two strings are equal.
+--- Expected
++++ Actual
+@@ @@
+-'2012-01-25'
++'2012-01-25 00:00:00'
+
+.../libraries/joomla/html/html.php:224
+.../libraries/joomla/html/html.php:104
+.../libraries/joomla/form/fields/calendar.php:113
+.../tests/suite/joomla/form/fields/inspectors/JFormFieldCalendar.php:24
+.../tests/suite/joomla/form/fields/JFormFieldCalendarTest.php:303
+</pre></li>
 <li><pre class="debug">JFormFieldCalendarTest::testGetInputServer_UTC
 Expectation failed for method name is equal to &lt;string:calendar&gt; when invoked 1 time(s)
-Parameter 0 for invocation calendarHandler::calendar(1269442718, 'myElementName', 'myElementId', '%m-%Y-%d', Array (...)) does not match expected value.
-Failed asserting that 1269442718 matches expected '2010-03-24 10:58:38'.
+Parameter 0 for invocation calendarHandler::calendar('2010-03-24 14:58:38', 'myElementName', 'myElementId', '%m-%Y-%d', Array (...)) does not match expected value.
+Failed asserting that two strings are equal.
+--- Expected
++++ Actual
+@@ @@
+-'2010-03-24 10:58:38'
++'2010-03-24 14:58:38'
 
 .../libraries/joomla/html/html.php:224
 .../libraries/joomla/html/html.php:104
@@ -31,8 +52,13 @@ Failed asserting that 1269442718 matches expected '2010-03-24 10:58:38'.
 </pre></li>
 <li><pre class="debug">JFormFieldCalendarTest::testGetInputUser_UTC
 Expectation failed for method name is equal to &lt;string:calendar&gt; when invoked 1 time(s)
-Parameter 0 for invocation calendarHandler::calendar(1269442718, 'myElementName', 'myElementId', '%m-%Y-%d', Array (...)) does not match expected value.
-Failed asserting that 1269442718 matches expected '2010-03-24 18:58:38'.
+Parameter 0 for invocation calendarHandler::calendar('2010-03-24 14:58:38', 'myElementName', 'myElementId', '%m-%Y-%d', Array (...)) does not match expected value.
+Failed asserting that two strings are equal.
+--- Expected
++++ Actual
+@@ @@
+-'2010-03-24 18:58:38'
++'2010-03-24 14:58:38'
 
 .../libraries/joomla/html/html.php:224
 .../libraries/joomla/html/html.php:104
@@ -46,7 +72,7 @@ Failed asserting that 1269442718 matches expected '2010-03-24 18:58:38'.
 <h3>Warnings</h3>
 <p>Currently there are 165 expected warnings - If your number differs, please check the log.</p>
 <a href="../index.html">&lArr; Index &lArr;</a>
-<div class="footer">Generated on 24-Jan-2012 16:22 -05:00 ECT America/Guayaquil
+<div class="footer">Generated on 25-Jan-2012 01:38 -05:00 ECT America/Guayaquil
 <div class="myLinx"><em>BTW</em>: If you want to run this tests on your own machine - The source code is <a href="https://github.com/elkuku/pulltester/tree/testing1">available on GitHub</a>, based on <a href="https://github.com/ianmacl/pulltester">Ian McLennan's PullTester</a> =;)</div>
 </div>
 </body>

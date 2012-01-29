@@ -181,8 +181,6 @@
  </file>
  <file name=".../libraries/joomla/database/table/category.php">
  </file>
- <file name=".../libraries/joomla/database/table/content.php">
- </file>
  <file name=".../libraries/joomla/database/table/extension.php">
  </file>
  <file name=".../libraries/joomla/database/table/language.php">
@@ -257,6 +255,8 @@
  <file name=".../libraries/joomla/document/html/renderer/modules.php">
  </file>
  <file name=".../libraries/joomla/document/image/image.php">
+  <error line="32" column="3" severity="error" message="Please put a space between the // and the start of comment text; found &quot;//set mime type&quot;" source="Joomla.Commenting.SingleComment.NoSpace"/>
+  <error line="35" column="3" severity="error" message="Please put a space between the // and the start of comment text; found &quot;//set document type&quot;" source="Joomla.Commenting.SingleComment.NoSpace"/>
  </file>
  <file name=".../libraries/joomla/document/json/json.php">
   <error line="28" column="12" severity="warning" message="Protected member variable &quot;_name&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
