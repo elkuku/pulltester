@@ -169,44 +169,6 @@
  </file>
  <file name=".../libraries/joomla/database/query.php">
  </file>
- <file name=".../libraries/joomla/database/table.php">
-  <error line="31" column="12" severity="warning" message="Protected member variable &quot;_tbl&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
-  <error line="39" column="12" severity="warning" message="Protected member variable &quot;_tbl_key&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
-  <error line="47" column="12" severity="warning" message="Protected member variable &quot;_db&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
-  <error line="55" column="12" severity="warning" message="Protected member variable &quot;_trackAssets&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
-  <error line="63" column="12" severity="warning" message="Protected member variable &quot;_rules&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
-  <error line="71" column="12" severity="warning" message="Protected member variable &quot;_locked&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
- </file>
- <file name=".../libraries/joomla/database/table/asset.php">
- </file>
- <file name=".../libraries/joomla/database/table/category.php">
- </file>
- <file name=".../libraries/joomla/database/table/extension.php">
- </file>
- <file name=".../libraries/joomla/database/table/language.php">
- </file>
- <file name=".../libraries/joomla/database/table/menu.php">
- </file>
- <file name=".../libraries/joomla/database/table/menutype.php">
- </file>
- <file name=".../libraries/joomla/database/table/module.php">
- </file>
- <file name=".../libraries/joomla/database/table/session.php">
- </file>
- <file name=".../libraries/joomla/database/table/update.php">
- </file>
- <file name=".../libraries/joomla/database/table/user.php">
- </file>
- <file name=".../libraries/joomla/database/table/usergroup.php">
- </file>
- <file name=".../libraries/joomla/database/table/viewlevel.php">
- </file>
- <file name=".../libraries/joomla/database/tablenested.php">
-  <error line="75" column="12" severity="warning" message="Protected member variable &quot;_location&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
-  <error line="85" column="12" severity="warning" message="Protected member variable &quot;_location_id&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
-  <error line="93" column="12" severity="warning" message="Protected member variable &quot;_cache&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
-  <error line="101" column="12" severity="warning" message="Protected member variable &quot;_debug&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
- </file>
  <file name=".../libraries/joomla/document/document.php">
   <error line="78" column="9" severity="warning" message="Public member variable &quot;_generator&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
   <error line="86" column="9" severity="warning" message="Public member variable &quot;_mdate&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
@@ -721,6 +683,44 @@
  <file name=".../libraries/joomla/string/string.php">
  </file>
  <file name=".../libraries/joomla/string/stringnormalize.php">
+ </file>
+ <file name=".../libraries/joomla/table/asset.php">
+ </file>
+ <file name=".../libraries/joomla/table/category.php">
+ </file>
+ <file name=".../libraries/joomla/table/extension.php">
+ </file>
+ <file name=".../libraries/joomla/table/language.php">
+ </file>
+ <file name=".../libraries/joomla/table/menu.php">
+ </file>
+ <file name=".../libraries/joomla/table/menutype.php">
+ </file>
+ <file name=".../libraries/joomla/table/module.php">
+ </file>
+ <file name=".../libraries/joomla/table/nested.php">
+  <error line="73" column="12" severity="warning" message="Protected member variable &quot;_location&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
+  <error line="83" column="12" severity="warning" message="Protected member variable &quot;_location_id&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
+  <error line="91" column="12" severity="warning" message="Protected member variable &quot;_cache&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
+  <error line="99" column="12" severity="warning" message="Protected member variable &quot;_debug&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
+ </file>
+ <file name=".../libraries/joomla/table/session.php">
+ </file>
+ <file name=".../libraries/joomla/table/table.php">
+  <error line="31" column="12" severity="warning" message="Protected member variable &quot;_tbl&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
+  <error line="39" column="12" severity="warning" message="Protected member variable &quot;_tbl_key&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
+  <error line="47" column="12" severity="warning" message="Protected member variable &quot;_db&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
+  <error line="55" column="12" severity="warning" message="Protected member variable &quot;_trackAssets&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
+  <error line="63" column="12" severity="warning" message="Protected member variable &quot;_rules&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
+  <error line="71" column="12" severity="warning" message="Protected member variable &quot;_locked&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
+ </file>
+ <file name=".../libraries/joomla/table/update.php">
+ </file>
+ <file name=".../libraries/joomla/table/user.php">
+ </file>
+ <file name=".../libraries/joomla/table/usergroup.php">
+ </file>
+ <file name=".../libraries/joomla/table/viewlevel.php">
  </file>
  <file name=".../libraries/joomla/updater/adapters/collection.php">
  </file>

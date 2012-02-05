@@ -169,46 +169,6 @@
  </file>
  <file name=".../libraries/joomla/database/query.php">
  </file>
- <file name=".../libraries/joomla/database/table.php">
-  <error line="31" column="12" severity="warning" message="Protected member variable &quot;_tbl&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
-  <error line="39" column="12" severity="warning" message="Protected member variable &quot;_tbl_key&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
-  <error line="47" column="12" severity="warning" message="Protected member variable &quot;_db&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
-  <error line="55" column="12" severity="warning" message="Protected member variable &quot;_trackAssets&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
-  <error line="63" column="12" severity="warning" message="Protected member variable &quot;_rules&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
-  <error line="71" column="12" severity="warning" message="Protected member variable &quot;_locked&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
- </file>
- <file name=".../libraries/joomla/database/table/asset.php">
- </file>
- <file name=".../libraries/joomla/database/table/category.php">
- </file>
- <file name=".../libraries/joomla/database/table/content.php">
- </file>
- <file name=".../libraries/joomla/database/table/extension.php">
- </file>
- <file name=".../libraries/joomla/database/table/language.php">
- </file>
- <file name=".../libraries/joomla/database/table/menu.php">
- </file>
- <file name=".../libraries/joomla/database/table/menutype.php">
- </file>
- <file name=".../libraries/joomla/database/table/module.php">
- </file>
- <file name=".../libraries/joomla/database/table/session.php">
- </file>
- <file name=".../libraries/joomla/database/table/update.php">
- </file>
- <file name=".../libraries/joomla/database/table/user.php">
- </file>
- <file name=".../libraries/joomla/database/table/usergroup.php">
- </file>
- <file name=".../libraries/joomla/database/table/viewlevel.php">
- </file>
- <file name=".../libraries/joomla/database/tablenested.php">
-  <error line="75" column="12" severity="warning" message="Protected member variable &quot;_location&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
-  <error line="85" column="12" severity="warning" message="Protected member variable &quot;_location_id&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
-  <error line="93" column="12" severity="warning" message="Protected member variable &quot;_cache&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
-  <error line="101" column="12" severity="warning" message="Protected member variable &quot;_debug&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
- </file>
  <file name=".../libraries/joomla/document/document.php">
   <error line="78" column="9" severity="warning" message="Public member variable &quot;_generator&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
   <error line="86" column="9" severity="warning" message="Public member variable &quot;_mdate&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
@@ -431,8 +391,6 @@
  </file>
  <file name=".../libraries/joomla/form/fields/tel.php">
  </file>
- <file name=".../libraries/joomla/form/fields/templatestyle.php">
- </file>
  <file name=".../libraries/joomla/form/fields/text.php">
  </file>
  <file name=".../libraries/joomla/form/fields/textarea.php">
@@ -638,8 +596,6 @@
  </file>
  <file name=".../libraries/joomla/installer/packagemanifest.php">
  </file>
- <file name=".../libraries/joomla/language/help.php">
- </file>
  <file name=".../libraries/joomla/language/helper.php">
  </file>
  <file name=".../libraries/joomla/language/language.php">
@@ -715,12 +671,62 @@
  <file name=".../libraries/joomla/session/storage/xcache.php">
  </file>
  <file name=".../libraries/joomla/string/inflector.php">
+  <error line="94" column="3" severity="error" message="Please put a space between the // and the start of comment text; found &quot;//get cached values&quot;" source="Joomla.Commenting.SingleComment.NoSpace"/>
+  <error line="98" column="3" severity="error" message="Please put a space between the // and the start of comment text; found &quot;//get singular cache&quot;" source="Joomla.Commenting.SingleComment.NoSpace"/>
+  <error line="104" column="3" severity="error" message="Please put a space between the // and the start of comment text; found &quot;//get plural cached if singular exists&quot;" source="Joomla.Commenting.SingleComment.NoSpace"/>
+  <error line="110" column="3" severity="error" message="Please put a space between the // and the start of comment text; found &quot;//result if exists in cache&quot;" source="Joomla.Commenting.SingleComment.NoSpace"/>
+  <error line="116" column="3" severity="error" message="Please put a space between the // and the start of comment text; found &quot;//cache word and check if its singular&quot;" source="Joomla.Commenting.SingleComment.NoSpace"/>
+  <error line="131" column="3" severity="error" message="Please put a space between the // and the start of comment text; found &quot;//get cached values&quot;" source="Joomla.Commenting.SingleComment.NoSpace"/>
+  <error line="135" column="3" severity="error" message="Please put a space between the // and the start of comment text; found &quot;//get singular cache&quot;" source="Joomla.Commenting.SingleComment.NoSpace"/>
+  <error line="141" column="3" severity="error" message="Please put a space between the // and the start of comment text; found &quot;//get plural cached if singular exists&quot;" source="Joomla.Commenting.SingleComment.NoSpace"/>
+  <error line="147" column="3" severity="error" message="Please put a space between the // and the start of comment text; found &quot;//result if exists in cache&quot;" source="Joomla.Commenting.SingleComment.NoSpace"/>
+  <error line="153" column="3" severity="error" message="Please put a space between the // and the start of comment text; found &quot;//cache word and check if its plural&quot;" source="Joomla.Commenting.SingleComment.NoSpace"/>
+  <error line="168" column="3" severity="error" message="Please put a space between the // and the start of comment text; found &quot;//add word to singular cache if not exists&quot;" source="Joomla.Commenting.SingleComment.NoSpace"/>
+  <error line="188" column="3" severity="error" message="Please put a space between the // and the start of comment text; found &quot;//add word to plural cache if not exists&quot;" source="Joomla.Commenting.SingleComment.NoSpace"/>
  </file>
  <file name=".../libraries/joomla/string/normalise.php">
  </file>
  <file name=".../libraries/joomla/string/string.php">
  </file>
  <file name=".../libraries/joomla/string/stringnormalize.php">
+ </file>
+ <file name=".../libraries/joomla/table/asset.php">
+ </file>
+ <file name=".../libraries/joomla/table/category.php">
+ </file>
+ <file name=".../libraries/joomla/table/extension.php">
+ </file>
+ <file name=".../libraries/joomla/table/language.php">
+ </file>
+ <file name=".../libraries/joomla/table/menu.php">
+ </file>
+ <file name=".../libraries/joomla/table/menutype.php">
+ </file>
+ <file name=".../libraries/joomla/table/module.php">
+ </file>
+ <file name=".../libraries/joomla/table/nested.php">
+  <error line="73" column="12" severity="warning" message="Protected member variable &quot;_location&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
+  <error line="83" column="12" severity="warning" message="Protected member variable &quot;_location_id&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
+  <error line="91" column="12" severity="warning" message="Protected member variable &quot;_cache&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
+  <error line="99" column="12" severity="warning" message="Protected member variable &quot;_debug&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
+ </file>
+ <file name=".../libraries/joomla/table/session.php">
+ </file>
+ <file name=".../libraries/joomla/table/table.php">
+  <error line="31" column="12" severity="warning" message="Protected member variable &quot;_tbl&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
+  <error line="39" column="12" severity="warning" message="Protected member variable &quot;_tbl_key&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
+  <error line="47" column="12" severity="warning" message="Protected member variable &quot;_db&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
+  <error line="55" column="12" severity="warning" message="Protected member variable &quot;_trackAssets&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
+  <error line="63" column="12" severity="warning" message="Protected member variable &quot;_rules&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
+  <error line="71" column="12" severity="warning" message="Protected member variable &quot;_locked&quot; must not be prefixed with an underscore" source="Joomla.NamingConventions.ValidVariableName.PublicUnderscore"/>
+ </file>
+ <file name=".../libraries/joomla/table/update.php">
+ </file>
+ <file name=".../libraries/joomla/table/user.php">
+ </file>
+ <file name=".../libraries/joomla/table/usergroup.php">
+ </file>
+ <file name=".../libraries/joomla/table/viewlevel.php">
  </file>
  <file name=".../libraries/joomla/updater/adapters/collection.php">
  </file>

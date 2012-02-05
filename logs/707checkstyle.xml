@@ -144,6 +144,8 @@
  <file name=".../libraries/joomla/database/database/mysql.php">
  </file>
  <file name=".../libraries/joomla/database/database/mysqlexporter.php">
+  <error line="203" column="1" severity="error" message="Please put a space between the // and the start of comment text; found &quot;//@todo fix unit tests to enable this feature..&quot;" source="Joomla.Commenting.SingleComment.NoSpace"/>
+  <error line="204" column="1" severity="error" message="Please put a space between the // and the start of comment text; found &quot;//					. ' Index_comment=&quot;' . htmlspecialchars($key-&gt;Index_comment) . '&quot;'&quot;" source="Joomla.Commenting.SingleComment.NoSpace"/>
  </file>
  <file name=".../libraries/joomla/database/database/mysqli.php">
  </file>
@@ -180,8 +182,6 @@
  <file name=".../libraries/joomla/database/table/asset.php">
  </file>
  <file name=".../libraries/joomla/database/table/category.php">
- </file>
- <file name=".../libraries/joomla/database/table/content.php">
  </file>
  <file name=".../libraries/joomla/database/table/extension.php">
  </file>
